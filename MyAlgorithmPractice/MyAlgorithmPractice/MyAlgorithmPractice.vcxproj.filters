@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\PrimitiveTest">
+      <UniqueIdentifier>{1be2695d-584c-4606-9660-56f21d4993cd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="00.Test1.cpp">
@@ -25,6 +28,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="446.ArithmeticSliceII1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01.Stack1.cpp">
+      <Filter>Source Files\PrimitiveTest</Filter>
+    </ClCompile>
+    <ClCompile Include="02.Heap1.cpp">
+      <Filter>Source Files\PrimitiveTest</Filter>
+    </ClCompile>
+    <ClCompile Include="477. Total Hamming Distance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
