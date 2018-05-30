@@ -39,5 +39,14 @@
     <ClCompile Include="477. Total Hamming Distance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="03.PriorityQueue1.cpp">
+      <Filter>Source Files\PrimitiveTest</Filter>
+    </ClCompile>
+    <ClCompile Include="60.PermutationSequence1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="04.ExhaustiveSearch1.cpp">
+      <Filter>Source Files\PrimitiveTest</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
