@@ -48,5 +48,8 @@
     <ClCompile Include="04.ExhaustiveSearch1.cpp">
       <Filter>Source Files\PrimitiveTest</Filter>
     </ClCompile>
+    <ClCompile Include="05.PalindromTest1.cpp">
+      <Filter>Source Files\PrimitiveTest</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

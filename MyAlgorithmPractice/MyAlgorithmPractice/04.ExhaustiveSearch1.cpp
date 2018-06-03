@@ -19,7 +19,7 @@ public:
 			// print 
 			for (int i = 0 ; i < max; i++) {
 				cout << v[i] << " ";
-			}
+			 
 			cout << endl;
 			return;
 		}
