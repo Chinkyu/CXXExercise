@@ -16,6 +16,9 @@
     <Filter Include="Source Files\PrimitiveTest">
       <UniqueIdentifier>{1be2695d-584c-4606-9660-56f21d4993cd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\PalindromTest">
+      <UniqueIdentifier>{194f1929-8f46-4c6a-bc68-8df15fff1611}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="00.Test1.cpp">
@@ -49,7 +52,10 @@
       <Filter>Source Files\PrimitiveTest</Filter>
     </ClCompile>
     <ClCompile Include="05.PalindromTest1.cpp">
-      <Filter>Source Files\PrimitiveTest</Filter>
+      <Filter>Source Files\PalindromTest</Filter>
+    </ClCompile>
+    <ClCompile Include="06.PalindromTest2.cpp">
+      <Filter>Source Files\PalindromTest</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
