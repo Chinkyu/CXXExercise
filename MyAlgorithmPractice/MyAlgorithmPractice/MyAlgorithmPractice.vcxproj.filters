@@ -19,6 +19,9 @@
     <Filter Include="Source Files\PalindromTest">
       <UniqueIdentifier>{194f1929-8f46-4c6a-bc68-8df15fff1611}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\LeetCode">
+      <UniqueIdentifier>{9766efbd-fd27-4150-8a39-508a130b0856}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="00.Test1.cpp">
@@ -56,6 +59,24 @@
     </ClCompile>
     <ClCompile Include="06.PalindromTest2.cpp">
       <Filter>Source Files\PalindromTest</Filter>
+    </ClCompile>
+    <ClCompile Include="05.PalindromTest3.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="171.ExcelSheetColumnNumber1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="18.4Sum1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="46.Permutations1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="43.MultiplyStrings1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="89.GrayCode1.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

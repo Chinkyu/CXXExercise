@@ -1,5 +1,5 @@
 // Need to add Memoization 
-
+//  이방법은 정확한 Palindrom 을 찾는것이 아니라  Longest Palindrom을 포함하는 substring을 찾는 방법임 
 #include <iostream>
 #include <string>
 

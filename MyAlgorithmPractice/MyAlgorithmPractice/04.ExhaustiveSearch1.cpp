@@ -17,9 +17,9 @@ public:
 
 		if (idx == max) {
 			// print 
-			for (int i = 0 ; i < max; i++) {
+			for (int i = 0; i < max; i++) {
 				cout << v[i] << " ";
-			 
+			}
 			cout << endl;
 			return;
 		}
@@ -43,8 +43,8 @@ public:
 		for (int i = 0; i < max; i++) {
 			// initialize visited vector
 			if (idx == 0) {
-				for (int i = 0; i < max; i++) {
-					visited[i] = false;
+				for (int j = 0; j < max; j++) {
+					visited[j] = false;
 				}
 			}
 
@@ -53,6 +53,22 @@ public:
 			visited[i] = true;
 			exhaustive_iteration2(idx + 1, max);
 			visited[i] = false;
+		}
+	}
+
+	void exhaustive_iteration3(int idx, int start, int max) {
+
+		if (idx >= 4) {
+			for (int i = 0; i < 4; i++) {
+				cout << v[i] << " ";
+			}
+			cout << endl;
+			return;
+		}
+
+		for (int i = start; i < max; i++) {
+			v[idx] = i;
+			exhaustive_iteration3(idx + 1, i + 1, max);
 		}
 	}
 };
@@ -64,7 +80,8 @@ int main() {
 	Solution s(20);
 
 //	s.exhaustive_iteration1(0, 3);
-	s.exhaustive_iteration2(0, 4);
+//	s.exhaustive_iteration2(0, 4);
+	s.exhaustive_iteration3(0, 0, 10);
 
 	cin >> i;
 
