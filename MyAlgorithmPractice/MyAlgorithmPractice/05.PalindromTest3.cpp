@@ -47,7 +47,6 @@ public:
 		return str.substr(start, maxLength);
 	}
 };
-
 int main() {
 	int i;
 	Solution sol;

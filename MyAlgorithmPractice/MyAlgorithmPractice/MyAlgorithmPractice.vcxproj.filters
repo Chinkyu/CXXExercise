@@ -93,5 +93,20 @@
     <ClCompile Include="523.ContinuousSubarraySum1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="146.LRU Cache1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="06.ListWithPair1.cpp">
+      <Filter>Source Files\PrimitiveTest</Filter>
+    </ClCompile>
+    <ClCompile Include="179.LagrestNumber1_XX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="136.SingleNumber1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="180620_FacebookInterview1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
