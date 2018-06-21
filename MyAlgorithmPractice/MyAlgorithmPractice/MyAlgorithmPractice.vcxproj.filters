@@ -22,6 +22,9 @@
     <Filter Include="Source Files\LeetCode">
       <UniqueIdentifier>{9766efbd-fd27-4150-8a39-508a130b0856}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\IV">
+      <UniqueIdentifier>{b0406a03-94a2-47c9-b6ba-e04d99d2a873}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="00.Test1.cpp">
@@ -106,6 +109,9 @@
       <Filter>Source Files\LeetCode</Filter>
     </ClCompile>
     <ClCompile Include="180620_FacebookInterview1.cpp">
+      <Filter>Source Files\IV</Filter>
+    </ClCompile>
+    <ClCompile Include="19.Remove Nth Node from End of List 1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
