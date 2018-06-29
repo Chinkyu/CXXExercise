@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// Experience Timeout : XXXX : 
+// Experience Timeout : XXXX :  
 class Solution {
 public:
 	int smallestDistancePair(vector<int>& nums, int k) {
