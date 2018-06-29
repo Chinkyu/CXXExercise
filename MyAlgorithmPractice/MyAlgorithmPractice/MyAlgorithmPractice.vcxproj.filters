@@ -112,7 +112,13 @@
       <Filter>Source Files\IV</Filter>
     </ClCompile>
     <ClCompile Include="19.Remove Nth Node from End of List 1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TODO+719.FindK-thSmallestPairDistance1.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="54.SpiralMatrix1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
