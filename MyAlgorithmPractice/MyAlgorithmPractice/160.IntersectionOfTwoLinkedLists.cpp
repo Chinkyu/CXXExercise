@@ -1,3 +1,4 @@
+#if 0
 //
 // ERROR ....
 // Answer : No intersection, ERROR: linked structure was modified.
@@ -66,3 +67,5 @@ int main() {
 	cin >> c;
 
 }
+
+#endif
