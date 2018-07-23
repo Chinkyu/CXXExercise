@@ -36,9 +36,6 @@
     <ClCompile Include="02.AddTwoNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="446.ArithmeticSliceII1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="01.Stack1.cpp">
       <Filter>Source Files\PrimitiveTest</Filter>
     </ClCompile>
@@ -119,6 +116,21 @@
     </ClCompile>
     <ClCompile Include="54.SpiralMatrix1.cpp">
       <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TODO_446.ArithmeticSliceII1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TODO_316.RemoveDuplicateLetters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="141.LinkedListCycle.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="155.MinStack.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="160.IntersectionOfTwoLinkedLists.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
