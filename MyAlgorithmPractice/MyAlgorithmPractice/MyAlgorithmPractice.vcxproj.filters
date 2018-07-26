@@ -129,10 +129,10 @@
     <ClCompile Include="155.MinStack.cpp">
       <Filter>Source Files\LeetCode</Filter>
     </ClCompile>
-    <ClCompile Include="160.IntersectionOfTwoLinkedLists.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="142.LinkedListCycle II1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="160.IntersectionOfTwoLinkedLists.cpp">
       <Filter>Source Files\LeetCode</Filter>
     </ClCompile>
   </ItemGroup>
