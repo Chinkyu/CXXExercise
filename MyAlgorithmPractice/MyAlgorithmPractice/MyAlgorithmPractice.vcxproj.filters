@@ -135,5 +135,14 @@
     <ClCompile Include="160.IntersectionOfTwoLinkedLists.cpp">
       <Filter>Source Files\LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="169.MajorityElement.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="07.vectorTest1.cpp">
+      <Filter>Source Files\PrimitiveTest</Filter>
+    </ClCompile>
+    <ClCompile Include="198.HouseRobber1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
