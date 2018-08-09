@@ -144,5 +144,17 @@
     <ClCompile Include="198.HouseRobber1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="gm01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gm02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gm03.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gm04.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

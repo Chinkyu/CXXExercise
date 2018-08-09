@@ -1,3 +1,5 @@
+
+#if 0 
 // From comment - It is good.... 
 /*The solution is based on 142. Linked List Cycle II.
 The Basic idea is make the first list(headA) a circle by link the end to the beginning.If there is a intersection, then there must be a circle in listB.The start pointer of the circle is the intersection pointer.Therefore, this question becomes 142. Linked List Cycle II.All you need to do is to find the start pointer of the circle.
