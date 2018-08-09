@@ -142,6 +142,9 @@
       <Filter>Source Files\PrimitiveTest</Filter>
     </ClCompile>
     <ClCompile Include="198.HouseRobber1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="200.Numberofislands.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="gm01.cpp">
