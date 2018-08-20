@@ -25,6 +25,9 @@
     <Filter Include="Source Files\IV">
       <UniqueIdentifier>{b0406a03-94a2-47c9-b6ba-e04d99d2a873}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\IV\180806_GM_SR_SW">
+      <UniqueIdentifier>{2c3a1180-5daf-4c0a-8df3-4cca8483705d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="00.Test1.cpp">
@@ -145,15 +148,27 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="gm01.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\IV\180806_GM_SR_SW</Filter>
     </ClCompile>
     <ClCompile Include="gm02.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\IV\180806_GM_SR_SW</Filter>
     </ClCompile>
     <ClCompile Include="gm03.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\IV\180806_GM_SR_SW</Filter>
     </ClCompile>
     <ClCompile Include="gm04.cpp">
+      <Filter>Source Files\IV\180806_GM_SR_SW</Filter>
+    </ClCompile>
+    <ClCompile Include="01.TwoSum.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="08.unordered_map.cpp">
+      <Filter>Source Files\PrimitiveTest</Filter>
+    </ClCompile>
+    <ClCompile Include="09.map1..cpp">
+      <Filter>Source Files\PrimitiveTest</Filter>
+    </ClCompile>
+    <ClCompile Include="03.LongestSubstringWithoutRepeat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
