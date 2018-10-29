@@ -1,0 +1,6 @@
+
+class SpreedShellCell {
+
+	int value;
+
+};
