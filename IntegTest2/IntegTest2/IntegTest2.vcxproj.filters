@@ -42,13 +42,15 @@
     <ClCompile Include="01.BracesCheck1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="100.RefTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="40.Dijkstra1.cpp">
       <Filter>Source Files</Filter>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="100.RefTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
