@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyProfessionalC++", "MyProf
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch8Chess1", "Ch8Chess1\Ch8Chess1.vcxproj", "{D33258D0-59A5-44EE-96D8-73FE85D9EB05}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyAlgorithmPractice", "..\MyAlgorithmPractice\MyAlgorithmPractice\MyAlgorithmPractice.vcxproj", "{6F79F3B2-8508-4803-A0F0-DD72429306AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,11 +33,19 @@ Global
 		{D33258D0-59A5-44EE-96D8-73FE85D9EB05}.Release|x64.Build.0 = Release|x64
 		{D33258D0-59A5-44EE-96D8-73FE85D9EB05}.Release|x86.ActiveCfg = Release|Win32
 		{D33258D0-59A5-44EE-96D8-73FE85D9EB05}.Release|x86.Build.0 = Release|Win32
+		{6F79F3B2-8508-4803-A0F0-DD72429306AE}.Debug|x64.ActiveCfg = Debug|x64
+		{6F79F3B2-8508-4803-A0F0-DD72429306AE}.Debug|x64.Build.0 = Debug|x64
+		{6F79F3B2-8508-4803-A0F0-DD72429306AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F79F3B2-8508-4803-A0F0-DD72429306AE}.Debug|x86.Build.0 = Debug|Win32
+		{6F79F3B2-8508-4803-A0F0-DD72429306AE}.Release|x64.ActiveCfg = Release|x64
+		{6F79F3B2-8508-4803-A0F0-DD72429306AE}.Release|x64.Build.0 = Release|x64
+		{6F79F3B2-8508-4803-A0F0-DD72429306AE}.Release|x86.ActiveCfg = Release|Win32
+		{6F79F3B2-8508-4803-A0F0-DD72429306AE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7664CC16-EC88-4255-9ADA-18FB8F7FCFCC}
+		SolutionGuid = {D8F1CBE2-E5AF-4486-848D-D6F5456594EE}
 	EndGlobalSection
 EndGlobal
