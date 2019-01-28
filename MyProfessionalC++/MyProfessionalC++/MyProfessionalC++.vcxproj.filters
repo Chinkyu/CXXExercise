@@ -63,6 +63,24 @@
     <ClCompile Include="111.ErrorCorrector1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="112.Map_BankAccount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="113.MultiMap_BuddyList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="114.Set_AccessList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="115.unordered_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="116.bitset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="117_bitSetCableCompany.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="107.Vector02_RoundRobin.h">
