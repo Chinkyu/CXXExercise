@@ -81,6 +81,18 @@
     <ClCompile Include="117_bitSetCableCompany.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="118.Accumulate1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="119.LambdaExpression1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="120.PriorityQueue1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="121.ContainerAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="107.Vector02_RoundRobin.h">
