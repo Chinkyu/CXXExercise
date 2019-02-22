@@ -93,6 +93,9 @@
     <ClCompile Include="121.ContainerAlgorithm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="122.AuditVoterRegistration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="107.Vector02_RoundRobin.h">
