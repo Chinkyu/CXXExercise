@@ -28,6 +28,9 @@
     <Filter Include="Source Files\IV\180806_GM_SR_SW">
       <UniqueIdentifier>{2c3a1180-5daf-4c0a-8df3-4cca8483705d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\StringTest">
+      <UniqueIdentifier>{ca9da001-3b1f-439d-9317-d837b897c3b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="00.Test1.cpp">
@@ -74,9 +77,6 @@
     </ClCompile>
     <ClCompile Include="46.Permutations1.cpp">
       <Filter>Source Files\LeetCode</Filter>
-    </ClCompile>
-    <ClCompile Include="43.MultiplyStrings1.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="89.GrayCode1.cpp">
       <Filter>Source Files\LeetCode</Filter>
@@ -171,5 +171,94 @@
     <ClCompile Include="03.LongestSubstringWithoutRepeat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="s01_string1.cpp">
+      <Filter>Source Files\StringTest</Filter>
+    </ClCompile>
+    <ClCompile Include="08.StringtoInteger01.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="12.IntegerToRoman2.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="15.3Sum1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="6.ZigZag1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="29.DivideTwoInteger1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="29.DivideTwoInteger2_fromInt.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="24.SwapNodesinPairs1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="31.NextPermutation1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="33.SearchinRotatedSortedArray1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="34.FirstLastPositionOfSortedArray.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="36.ValidSudoku.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="39.CombinationSum1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="40.CombinationSum2.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="43.MultiplyStrings1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="47.PermutationII.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="48.RotateImage1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="49.GroupAnagrams1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="50.pow1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="55.JumpGame1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="56.MergeInterval1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="59.SpiralMatrixII1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="60.PermutationSeq1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="61.RotateList1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="62.UniquePaths1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="63.UniquePathII2.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="64.MinimumPathSum1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="71.SimplifiedPath1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="12.IntegertoRoman1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </None>
   </ItemGroup>
 </Project>

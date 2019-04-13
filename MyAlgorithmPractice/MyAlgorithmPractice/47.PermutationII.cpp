@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
+#include <set>
 
 using namespace std;
 
@@ -7,13 +9,14 @@ class Solution {
 public:
 	vector<bool> isVisited;
 	vector<vector<int>> list;
+	set<vector<int>> s;
 	vector<int> n;
 	int mLen;
 
-//	Solution() : isVisited()
+	//	Solution() : isVisited()
 
 	void dumpNums() {
-		for (auto i: n) {
+		for (auto i : n) {
 			cout << i << " ";
 		}
 		cout << endl;
@@ -21,8 +24,9 @@ public:
 
 	void iteration1(vector<int> &nums, int idx, int max) {
 		if (idx == max) {
-			list.push_back(vector<int>(n));
-			dumpNums();
+			s.insert(n);
+			//list.push_back(vector<int>(n));
+//			dumpNums();
 		}
 
 		for (int i = 0; i < mLen; i++) {
@@ -35,13 +39,19 @@ public:
 		}
 	}
 
-	vector<vector<int>> permute(vector<int>& nums) {
+	vector<vector<int>> permuteUnique(vector<int>& nums) {
 		mLen = nums.size();
 		isVisited = vector<bool>(nums.size(), false);
 		n = vector<int>(mLen, 0);
 		list.clear();
 
 		iteration1(nums, 0, mLen);
+
+		for (auto iter : s) {
+			list.push_back(iter);
+//			dumpNums
+		}
+
 		return list;
 	}
 };
@@ -51,7 +61,12 @@ int main() {
 	Solution s;
 	vector<int> nums = { 1, 1, 2 };
 
-	s.permute(nums);
+	s.permuteUnique(nums);
+
+//	for (auto iter : nums) {
+//		for (auto jter : iter) cout << jter;
+//		cout << endl;
+//	}
 
 	cin >> c;
 }
