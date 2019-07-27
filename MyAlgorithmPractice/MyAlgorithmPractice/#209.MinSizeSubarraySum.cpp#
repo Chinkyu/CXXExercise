@@ -1,0 +1,33 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+class Solution {
+public:
+    int minSubArrayLen(int s, vector<int>& nums) {
+        int st = 0, ed = 0, sum = 0;
+		int n = nums.size();
+		int min = n;
+
+		for(int st = 0; st < n; ++st) {
+
+			while(ed < n && sum < n) {
+				sum += nums[ed];
+				ed++;
+			}
+			if(ed-st+1 < min && sum >= n ) min = ed-st + 1;
+			sum -= nums[st];
+		}
+		return min;
+    }
+};
+
+
+int main() {
+	Solution sol;
+	char c;
+
+
+	cin >> c;
+}
