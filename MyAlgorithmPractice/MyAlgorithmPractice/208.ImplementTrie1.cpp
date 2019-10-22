@@ -1,37 +1,32 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-#include <stack>
-#include <unordered_map>
 
 using namespace std;
 
 class Solution {
 public:
-	vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-		vector<int> ans;
+	bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+		int size = prerequisites.size();
+		queue<int> q;
+		vector<int> in(size, 0);
 
-		int sz = prerequisites.size();
-		stack<int> q;
-		vector<int> in(numCourses, 0);
-		vector<vector<int>> vMap(numCourses);
-
-		for (auto it : prerequisites) {
-			in[it[1]]++;
-			vMap[it[0]].push_back(it[1]);
+		for (int i = 0; i < size; ++i) {
+			for (auto it : prerequisites[i]) {
+				in[it]++;
+			}
 		}
 
-		for (int i = 0; i < numCourses; ++i) {
+		for (int i = 0; i < size; ++i) {
 			if (in[i] == 0) q.push(i);
 		}
 
 		while (q.size() > 0) {
-			int next = q.top();
+			int next = q.front();
 			q.pop();
 
 			in[next] = -1;
-			ans.push_back(next);
-			for (auto jt : vMap[next]) {
+			for (auto jt : prerequisites[next]) {
 				in[jt]--;
 				if (in[jt] == 0) q.push(jt);
 			}
@@ -39,26 +34,19 @@ public:
 
 		// check in
 		for (auto it : in) {
-			if (it >= 0) {
-				ans.clear();
-				break;
-			}
+			if (it >= 0) return false;
 		}
-		reverse(ans.begin(), ans.end());
-		return ans;
+		return true;
+
 	}
 };
 
 int main() {
 	Solution sol;
 	char c;
-//	vector<vector<int>> dep = { {1, 0} };
-	vector<vector<int>> dep = {{1, 0}, {2, 0}, {3, 1}, {3, 2}};
+	vector<vector<int>> dep = { {}, {0} };
 
-	vector<int> a =  sol.findOrder(4, dep);
-	for (auto it : a) {
-		cout << it << " ";
-	}
+	cout << sol.canFinish(2, dep);
 
 	cin >> c;
 }
