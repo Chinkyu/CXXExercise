@@ -18,7 +18,6 @@ public:
 				cnt += 2;
 				ans++;
 			}
-			j++;
 		}
 		return ans;
 	}
