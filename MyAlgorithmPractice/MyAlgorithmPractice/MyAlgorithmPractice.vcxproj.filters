@@ -525,12 +525,102 @@
     <ClCompile Include="328.OddEvenLinkedList.cpp">
       <Filter>Source Files\LeetCode</Filter>
     </ClCompile>
-    <ClCompile Include="323.ReconstructItenerary.cpp">
+    <ClCompile Include="332.ReconstructItenerary.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="334.IncreasingTripletSubsequence.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="337.HouseRobberIII.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="338.CountingBits.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="341.FlattenNastedListIterator.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="347.TopKFrequentElements.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="355.DesignTwitter2.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="357.CountNumberswithUnique.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="365. _CheckLater_Water and Jug Problem.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="372.SuperPow.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="373.FindKPairwithSmallestsums.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="375.GuessNumberHigherorLowerII.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="378.KthSmallestElements in a sortedMatrix.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="382.LinkedListRandomNode.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="380.InsertDeleteGetRandom.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="384.ShuffleanArray.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="385._MiniParser.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="386.LexicographicalNumber.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="388.LongestAbsoluteFilePath.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="390.EliminationGame!!.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="393.UTF-8Validation.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="394.DecodeString.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="395.LongestSubstringwithAtLeastKRepeatingChar.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="396.RotateFunction.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="397.IntegerReplacement.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="398.RandomPickIndex.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="399.EvaluateDivision.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="400.NthDigit.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="402.RemoveKDigits.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="406.QueueReconstructionbyHeight.cpp">
       <Filter>Source Files\LeetCode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </None>
+    <None Include="343.IntegerBreakcpp">
       <Filter>Source Files\LeetCode</Filter>
     </None>
   </ItemGroup>

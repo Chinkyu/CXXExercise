@@ -7,7 +7,31 @@ using namespace std;
 
 class Solution {
 public:
+	unordered_map<string, multiset<string>> um;
+	void traverse(string u, vector<string> &ans, int dep, int tot) {
+		while (um[u].size()) {
+			string v = *um[u].begin();
+			um[u].erase(um[u].begin());
+			traverse(v, ans, dep + 1, tot);
+		}
+		ans.push_back(u);
+	}
 	vector<string> findItinerary(vector<vector<string>>& tickets) {
+		vector<string> ans;
+		int l = tickets.size();
+		if (l <= 0) return ans;
+
+		for (auto it : tickets) {
+			um[it[0]].insert(it[1]);
+		}
+
+		traverse("JFK", ans, 1, l);
+		reverse(ans.begin(), ans.end());
+		return ans;
+
+	}
+
+	vector<string> _findItinerary(vector<vector<string>>& tickets) {
 		vector<string> ans;
 		int l = tickets.size();
 		if (l <= 0) return ans;
@@ -51,8 +75,8 @@ int main() {
 	Solution sol;
 
 	vector < vector<string>> it =
-		//	{ {"JFK", "SFO"}, {"JFK", "ATL"}, {"SFO", "ATL"}, {"ATL", "JFK"}, {"ATL", "SFO"} };
-	{ {"JFK", "KUL"}, {"JFK", "NRT"}, {"NRT", "JFK"} };
+			{ {"JFK", "SFO"}, {"JFK", "ATL"}, {"SFO", "ATL"}, {"ATL", "JFK"}, {"ATL", "SFO"} };
+	//{ {"JFK", "KUL"}, {"JFK", "NRT"}, {"NRT", "JFK"} };
 
 	vector<string> ans = sol.findItinerary(it);
 
