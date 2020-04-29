@@ -711,6 +711,9 @@
     <ClCompile Include="486.PreditTheWinner.cpp">
       <Filter>Source Files\LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="491.IncreasingSubsequence.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
