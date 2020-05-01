@@ -32,17 +32,22 @@ public:
 	void enumerate(vector<int> & nums, int st, int ed) {
 		if (st == ed) {
 			vector<int> v;
-			do {
-				dq.f
-			} while(!stck.empty())
-			s.insert(st);
+			if (dq.size() <= 0) return;
+			for (auto it : dq) {
+				v.push_back(it);
+			}
+			// not have ed
+			if(v.size() > 1) s.insert(v);
+			// have ed
+			v.push_back(nums[ed]);
+			if (v.size() > 1) s.insert(v);
+			return;
 		}
 
 		enumerate(nums, st + 1, ed);
-		stck.push(nums[st]);
+		dq.push_back(nums[st]);
 		enumerate(nums, st + 1, ed);
-		stck.pop();
-
+		dq.pop_back();
 	}
 
 	vector<vector<int>> findSubsequences(vector<int>& nums) {
