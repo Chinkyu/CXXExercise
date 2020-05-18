@@ -735,6 +735,9 @@
     <ClCompile Include="513.FindBottomLeftTreeValue.cpp">
       <Filter>Source Files\LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="515.FindLargestValueinEachTreeRow.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
