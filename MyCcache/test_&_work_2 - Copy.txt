@@ -1,0 +1,206 @@
+Index: src/ccache.hpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/ccache.hpp	(revision 3c302a778f5a6623f130e4962561dbe690c0a538)
++++ src/ccache.hpp	(date 1593981004000)
+@@ -58,6 +58,10 @@
+ #define SLOPPY_LOCALE (1U << 8)
+ // Allow caching even if -fmodules is used.
+ #define SLOPPY_MODULES (1U << 9)
++// Allow ignore 'Generation Time: XXXX-XX-XX XX:XX:XX'
++// sloppiness vector_autosar
++#define SLOPPY_VECTOR_AUTOSAR (1U << 10)
++
+ 
+ void block_signals();
+ void unblock_signals();
+Index: src/Config.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Config.cpp	(revision 3c302a778f5a6623f130e4962561dbe690c0a538)
++++ src/Config.cpp	(date 1593981004000)
+@@ -273,6 +273,8 @@
+       result |= SLOPPY_LOCALE;
+     } else if (token == "modules") {
+       result |= SLOPPY_MODULES;
++    } else if (token == "vector_autosar") {
++      result |= SLOPPY_VECTOR_AUTOSAR;
+     } // else: ignore unknown value for forward compatibility
+     start = value.find_first_not_of(", ", end);
+   }
+Index: src/hashutil.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/hashutil.cpp	(revision 3c302a778f5a6623f130e4962561dbe690c0a538)
++++ src/hashutil.cpp	(date 1593981005000)
+@@ -34,6 +34,8 @@
+ 
+ #include "third_party/xxhash.h"
+ 
++#include <iostream>  //:: ckkang :
++
+ // With older GCC (libgcc), __builtin_cpu_supports("avx2) returns true if AVX2
+ // is supported by the CPU but disabled by the OS. This was fixed in GCC 8, 7.4
+ // and 6.5 (see https://gcc.gnu.org/bugzilla/show_bug.cgi?id=85100).
+@@ -172,6 +174,44 @@
+ 
+   return result;
+ }
++
++static size_t avx2_strstr_anysize(const char* s, size_t n, const char* needle, size_t k)
++  __attribute__((target("avx2")));
++
++// The following algorithm, which uses AVX2 instructions to find needle
++// <http://0x80.pl/articles/simd-strfind.html>.
++// https://github.com/WojciechMula/sse4-strstr/blob/master/utils/bits.cpp   - for bit operation
++static size_t avx2_strstr_anysize(const char* s, size_t n, const char* needle, size_t k) {
++
++    const __m256i first = _mm256_set1_epi8(needle[0]);
++    const __m256i last  = _mm256_set1_epi8(needle[k - 1]);
++
++    for (size_t i = 0; i < n; i += 32) {
++
++        const __m256i block_first = _mm256_loadu_si256(reinterpret_cast<const __m256i*>(s + i));
++        const __m256i block_last  = _mm256_loadu_si256(reinterpret_cast<const __m256i*>(s + i + k - 1));
++
++        const __m256i eq_first = _mm256_cmpeq_epi8(first, block_first);
++        const __m256i eq_last  = _mm256_cmpeq_epi8(last, block_last);
++
++        uint32_t mask = _mm256_movemask_epi8(_mm256_and_si256(eq_first, eq_last));
++
++        while (mask != 0) {
++
++            //const auto bitpos = bits::get_first_bit_set(mask);
++            const auto bitpos = __builtin_ctz(mask);
++
++            if (memcmp(s + i + bitpos + 1, needle + 1, k - 2) == 0) {
++                return i + bitpos;
++            }
++
++            //mask = bits::clear_leftmost_set(mask);
++            mask = mask & (mask - 1);
++        }
++    }
++
++    return std::string::npos;
++}
+ #endif
+ 
+ // Search for the strings "__DATE__", "__TIME__" and "__TIMESTAMP__" in str.
+@@ -190,19 +230,75 @@
+   return check_for_temporal_macros_bmh(str, len);
+ }
+ 
++// Search for 'Generation Time:' and remove next time stamp
++// eg) Generation Time: 2020-08-24 18:42:03
++#define GENERATION_TIME "Generation Time:"
++#define GENERATION_TIME_LEN 16
++
++bool process_vector_autosar(char *str, size_t len) {
++#ifdef HAVE_AVX2
++  if (__builtin_cpu_supports("avx2")) {
++    size_t pos =  avx2_strstr_anysize(str, len, GENERATION_TIME, GENERATION_TIME_LEN);
++    if (std::string::npos == pos) {
++      return false;
++    }
++    std::cout << "FOUND" << std::endl;
++    {
++      char temp[20];
++      strncpy(temp, str+pos, 19);
++      std::cout << temp << std::endl;
++    }
++
++
++    /*
++    * 012345678901234567890123456789012345
++    * ------------------------------------
++    * Generation Time: 2020-08-24 18:42:03
++    */
++
++    if (pos + 35 < len) {
++      //memcpy( str+pos, "                                                         ", 36);
++      memset( str + pos + 17, '.', 19);
++      //for(int i = 17; i <=35: ++i) char[pos+i] = ' ';
++
++   }
++
++  }
++#endif
++  return false;
++}
++
++
++
++#include <iostream>
++
+ // Hash a string. Returns a bitmask of HASH_SOURCE_CODE_* results.
+ int
+ hash_source_code_string(const Context& ctx,
+                         struct hash* hash,
+-                        const char* str,
++                        char* str,
+                         size_t len,
+                         const char* path)
+ {
+   int result = HASH_SOURCE_CODE_OK;
+ 
++  //:: ckkang :
++  //std::cout << "[st]" << str << "[ed]" << std::endl;
++
++#ifdef HAVE_AVX2
++  // Check for 'Generation Time:' and ignore time for Vector Autosar generation code
++  if ((ctx.config.sloppiness() & SLOPPY_VECTOR_AUTOSAR)) {
++    process_vector_autosar(str, len);
++
++  }
++#endif
++
+   // Check for __DATE__, __TIME__ and __TIMESTAMP__if the sloppiness
+   // configuration tells us we should.
+   if (!(ctx.config.sloppiness() & SLOPPY_TIME_MACROS)) {
++//  std:: cout << "sloppiness" << ctx.config.sloppiness() << std::endl;
++//  if(true) {
++    std::cout << "ck time_macros" << std::endl;
+     result |= check_for_temporal_macros(str, len);
+   }
+ 
+Index: src/hashutil.hpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/hashutil.hpp	(revision 3c302a778f5a6623f130e4962561dbe690c0a538)
++++ src/hashutil.hpp	(date 1593981005000)
+@@ -38,7 +38,7 @@
+ int check_for_temporal_macros(const char* str, size_t len);
+ int hash_source_code_string(const Context& ctx,
+                             struct hash* hash,
+-                            const char* str,
++                            char* str,
+                             size_t len,
+                             const char* path);
+ int hash_source_code_file(const Context& ctx,
+Index: CMakeLists.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CMakeLists.txt	(revision 3c302a778f5a6623f130e4962561dbe690c0a538)
++++ CMakeLists.txt	(date 1593981005000)
+@@ -36,8 +36,8 @@
+ 
+ #
+ # Third party
+-#
+-option(ZSTD_FROM_INTERNET "Download and use libzstd from the Internet" OFF)
++# //:: ckkang :
++option(ZSTD_FROM_INTERNET "Download and use libzstd from the Internet" ON)
+ find_package(zstd 1.1.2 REQUIRED)
+ 
+ #
