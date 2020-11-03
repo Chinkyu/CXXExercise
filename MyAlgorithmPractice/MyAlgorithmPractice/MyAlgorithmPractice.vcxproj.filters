@@ -768,6 +768,45 @@
     <ClCompile Include="540.SingleElementInASortedArray.cpp">
       <Filter>Source Files\LeetCode_II</Filter>
     </ClCompile>
+    <ClCompile Include="542.01Matrix.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
+    <ClCompile Include="547.FriendCircles.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
+    <ClCompile Include="554.BrickWall.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
+    <ClCompile Include="556.NextGreaterElementIII.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
+    <ClCompile Include="560.SubarraySumEqualsK.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
+    <ClCompile Include="565.ArrayNesting.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
+    <ClCompile Include="567.PermutationinString.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
+    <ClCompile Include="576.OutOfBoundaryPaths.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
+    <ClCompile Include="583.DeleteOperationForTwoStrings.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
+    <ClCompile Include="592.FractionAdditionandSubtraction.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
+    <ClCompile Include="593.ValidSquare.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
+    <ClCompile Include="621.TaskScheduler.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
+    <ClCompile Include="622.DesignCircularQueue.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
@@ -775,6 +814,9 @@
     </None>
     <None Include="343.IntegerBreakcpp">
       <Filter>Source Files\LeetCode</Filter>
+    </None>
+    <None Include="623.AddOneRowToTree.cpp">
+      <Filter>Source Files\LeetCode_II</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
