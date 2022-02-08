@@ -34,6 +34,15 @@
     <Filter Include="Source Files\LeetCode_II">
       <UniqueIdentifier>{6053d986-ffe9-4db4-8dea-c9c2fe612fd0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\SunnyIDTest">
+      <UniqueIdentifier>{22b54878-8432-43e2-b6d1-5bc3b89e9471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SunnyIDTest\AmazonTop">
+      <UniqueIdentifier>{67e9135d-2674-4464-8561-edd0739cb578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SunnyIDTest\GoogleTop">
+      <UniqueIdentifier>{0140a8be-5c90-4e2a-b634-300c0cdd81fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="00.Test1.cpp">
@@ -806,6 +815,21 @@
     </ClCompile>
     <ClCompile Include="622.DesignCircularQueue.cpp">
       <Filter>Source Files\LeetCode_II</Filter>
+    </ClCompile>
+    <ClCompile Include="23.MergeKSortedLists.cpp">
+      <Filter>Source Files\SunnyIDTest\AmazonTop</Filter>
+    </ClCompile>
+    <ClCompile Include="42.TrappingRainWater.cpp">
+      <Filter>Source Files\SunnyIDTest\AmazonTop</Filter>
+    </ClCompile>
+    <ClCompile Include="127.WordLadder.cpp">
+      <Filter>Source Files\SunnyIDTest\AmazonTop</Filter>
+    </ClCompile>
+    <ClCompile Include="2128.RemoveAllOnesWithRowAndColumnFilps.cpp">
+      <Filter>Source Files\SunnyIDTest\GoogleTop</Filter>
+    </ClCompile>
+    <ClCompile Include="2135.CountWorldsObtainedAfterAddingaLetter.cpp">
+      <Filter>Source Files\SunnyIDTest\GoogleTop</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
