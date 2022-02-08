@@ -40,6 +40,9 @@
     <Filter Include="Source Files\SunnyIDTest\AmazonTop">
       <UniqueIdentifier>{67e9135d-2674-4464-8561-edd0739cb578}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\SunnyIDTest\GoogleTop">
+      <UniqueIdentifier>{0140a8be-5c90-4e2a-b634-300c0cdd81fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="00.Test1.cpp">
@@ -821,6 +824,12 @@
     </ClCompile>
     <ClCompile Include="127.WordLadder.cpp">
       <Filter>Source Files\SunnyIDTest\AmazonTop</Filter>
+    </ClCompile>
+    <ClCompile Include="2128.RemoveAllOnesWithRowAndColumnFilps.cpp">
+      <Filter>Source Files\SunnyIDTest\GoogleTop</Filter>
+    </ClCompile>
+    <ClCompile Include="2135.CountWorldsObtainedAfterAddingaLetter.cpp">
+      <Filter>Source Files\SunnyIDTest\GoogleTop</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
