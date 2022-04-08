@@ -831,6 +831,18 @@
     <ClCompile Include="2135.CountWorldsObtainedAfterAddingaLetter.cpp">
       <Filter>Source Files\SunnyIDTest\GoogleTop</Filter>
     </ClCompile>
+    <ClCompile Include="2083.SubstringsThatBeginandendWithTheSameLetter.cpp">
+      <Filter>Source Files\SunnyIDTest\GoogleTop</Filter>
+    </ClCompile>
+    <ClCompile Include="1554.StringsDifferByOneCharacter.cpp">
+      <Filter>Source Files\SunnyIDTest\GoogleTop</Filter>
+    </ClCompile>
+    <ClCompile Include="1272.RemoveInterval.cpp">
+      <Filter>Source Files\SunnyIDTest\GoogleTop</Filter>
+    </ClCompile>
+    <ClCompile Include="2144.DesignALeaderboard.cpp">
+      <Filter>Source Files\SunnyIDTest\GoogleTop</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
