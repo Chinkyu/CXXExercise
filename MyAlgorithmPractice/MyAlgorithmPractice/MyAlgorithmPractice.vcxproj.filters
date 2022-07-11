@@ -843,6 +843,15 @@
     <ClCompile Include="2144.DesignALeaderboard.cpp">
       <Filter>Source Files\SunnyIDTest\GoogleTop</Filter>
     </ClCompile>
+    <ClCompile Include="161.OneEditDistance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="581.ShortestUnsortedContinuousSubArray.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="323.NumberOfConnectedComponentsInAnUndirectedGraph.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
