@@ -370,6 +370,7 @@
     <ClCompile Include="241.DiffwayToAddParentheses.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="247.StrobogrammaticNumberII.cpp" />
     <ClCompile Include="260.SingleNumberIII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -412,7 +413,9 @@
     <ClCompile Include="322.CoinChange1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="323.NumberOfConnectedComponentsInAnUndirectedGraph.cpp" />
+    <ClCompile Include="323.NumberOfConnectedComponentsInAnUndirectedGraph.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="332.ReconstructItenerary.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
