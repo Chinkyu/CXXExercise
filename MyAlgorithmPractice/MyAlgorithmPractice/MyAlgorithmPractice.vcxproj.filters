@@ -43,6 +43,12 @@
     <Filter Include="Source Files\SunnyIDTest\GoogleTop">
       <UniqueIdentifier>{0140a8be-5c90-4e2a-b634-300c0cdd81fc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\IV_Practice">
+      <UniqueIdentifier>{0f738ec9-ccab-4e50-b1ec-85e2ccb34d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IV_Practice\HireVue_Sample">
+      <UniqueIdentifier>{adfaabc3-493a-4430-b17d-072adb657a93}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="00.Test1.cpp">
@@ -853,6 +859,18 @@
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
     <ClCompile Include="247.StrobogrammaticNumberII.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="02.StringManipulation1.cpp">
+      <Filter>Source Files\StringTest</Filter>
+    </ClCompile>
+    <ClCompile Include="01_GM_DecodeNumber.cpp">
+      <Filter>Source Files\IV_Practice\HireVue_Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="91.DecodeWay.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="639.DevoceWaysII.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
   </ItemGroup>
