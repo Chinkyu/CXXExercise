@@ -29,6 +29,27 @@ void vector_test3(vector<string> &sv) {
 }
 
 
+void vector_test4() {
+	int m = 10, n = 9;
+	vector<vector<int>> vt(m, vector<int>(n, 0));
+
+	for (int i = 0; i < m; ++i) {
+		for (int j = 0; j < n; ++j) {
+			vt[i][j] = i + j;
+		}
+	}
+
+	for (auto it : vt) {
+		for (auto jt : it) {
+			cout << " " << jt;
+		}
+		cout << endl;
+	}
+
+
+}
+
+
 int main() {
 	char c;
 
@@ -36,12 +57,14 @@ int main() {
 
 	vector<string> sv;
 
-	vector_test3(sv);
+//:: 	vector_test3(sv);
+//:: 
+//:: 	for (auto it : sv) {
+//:: 		cout << it.c_str() << " ";
+//:: 	}
+//:: 	cout << endl;
 
-	for (auto it : sv) {
-		cout << it.c_str() << " ";
-	}
-	cout << endl;
+	vector_test4();
 
 	cin >> c;
 }

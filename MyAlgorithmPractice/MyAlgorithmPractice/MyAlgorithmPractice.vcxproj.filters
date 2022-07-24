@@ -49,6 +49,12 @@
     <Filter Include="Source Files\IV_Practice\HireVue_Sample">
       <UniqueIdentifier>{adfaabc3-493a-4430-b17d-072adb657a93}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\IV\220724_GM_SR_System_Engineer">
+      <UniqueIdentifier>{88e2eb40-1941-4b24-a276-d774ead9abe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IV\220724_GM_SR_System_Engineer\gm01_1">
+      <UniqueIdentifier>{fcefe407-9d88-4d2e-85a0-0aedaebe54d4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="00.Test1.cpp">
@@ -870,8 +876,26 @@
     <ClCompile Include="91.DecodeWay.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
-    <ClCompile Include="639.DevoceWaysII.cpp">
+    <ClCompile Include="639.DecodeWaysII__.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="15.3Sum.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="12.permutation.cpp">
+      <Filter>Source Files\PrimitiveTest</Filter>
+    </ClCompile>
+    <ClCompile Include="gm01_1.cpp">
+      <Filter>Source Files\IV\220724_GM_SR_System_Engineer</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_prepare01.cpp">
+      <Filter>Source Files\IV\220724_GM_SR_System_Engineer\gm01_1</Filter>
+    </ClCompile>
+    <ClCompile Include="gm01_2_Verify.cpp">
+      <Filter>Source Files\IV\220724_GM_SR_System_Engineer\gm01_1</Filter>
+    </ClCompile>
+    <ClCompile Include="gm01_1_OtherHirevueQuestions.cpp">
+      <Filter>Source Files\IV\220724_GM_SR_System_Engineer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
