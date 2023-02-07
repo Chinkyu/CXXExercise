@@ -55,6 +55,9 @@
     <Filter Include="Source Files\IV\220724_GM_SR_System_Engineer\gm01_1">
       <UniqueIdentifier>{fcefe407-9d88-4d2e-85a0-0aedaebe54d4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\SunnyIDTest\Easy">
+      <UniqueIdentifier>{063731c8-238f-4114-af12-fb1d2dfe7916}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="00.Test1.cpp">
@@ -896,6 +899,9 @@
     </ClCompile>
     <ClCompile Include="gm01_1_OtherHirevueQuestions.cpp">
       <Filter>Source Files\IV\220724_GM_SR_System_Engineer</Filter>
+    </ClCompile>
+    <ClCompile Include="1470.ShuffleTheArray.cpp">
+      <Filter>Source Files\SunnyIDTest\Easy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
