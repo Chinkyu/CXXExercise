@@ -951,6 +951,12 @@
     <ClCompile Include="663.EqualTreePartition.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2049.CountNodesWithTheHighestScore.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="2069.WalkingRobotSimulationII.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
