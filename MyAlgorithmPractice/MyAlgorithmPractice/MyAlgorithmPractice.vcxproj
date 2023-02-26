@@ -338,7 +338,10 @@
     <ClCompile Include="2049.CountNodesWithTheHighestScore.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2069.WalkingRobotSimulationII.cpp" />
+    <ClCompile Include="2069.WalkingRobotSimulationII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2070.MostBeautifulItemforEachQuery.cpp" />
     <ClCompile Include="208.ImplementTrie1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
