@@ -304,7 +304,10 @@
     <ClCompile Include="1564.PutBoxesIntoTheWarehouseI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1583. CoundUnhappyFriends.cpp" />
+    <ClCompile Include="1583. CoundUnhappyFriends.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1584.MinCostToConnectAllPoints.cpp" />
     <ClCompile Include="161.OneEditDistance.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
