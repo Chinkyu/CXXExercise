@@ -258,7 +258,9 @@
     <ClCompile Include="1404.NumStepofReduceToOne.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1428.LeftmostColumnwithatLeastaOne.cpp" />
+    <ClCompile Include="1428.LeftmostColumnwithatLeastaOne.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1429.FirstUniqueNumber.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -351,6 +353,7 @@
     <ClCompile Include="200.Numbers of Islands.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2002.MaximumProductoftheLengthofThePalandromic.cpp" />
     <ClCompile Include="201.BitwiseAndofNumbersRange.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
