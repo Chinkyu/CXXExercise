@@ -999,6 +999,9 @@
     <ClCompile Include="2002.MaximumProductoftheLengthofThePalandromic.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2023.NumberofPairsofStringwithConcatenationforTarget.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">

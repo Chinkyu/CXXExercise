@@ -353,10 +353,13 @@
     <ClCompile Include="200.Numbers of Islands.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2002.MaximumProductoftheLengthofThePalandromic.cpp" />
+    <ClCompile Include="2002.MaximumProductoftheLengthofThePalandromic.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="201.BitwiseAndofNumbersRange.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2023.NumberofPairsofStringwithConcatenationforTarget.cpp" />
     <ClCompile Include="2049.CountNodesWithTheHighestScore.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
