@@ -1047,6 +1047,9 @@
     <ClCompile Include="708.InsertIntoaSortedCircularLinkedList.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="825. FriendsOfAppropriateAges.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
