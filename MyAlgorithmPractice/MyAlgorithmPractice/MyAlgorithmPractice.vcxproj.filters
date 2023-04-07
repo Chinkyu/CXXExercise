@@ -1056,6 +1056,15 @@
     <ClCompile Include="2596.CheckKnightTourConfiguration.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2592.MaximizeGreatnessofanArray.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="795.NumberOfSubarrayswithBoundedMaximum.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="795.RE_NumberOfSubarrayswithBoundedManimumII.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
