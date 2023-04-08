@@ -1065,6 +1065,9 @@
     <ClCompile Include="795.RE_NumberOfSubarrayswithBoundedManimumII.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="797.AllPathsFromSourcetoTarget.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
