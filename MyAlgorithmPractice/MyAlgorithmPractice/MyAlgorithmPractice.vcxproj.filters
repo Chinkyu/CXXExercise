@@ -1074,6 +1074,9 @@
     <ClCompile Include="702.SearchinaSortedArrayofUnknownSize.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="1024.VideoStitching.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">

@@ -187,6 +187,7 @@
     <ClCompile Include="102.BinaryTreeLevelOrderTraveral.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1024.VideoStitching.cpp" />
     <ClCompile Include="103.BinaryTreeZigzagLevelOrderTraversal.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -830,7 +831,9 @@
     <ClCompile Include="663.EqualTreePartition.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="702.SearchinaSortedArrayofUnknownSize.cpp" />
+    <ClCompile Include="702.SearchinaSortedArrayofUnknownSize.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="707.DesignLinkedList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
