@@ -1077,6 +1077,9 @@
     <ClCompile Include="1024.VideoStitching.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="1151.MinimumSwapstoGroupAll1sTogether.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
