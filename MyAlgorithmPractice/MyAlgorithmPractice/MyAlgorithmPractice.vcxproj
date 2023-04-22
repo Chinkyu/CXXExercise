@@ -457,6 +457,7 @@
     <ClCompile Include="230.KthSmallestElement.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2316.CountUnreachablePairsofNodesinanUndirectedGraph.cpp" />
     <ClCompile Include="236.LowestCommonAncestor.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -472,7 +473,9 @@
     <ClCompile Include="247.StrobogrammaticNumberII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2545. SorttheStudentsbyTheirKthScore.cpp" />
+    <ClCompile Include="2545. SorttheStudentsbyTheirKthScore.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2575.FinddivisibilityArrayofAString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
