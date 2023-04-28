@@ -1107,6 +1107,9 @@
     <ClCompile Include="1257.SmallestCommonRegion.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="1618.MaximumFonttoFitaSentenceinaScreen.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
