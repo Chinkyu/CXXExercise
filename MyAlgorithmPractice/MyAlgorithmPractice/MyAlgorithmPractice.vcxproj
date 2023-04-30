@@ -435,6 +435,7 @@
     <ClCompile Include="216.CombinationSumII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2171.RemovingMinimumNumberofMagicBeans.cpp" />
     <ClCompile Include="220.ContainsDuplicateIII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -490,7 +491,9 @@
     <ClCompile Include="2545. SorttheStudentsbyTheirKthScore.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="255.VerifyPreorderSequenceinBinarySearch.cpp" />
+    <ClCompile Include="255.VerifyPreorderSequenceinBinarySearch.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2575.FinddivisibilityArrayofAString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
