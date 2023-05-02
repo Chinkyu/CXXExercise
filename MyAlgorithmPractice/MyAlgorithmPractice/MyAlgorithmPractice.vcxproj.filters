@@ -1116,6 +1116,9 @@
     <ClCompile Include="2171.RemovingMinimumNumberofMagicBeans.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2546.ApplyBitwiseOperationstoMakeStringsEqual.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
