@@ -1122,6 +1122,9 @@
     <ClCompile Include="1562.FindLatestGroupofSizeM.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="1989.MaximumNumberofPeopleThatCanBeCaughtinTag.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
