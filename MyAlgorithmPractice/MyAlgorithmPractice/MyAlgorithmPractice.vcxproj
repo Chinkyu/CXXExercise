@@ -303,7 +303,9 @@
     <ClCompile Include="1472.DesignBrowserHistory.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1477. FindTwoNonoverlappingSubarraysEachWithTargetSum.cpp" />
+    <ClCompile Include="1477. _FindTwoNonoverlappingSubarraysEachWithTargetSum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="148.SortList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -720,6 +722,7 @@
     <ClCompile Include="445.AddTwoNumberII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="447.NumberofBoomerangs.cpp" />
     <ClCompile Include="449.SerializeandDeserializeBST.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

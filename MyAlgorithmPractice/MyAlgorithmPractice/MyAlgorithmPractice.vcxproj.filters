@@ -1125,7 +1125,10 @@
     <ClCompile Include="1989.MaximumNumberofPeopleThatCanBeCaughtinTag.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
-    <ClCompile Include="1477. FindTwoNonoverlappingSubarraysEachWithTargetSum.cpp">
+    <ClCompile Include="1477. _FindTwoNonoverlappingSubarraysEachWithTargetSum.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="447.NumberofBoomerangs.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
   </ItemGroup>
