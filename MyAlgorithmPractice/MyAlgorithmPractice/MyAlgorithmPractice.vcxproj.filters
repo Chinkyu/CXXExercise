@@ -1128,7 +1128,10 @@
     <ClCompile Include="1477. _FindTwoNonoverlappingSubarraysEachWithTargetSum.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
-    <ClCompile Include="447.NumberofBoomerangs.cpp">
+    <ClCompile Include="447._NumberofBoomerangs.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="153.FindMinimuminRotatedSortedArray.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
   </ItemGroup>
