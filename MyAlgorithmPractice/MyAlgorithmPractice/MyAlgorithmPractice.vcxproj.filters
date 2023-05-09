@@ -1137,6 +1137,9 @@
     <ClCompile Include="2087.MinimumCostHomecomingofaRobotinGrid.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="39.CombinationSum.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
