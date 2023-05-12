@@ -1146,6 +1146,9 @@
     <ClCompile Include="2516.TakeKofEachCharacterFromLeftandRight.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="12.IntegertoRoman.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
