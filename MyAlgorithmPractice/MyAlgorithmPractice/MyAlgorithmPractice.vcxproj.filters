@@ -1149,6 +1149,9 @@
     <ClCompile Include="12.IntegertoRoman.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="1457.PseudoPalandromicPathsinaBinaryTree.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
