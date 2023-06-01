@@ -321,6 +321,7 @@
     <ClCompile Include="148.SortList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1481.LeastNumberofUniqueIntegerafterKRemovals.cpp" />
     <ClCompile Include="1492.TheKthFactorOfN.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -386,7 +387,9 @@
     <ClCompile Include="1871.JumpGameVII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1877.MinimizeMaximumPairSuminArray.cpp" />
+    <ClCompile Include="1877.MinimizeMaximumPairSuminArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="189.RotateArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

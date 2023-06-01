@@ -1191,6 +1191,9 @@
     <ClCompile Include="1877.MinimizeMaximumPairSuminArray.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="1481.LeastNumberofUniqueIntegerafterKRemovals.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
