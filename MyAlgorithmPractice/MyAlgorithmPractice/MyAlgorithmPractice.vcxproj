@@ -419,7 +419,9 @@
     <ClCompile Include="2023.NumberofPairsofStringwithConcatenationforTarget.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2024.MaximizetheConfusionofanExam.cpp" />
+    <ClCompile Include="2024.MaximizetheConfusionofanExam.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2049.CountNodesWithTheHighestScore.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
