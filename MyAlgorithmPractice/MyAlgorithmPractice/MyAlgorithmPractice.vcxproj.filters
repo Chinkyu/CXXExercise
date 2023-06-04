@@ -1197,6 +1197,12 @@
     <ClCompile Include="2024.MaximizetheConfusionofanExam.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1490.CloneN-aryTree.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="2120.ExecutionofAllSuffixInstructionsStayinginaGrid.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
