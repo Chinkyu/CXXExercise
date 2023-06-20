@@ -229,6 +229,7 @@
     <ClCompile Include="116.PopulatingNextRightPointersinEachNode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1161.MaximumLevelSumofaBinaryTree.cpp" />
     <ClCompile Include="117.PopulatingNextRightPointersin EachNodeII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -291,7 +292,9 @@
     <ClCompile Include="144.BinaryTreePreorderTraversal.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1456.MaximumNumberofVowelsinaSubstringofGivenLength.cpp" />
+    <ClCompile Include="1456.MaximumNumberofVowelsinaSubstringofGivenLength.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1457.PseudoPalandromicPathsinaBinaryTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
