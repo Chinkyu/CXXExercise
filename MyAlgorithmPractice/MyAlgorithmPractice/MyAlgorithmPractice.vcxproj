@@ -577,6 +577,7 @@
     <ClCompile Include="2516.TakeKofEachCharacterFromLeftandRight.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2527.FindXorBeautyofArray.cpp" />
     <ClCompile Include="2545. SorttheStudentsbyTheirKthScore.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -1007,7 +1008,9 @@
     <ClCompile Include="729.MyCalendarI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="788.RotatedDigits.cpp" />
+    <ClCompile Include="788.RotatedDigits.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="79.WordSearch.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
