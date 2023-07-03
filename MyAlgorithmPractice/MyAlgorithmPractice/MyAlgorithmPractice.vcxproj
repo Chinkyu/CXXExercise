@@ -288,6 +288,7 @@
     <ClCompile Include="1353.MaximumNumberofEventsThatCanBeAttended.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1375.NumberofTimesBinaryStringIsPrefixAligned.cpp" />
     <ClCompile Include="1404.NumStepofReduceToOne.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -1061,7 +1062,9 @@
     <ClCompile Include="875.KokoEatingBananas.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="890.FindandReplacePattern.cpp" />
+    <ClCompile Include="890.FindandReplacePattern.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="904.FruitIntoBaskets.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
