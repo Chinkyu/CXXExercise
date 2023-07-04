@@ -288,7 +288,9 @@
     <ClCompile Include="1353.MaximumNumberofEventsThatCanBeAttended.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1375.NumberofTimesBinaryStringIsPrefixAligned.cpp" />
+    <ClCompile Include="1375.NumberofTimesBinaryStringIsPrefixAligned.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1404.NumStepofReduceToOne.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -301,6 +303,7 @@
     <ClCompile Include="143.ReorderList1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1430.CheckIfaStringisValidInTree.cpp" />
     <ClCompile Include="144.BinaryTreePreorderTraversal.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
