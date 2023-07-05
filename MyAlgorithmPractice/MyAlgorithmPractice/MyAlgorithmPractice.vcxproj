@@ -303,7 +303,9 @@
     <ClCompile Include="143.ReorderList1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1430.CheckIfaStringisValidInTree.cpp" />
+    <ClCompile Include="1430.CheckIfaStringisValidInTree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="144.BinaryTreePreorderTraversal.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -554,6 +556,7 @@
     <ClCompile Include="2316.CountUnreachablePairsofNodesinanUndirectedGraph.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2320.CountNumberofWaystoPlaceHouses.cpp" />
     <ClCompile Include="236.LowestCommonAncestor.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

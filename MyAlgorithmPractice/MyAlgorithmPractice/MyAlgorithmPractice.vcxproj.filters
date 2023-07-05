@@ -1251,6 +1251,9 @@
     <ClCompile Include="1430.CheckIfaStringisValidInTree.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2320.CountNumberofWaystoPlaceHouses.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
