@@ -401,7 +401,9 @@
     <ClCompile Include="165.CompareVersionNumber.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1650.LowestCommonAncestorofaBinaryTreeIII.cpp" />
+    <ClCompile Include="1650.LowestCommonAncestorofaBinaryTreeIII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="166.FractionToRecurringDecimal.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -1083,6 +1085,7 @@
     <ClCompile Include="91.DecodeWay.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="950.RevealCardsInIncreasingOrder.cpp" />
     <ClCompile Include="967.NumbersWithSameConsecutiveDifference.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
