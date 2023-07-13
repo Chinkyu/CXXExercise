@@ -519,7 +519,9 @@
     <ClCompile Include="216.CombinationSumII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2161.PartitionArrayAccordingtoGivenPivot.cpp" />
+    <ClCompile Include="2161.PartitionArrayAccordingtoGivenPivot.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2171.RemovingMinimumNumberofMagicBeans.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -593,6 +595,7 @@
     <ClCompile Include="2516.TakeKofEachCharacterFromLeftandRight.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2522.PartitionStringIntoSubstringsWithValuesatMostK.cpp" />
     <ClCompile Include="2527.FindXorBeautyofArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
