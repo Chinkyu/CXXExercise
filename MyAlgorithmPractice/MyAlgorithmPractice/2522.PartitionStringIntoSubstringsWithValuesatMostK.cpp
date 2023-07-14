@@ -13,6 +13,7 @@
 
 using namespace std;
 
+// 앞에서 부터 자르는 방법인데.. 이게 답이라니.....
 class Solution {
 public:
 	int minimumPartition(string s, int k) {

@@ -1272,6 +1272,12 @@
     <ClCompile Include="2522.PartitionStringIntoSubstringsWithValuesatMostK.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="549.BinaryTreeLongestConsecutiveSequenceII.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="2285.MaximumTotalImportanceofRoads.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
