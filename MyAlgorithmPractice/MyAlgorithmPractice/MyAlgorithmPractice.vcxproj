@@ -413,6 +413,7 @@
     <ClCompile Include="1744.CanYouEatYourFavoriteCandyonYourFavoriteDay.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1781.SumofBeautyofAllSubstrings.cpp" />
     <ClCompile Include="187.RepeatedDNASequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -552,7 +553,9 @@
     <ClCompile Include="228.SummaryRanges.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2285.MaximumTotalImportanceofRoads.cpp" />
+    <ClCompile Include="2285.MaximumTotalImportanceofRoads.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="229.MajorityElementII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
