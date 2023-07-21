@@ -643,7 +643,10 @@
     <ClCompile Include="274.H-Index.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2770.MaximumNumberofJumpstoReachtheLastIndex.cpp" />
+    <ClCompile Include="2768.NumberofBlackBlocks.cpp" />
+    <ClCompile Include="2770.MaximumNumberofJumpstoReachtheLastIndex.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2772.Apply OperationstoMakeAllArrayElementsEqualtoZero.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
