@@ -643,7 +643,10 @@
     <ClCompile Include="274.H-Index.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2764.isArrayaPreorderofSomeBinaryTree.cpp" />
+    <ClCompile Include="2761.PrimePairsWithTargetSum.cpp" />
+    <ClCompile Include="2764.isArrayaPreorderofSomeBinaryTree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2766.RelocateMarbles.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
