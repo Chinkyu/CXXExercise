@@ -643,7 +643,13 @@
     <ClCompile Include="274.H-Index.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2746.DecrementalStringConcatenation.cpp" />
+    <ClCompile Include="2743.CountSubstringsWithoutRepeatingCharacter.cpp" />
+    <ClCompile Include="2745.ConstructtheLongestNewString.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2746.DecrementalStringConcatenation.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2749.MinimumOperationstoMaketheIntegerZero.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

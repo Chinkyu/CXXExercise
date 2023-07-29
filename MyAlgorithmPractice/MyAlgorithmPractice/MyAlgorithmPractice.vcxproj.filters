@@ -1311,6 +1311,12 @@
     <ClCompile Include="2746.DecrementalStringConcatenation.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2745.ConstructtheLongestNewString.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="2743.CountSubstringsWithoutRepeatingCharacter.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
