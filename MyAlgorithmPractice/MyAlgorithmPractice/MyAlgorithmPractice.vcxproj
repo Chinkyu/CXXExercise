@@ -643,7 +643,10 @@
     <ClCompile Include="274.H-Index.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2743.CountSubstringsWithoutRepeatingCharacter.cpp" />
+    <ClCompile Include="2740.FindtheValueofthePartition.cpp" />
+    <ClCompile Include="2743.CountSubstringsWithoutRepeatingCharacter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2745.ConstructtheLongestNewString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
