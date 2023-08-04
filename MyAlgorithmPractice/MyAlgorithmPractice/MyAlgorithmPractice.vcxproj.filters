@@ -1329,6 +1329,9 @@
     <ClCompile Include="2734.LixicographicallySmallestStringAfterSubstring.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2731.MovementofRobots.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
