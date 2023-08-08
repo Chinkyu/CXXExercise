@@ -640,7 +640,10 @@
     <ClCompile Include="2707.ExtraCharactersinaString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2718.SumofMatrixAfterQueries.cpp" />
+    <ClCompile Include="2712.MinimumCosttoMakeAllCharactersEqual.cpp" />
+    <ClCompile Include="2718.SumofMatrixAfterQueries.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2730.FindtheLongestSemiRepetitiveSubstring.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
