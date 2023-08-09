@@ -1341,6 +1341,9 @@
     <ClCompile Include="2712.MinimumCosttoMakeAllCharactersEqual.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2610.ConvertanArrayIntoa2DArrayWithConditions.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
