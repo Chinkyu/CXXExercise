@@ -631,7 +631,10 @@
     <ClCompile Include="260.SingleNumberIII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2610.ConvertanArrayIntoa2DArrayWithConditions.cpp" />
+    <ClCompile Include="2607.MakeKSubarraySumsEqual.cpp" />
+    <ClCompile Include="2610.ConvertanArrayIntoa2DArrayWithConditions.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="264.UblyNumberII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
