@@ -598,7 +598,10 @@
     <ClCompile Include="247.StrobogrammaticNumberII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2487.RemoveNodesFromLinkedList.cpp" />
+    <ClCompile Include="2486.AppendCharacterstoStringtoMakeSubsequence.cpp" />
+    <ClCompile Include="2487.RemoveNodesFromLinkedList.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2502.DesignMemoryAllocator.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
