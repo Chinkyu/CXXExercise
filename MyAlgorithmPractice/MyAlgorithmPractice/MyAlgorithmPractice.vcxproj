@@ -598,7 +598,10 @@
     <ClCompile Include="247.StrobogrammaticNumberII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2482.DifferenceBetweenOnesandZerosinRowandColmn.cpp" />
+    <ClCompile Include="2477.MinimumFuelCosttoReporttotheCapital.cpp" />
+    <ClCompile Include="2482.DifferenceBetweenOnesandZerosinRowandColmn.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2483.MinimumPenaltyforaShop.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
