@@ -595,10 +595,19 @@
     <ClCompile Include="2410.MaximumMatchingofPlayerWithTrainers.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2466.CountWaysToBuildGoodStrings.cpp" />
     <ClCompile Include="247.StrobogrammaticNumberII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2477.MinimumFuelCosttoReporttotheCapital.cpp" />
+    <ClCompile Include="2471.MinimumNumberofOperationstoSortaBinaryTreebyLevel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2473.MinimumCosttoBuyApples.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2477.MinimumFuelCosttoReporttotheCapital.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2482.DifferenceBetweenOnesandZerosinRowandColmn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -1365,6 +1365,15 @@
     <ClCompile Include="2477.MinimumFuelCosttoReporttotheCapital.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2473.MinimumCosttoBuyApples.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="2471.MinimumNumberofOperationstoSortaBinaryTreebyLevel.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="2466.CountWaysToBuildGoodStrings.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
