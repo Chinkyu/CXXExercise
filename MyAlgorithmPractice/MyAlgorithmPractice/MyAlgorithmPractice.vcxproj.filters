@@ -1374,6 +1374,9 @@
     <ClCompile Include="2466.CountWaysToBuildGoodStrings.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2462.TotalCosttoHireKworkers.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
