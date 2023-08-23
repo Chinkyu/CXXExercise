@@ -595,7 +595,10 @@
     <ClCompile Include="2410.MaximumMatchingofPlayerWithTrainers.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2462.TotalCosttoHireKworkers.cpp" />
+    <ClCompile Include="2461.MaximumSumofDistinctSubarraysWithLengthK.cpp" />
+    <ClCompile Include="2462.TotalCosttoHireKworkers.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2466.CountWaysToBuildGoodStrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
