@@ -1380,6 +1380,9 @@
     <ClCompile Include="2461.MaximumSumofDistinctSubarraysWithLengthK.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2457.MinimumAdditiontoMakeIntegerBeautiful.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
