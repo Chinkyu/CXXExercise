@@ -595,7 +595,10 @@
     <ClCompile Include="2410.MaximumMatchingofPlayerWithTrainers.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2456.MostPopularVideoCreator.cpp" />
+    <ClCompile Include="2453.DestroySequentialTargets.cpp" />
+    <ClCompile Include="2456.MostPopularVideoCreator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2457.MinimumAdditiontoMakeIntegerBeautiful.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
