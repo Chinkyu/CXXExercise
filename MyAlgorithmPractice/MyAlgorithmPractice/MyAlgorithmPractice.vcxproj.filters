@@ -1395,7 +1395,10 @@
     <ClCompile Include="2450.NumberofDistantBinaryStringsAfterApplyingOperations.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
-    <ClCompile Include="2344.NumberofNodesWithValueOne.cpp">
+    <ClCompile Include="2445.NumberofNodesWithValueOne.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="2443.SumofNumberandItsReverse.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
   </ItemGroup>
