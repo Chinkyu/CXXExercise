@@ -1401,6 +1401,9 @@
     <ClCompile Include="2443.SumofNumberandItsReverse.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2442.CountNumberofDistinctIntegerAfterReverseOperations.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
