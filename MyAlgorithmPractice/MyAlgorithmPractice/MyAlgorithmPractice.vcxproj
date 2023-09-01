@@ -577,7 +577,10 @@
     <ClCompile Include="2320.CountNumberofWaystoPlaceHouses.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2442.CountNumberofDistinctIntegerAfterReverseOperations.cpp" />
+    <ClCompile Include="2439.MinimizeMaximumofArray.cpp" />
+    <ClCompile Include="2442.CountNumberofDistinctIntegerAfterReverseOperations.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2443.SumofNumberandItsReverse.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
