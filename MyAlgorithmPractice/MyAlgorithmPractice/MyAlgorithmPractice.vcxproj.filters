@@ -1407,6 +1407,12 @@
     <ClCompile Include="2439.MinimizeMaximumofArray.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2434.UsingaRobottoPrinttheLexicographicallySmallestString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2433.FindtheOriginalArrayofPrefixXor.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">

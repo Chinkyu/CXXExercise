@@ -577,7 +577,13 @@
     <ClCompile Include="2320.CountNumberofWaystoPlaceHouses.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2439.MinimizeMaximumofArray.cpp" />
+    <ClCompile Include="2433.FindtheOriginalArrayofPrefixXor.cpp" />
+    <ClCompile Include="2434.UsingaRobottoPrinttheLexicographicallySmallestString.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2439.MinimizeMaximumofArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2442.CountNumberofDistinctIntegerAfterReverseOperations.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
