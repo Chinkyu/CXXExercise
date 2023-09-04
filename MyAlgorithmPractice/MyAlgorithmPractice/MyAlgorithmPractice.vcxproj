@@ -577,7 +577,10 @@
     <ClCompile Include="2320.CountNumberofWaystoPlaceHouses.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2431.MazimizeTotalTastinessofPurchasedFruits.cpp" />
+    <ClCompile Include="2429.MinimizeXOR.cpp" />
+    <ClCompile Include="2431.MazimizeTotalTastinessofPurchasedFruits.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2433.FindtheOriginalArrayofPrefixXor.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
