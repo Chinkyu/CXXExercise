@@ -577,7 +577,10 @@
     <ClCompile Include="2320.CountNumberofWaystoPlaceHouses.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2424.LongestUploadedPrefix.cpp" />
+    <ClCompile Include="2422.MergeOperationstoTurnArrayintoaPalindrome.cpp" />
+    <ClCompile Include="2424.LongestUploadedPrefix.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2425.BitwiseXORofAllPairings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
