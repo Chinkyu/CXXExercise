@@ -577,7 +577,10 @@
     <ClCompile Include="2320.CountNumberofWaystoPlaceHouses.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2420.FindAllGoodIndices.cpp" />
+    <ClCompile Include="2417. ClosestFairInteger.cpp" />
+    <ClCompile Include="2420.FindAllGoodIndices.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2422.MergeOperationstoTurnArrayintoaPalindrome.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
