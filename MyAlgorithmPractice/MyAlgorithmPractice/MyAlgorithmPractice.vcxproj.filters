@@ -1449,6 +1449,9 @@
     <ClCompile Include="2406.DivideIntervalsIntoMinimumNumberofGroups.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2405.OptimalPartitionofString.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
