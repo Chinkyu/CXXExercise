@@ -12,7 +12,7 @@
 
 using namespace std;
 
-class Solution {
+class _Solution {
 public:
 	int longestNiceSubarray(vector<int>& nums) {
 		int j = 0;
