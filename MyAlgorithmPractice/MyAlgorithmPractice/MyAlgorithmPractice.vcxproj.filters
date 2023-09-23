@@ -1464,6 +1464,9 @@
     <ClCompile Include="2396.StrictlyPalindromicNumber.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2393.CountStrictlyIncreasingSubarrays.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
