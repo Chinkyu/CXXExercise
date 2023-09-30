@@ -577,7 +577,10 @@
     <ClCompile Include="2320.CountNumberofWaystoPlaceHouses.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2380.TimeNeededtoRearrangeaBinaryString.cpp" />
+    <ClCompile Include="2378.ChooseEdgestoMaximizeScore.cpp" />
+    <ClCompile Include="2380.TimeNeededtoRearrangeaBinaryString.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2381.ShiftingLettersII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
