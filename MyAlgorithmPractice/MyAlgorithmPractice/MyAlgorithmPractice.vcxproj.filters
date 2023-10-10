@@ -1509,6 +1509,12 @@
     <ClCompile Include="2364.CountNumberofBadPairs.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2359.FindClosestNodetoGivenTwoNodes.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="2358.MaximumNumberofGroupsEnteringaCompetition.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
