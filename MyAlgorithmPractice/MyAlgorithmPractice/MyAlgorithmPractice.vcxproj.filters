@@ -1521,6 +1521,9 @@
     <ClCompile Include="2352.EqualRowandColumnPairs.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2349.DesignaNumberContainerSystem.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
