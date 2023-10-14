@@ -1527,6 +1527,9 @@
     <ClCompile Include="2348.NumberofZeroFilledSubarrays.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2345.FindingtheNumberofVisibleMountains.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
