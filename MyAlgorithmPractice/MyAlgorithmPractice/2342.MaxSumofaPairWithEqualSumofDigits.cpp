@@ -1,4 +1,4 @@
-// kinds of easy : set으로 해결 할려고 했는데 중복이 되어서..  vector 로
+// kinds of easy : set으로 해결 할려고 했는데 중복이 되어서..  v
 #include <iostream>
 #include <vector>
 #include <unordered_map>
