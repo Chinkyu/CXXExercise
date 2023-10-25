@@ -1554,6 +1554,9 @@
     <ClCompile Include="2332.TheLastTimetoCatchaBus.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2327.NumberofPeopleAwareofaSecret.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
