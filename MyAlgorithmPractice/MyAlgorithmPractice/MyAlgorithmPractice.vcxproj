@@ -571,10 +571,13 @@
     <ClCompile Include="230.KthSmallestElement.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2311.LongestBinarySubsequenceLessThanorEqualtoK.cpp" />
     <ClCompile Include="2316.CountUnreachablePairsofNodesinanUndirectedGraph.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2317.MaximumXORAfterOperations.cpp" />
+    <ClCompile Include="2317.MaximumXORAfterOperations.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2320.CountNumberofWaystoPlaceHouses.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
