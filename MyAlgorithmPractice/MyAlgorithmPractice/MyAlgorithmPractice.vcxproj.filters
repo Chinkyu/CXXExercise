@@ -1569,6 +1569,9 @@
     <ClCompile Include="2311.LongestBinarySubsequenceLessThanorEqualtoK.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2310.SumofNumbersWithUnitsDigitK.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
