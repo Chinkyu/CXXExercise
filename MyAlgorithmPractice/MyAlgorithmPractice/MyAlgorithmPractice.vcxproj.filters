@@ -1578,6 +1578,9 @@
     <ClCompile Include="2304.MinimumPathCostinaGrid.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2300.SuccessfulPairsofSpellsandPotions.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">

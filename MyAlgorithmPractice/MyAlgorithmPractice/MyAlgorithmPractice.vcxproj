@@ -571,7 +571,10 @@
     <ClCompile Include="230.KthSmallestElement.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2304.MinimumPathCostinaGrid.cpp" />
+    <ClCompile Include="2300.SuccessfulPairsofSpellsandPotions.cpp" />
+    <ClCompile Include="2304.MinimumPathCostinaGrid.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2305.FairDistributionofCookies.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
