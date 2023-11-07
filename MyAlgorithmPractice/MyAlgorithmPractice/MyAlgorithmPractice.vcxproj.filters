@@ -1587,6 +1587,9 @@
     <ClCompile Include="2295.ReplaceElementsinanArray.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2294.PartitionArraySuchThatMaximumDifferenceIsK.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
