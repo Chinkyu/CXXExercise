@@ -564,7 +564,10 @@
     <ClCompile Include="229.MajorityElementII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2294.PartitionArraySuchThatMaximumDifferenceIsK.cpp" />
+    <ClCompile Include="2291.MaximumProfitFromTradingStocks.cpp" />
+    <ClCompile Include="2294.PartitionArraySuchThatMaximumDifferenceIsK.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2295.ReplaceElementsinanArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
