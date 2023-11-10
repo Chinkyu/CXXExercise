@@ -1596,6 +1596,9 @@
     <ClCompile Include="2289.SteptoMakeArrayNondecreasing.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2288.ApplyDiscounttoPrices.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">

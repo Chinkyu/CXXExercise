@@ -561,7 +561,10 @@
     <ClCompile Include="2285.MaximumTotalImportanceofRoads.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2289.SteptoMakeArrayNondecreasing.cpp" />
+    <ClCompile Include="2288.ApplyDiscounttoPrices.cpp" />
+    <ClCompile Include="2289.SteptoMakeArrayNondecreasing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="229.MajorityElementII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
