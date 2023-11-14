@@ -555,10 +555,13 @@
     <Library Include="277.BasicCalculatorII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
+    <ClCompile Include="2275.LargestCombinationWithBitwiseANDGreaterThanZero.cpp" />
     <ClCompile Include="228.SummaryRanges.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2280.MinimumLinestoRepresentaLineChart.cpp" />
+    <ClCompile Include="2280.MinimumLinestoRepresentaLineChart.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2282.NumberofPeopleThatCanBeSeeninaGrid.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
