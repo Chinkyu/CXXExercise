@@ -1611,6 +1611,9 @@
     <ClCompile Include="2275.LargestCombinationWithBitwiseANDGreaterThanZero.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2279.MaximumBagsWithFullCapacityofRocks.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
