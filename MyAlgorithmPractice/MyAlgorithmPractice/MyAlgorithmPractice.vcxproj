@@ -555,7 +555,10 @@
     <Library Include="277.BasicCalculatorII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
-    <ClCompile Include="2271.MaximumWhiteTilesCoveredbyaCarpet.cpp" />
+    <ClCompile Include="2270.NumberofWaystoSplitArray.cpp" />
+    <ClCompile Include="2271.MaximumWhiteTilesCoveredbyaCarpet.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2274.MaximumConsecutiveFloorsWithoutSepcialFloors.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
