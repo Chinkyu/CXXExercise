@@ -555,7 +555,13 @@
     <Library Include="277.BasicCalculatorII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
-    <ClCompile Include="2268.MinimumNumberofKeypresses.cpp" />
+    <ClCompile Include="2265.CountNodesEqualtoAverageofSubtree.cpp" />
+    <ClCompile Include="2266.CountNumberofTexts.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2268.MinimumNumberofKeypresses.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2270.NumberofWaystoSplitArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
