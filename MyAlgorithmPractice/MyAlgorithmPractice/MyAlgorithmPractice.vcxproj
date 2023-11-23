@@ -555,7 +555,10 @@
     <Library Include="277.BasicCalculatorII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
-    <ClCompile Include="2260.MinimumConsecutiveCardstoPickUp.cpp" />
+    <ClCompile Include="2257.CountUnguardedCellsintheGrid.cpp" />
+    <ClCompile Include="2260.MinimumConsecutiveCardstoPickUp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2261.KDivisibleElementsSubarrays.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
