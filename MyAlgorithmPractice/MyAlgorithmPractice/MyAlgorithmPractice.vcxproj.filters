@@ -1641,6 +1641,9 @@
     <ClCompile Include="2257.CountUnguardedCellsintheGrid.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2256.MinimumAverageDifference.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
