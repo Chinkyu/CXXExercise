@@ -555,7 +555,13 @@
     <Library Include="277.BasicCalculatorII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
-    <ClCompile Include="2256.MinimumAverageDifference.cpp" />
+    <ClCompile Include="2249.CountLatticePointsInsideaCircle.cpp" />
+    <ClCompile Include="2250.CountNumberofRectanglesContainingEachPoint.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2256.MinimumAverageDifference.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2257.CountUnguardedCellsintheGrid.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
