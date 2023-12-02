@@ -558,7 +558,10 @@
     <Library Include="277.BasicCalculatorII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
-    <ClCompile Include="2245.MaximumTrailingZerosinaCorneredPath.cpp" />
+    <ClCompile Include="2244.MinimumRoundstoCompleteAllTasks.cpp" />
+    <ClCompile Include="2245.MaximumTrailingZerosinaCorneredPath.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2249.CountLatticePointsInsideaCircle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -1656,6 +1656,9 @@
     <ClCompile Include="2245.MaximumTrailingZerosinaCorneredPath.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2244.MinimumRoundstoCompleteAllTasks.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
