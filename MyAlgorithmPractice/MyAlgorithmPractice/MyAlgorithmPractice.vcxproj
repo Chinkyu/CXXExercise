@@ -558,7 +558,10 @@
     <Library Include="277.BasicCalculatorII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
-    <ClCompile Include="2241.DesignanATMMachine.cpp" />
+    <ClCompile Include="2240.NumberofWaystoBuyPensandPencils.cpp" />
+    <ClCompile Include="2241.DesignanATMMachine.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2244.MinimumRoundstoCompleteAllTasks.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
