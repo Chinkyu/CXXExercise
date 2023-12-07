@@ -1671,6 +1671,9 @@
     <ClCompile Include="2233.MaximumProductAfterKIncrements.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2232.MinimizeResultbyAddingParenthesestoExpression.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
