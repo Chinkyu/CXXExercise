@@ -552,13 +552,16 @@
     <ClCompile Include="222.NumberofWaystoSelectBuildings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2226.MaximumCandiesAllocatedtoKChildren.cpp" />
     <ClCompile Include="223.RectangleArea.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <Library Include="277.BasicCalculatorII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
-    <ClCompile Include="2232.MinimizeResultbyAddingParenthesestoExpression.cpp" />
+    <ClCompile Include="2232.MinimizeResultbyAddingParenthesestoExpression.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2233.MaximumProductAfterKIncrements.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
