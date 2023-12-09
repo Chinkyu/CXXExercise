@@ -1677,6 +1677,9 @@
     <ClCompile Include="2226.MaximumCandiesAllocatedtoKChildren.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2225.FindPlayersWithZeroorOneLosses.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
