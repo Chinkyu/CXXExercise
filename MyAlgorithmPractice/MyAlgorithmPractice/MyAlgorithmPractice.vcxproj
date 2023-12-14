@@ -543,7 +543,10 @@
     <ClCompile Include="221.MaximalSquare.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2212.MaximumPointsinanArcheryCompetition.cpp" />
+    <ClCompile Include="2211.CountCollisionsonaRoad.cpp" />
+    <ClCompile Include="2212.MaximumPointsinanArcheryCompetition.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2214.MinimumHealthtoBeatGame.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
