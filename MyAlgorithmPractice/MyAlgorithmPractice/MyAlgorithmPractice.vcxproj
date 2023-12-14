@@ -543,7 +543,13 @@
     <ClCompile Include="221.MaximalSquare.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2216.MinimumDeletionstoMakeArrayBeautiful.cpp" />
+    <ClCompile Include="2212.MaximumPointsinanArcheryCompetition.cpp" />
+    <ClCompile Include="2214.MinimumHealthtoBeatGame.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2216.MinimumDeletionstoMakeArrayBeautiful.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2217.FindPalindromeWithFixedLength.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
