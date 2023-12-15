@@ -540,10 +540,13 @@
     <ClCompile Include="220.ContainsDuplicateIII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2208.MinimumOperationstoHalveArraySum.cpp" />
     <ClCompile Include="221.MaximalSquare.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2211.CountCollisionsonaRoad.cpp" />
+    <ClCompile Include="2211.CountCollisionsonaRoad.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2212.MaximumPointsinanArcheryCompetition.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
