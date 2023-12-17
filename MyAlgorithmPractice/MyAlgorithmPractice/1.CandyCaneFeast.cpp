@@ -30,7 +30,7 @@ int main() {
 	for (int i = 0; i < n; ++i) {
 		int eat = 0;
 		for (int j = 0; j < m; ++j) {
-			if (candy[j] - height[j] > 0 && cow[i] > height[j]) {
+			if (candy[j] > height[j] && cow[i] > height[j]) {
 				int preHeight = height[j];
 				height[j] = cow[i];
 
@@ -46,4 +46,6 @@ int main() {
 
 	char c;
 	cin >> c;
+
+	return 0;
 }
