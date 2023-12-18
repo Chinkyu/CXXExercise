@@ -1716,6 +1716,39 @@
     <ClCompile Include="3.FarmerJohnActuallyFarms.cpp">
       <Filter>Source Files\USACO</Filter>
     </ClCompile>
+    <ClCompile Include="1.CandyCaneFeast_v0.1.cpp">
+      <Filter>Source Files\USACO</Filter>
+    </ClCompile>
+    <ClCompile Include="2.CowntackTracing2_v0.1.cpp">
+      <Filter>Source Files\USACO</Filter>
+    </ClCompile>
+    <ClCompile Include="3.FarmerJohnActuallyFarms_v0.1.cpp">
+      <Filter>Source Files\USACO</Filter>
+    </ClCompile>
+    <ClCompile Include="1.CandyCaneFeast_V0.2.cpp">
+      <Filter>Source Files\USACO</Filter>
+    </ClCompile>
+    <ClCompile Include="1.CandyCaneFeast_0.3_se.cpp">
+      <Filter>Source Files\USACO</Filter>
+    </ClCompile>
+    <ClCompile Include="1.CandyCaneFeast_v0.4.cpp">
+      <Filter>Source Files\USACO</Filter>
+    </ClCompile>
+    <ClCompile Include="1.CandyCaneFeast_v0.5.cpp">
+      <Filter>Source Files\USACO</Filter>
+    </ClCompile>
+    <ClCompile Include="1.CandyCaneFesat_v0.6.cpp">
+      <Filter>Source Files\USACO</Filter>
+    </ClCompile>
+    <ClCompile Include="1.CandyCaneFesat_v0.7.cpp">
+      <Filter>Source Files\USACO</Filter>
+    </ClCompile>
+    <ClCompile Include="3.FarmerJohnactuallyFarm_v0.2.cpp">
+      <Filter>Source Files\USACO</Filter>
+    </ClCompile>
+    <ClCompile Include="3.FarmerJohnactuallyFarms_v0.3.cpp">
+      <Filter>Source Files\USACO</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
