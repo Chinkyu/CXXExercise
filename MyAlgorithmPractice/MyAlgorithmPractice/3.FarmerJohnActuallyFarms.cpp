@@ -162,3 +162,65 @@ int main() {
 	char c;
 	cin >> c;
 }
+
+
+
+/*
+// background data 
+	vector<int> init	= { 1, 2, 3, 4, 5, 6, 7 };
+	vector<int> speed	= { 3, 3, 3, 3, 3, 3, 3 };
+	vector<int> ranking = { 6, 5, 4, 3, 2, 1, 0 };
+	0
+
+		vector<int> init	= { 1, 2, 3, 4, 5, 6, 7 };
+	vector<int> speed	= { 3, 3, 3, 3, 3, 3, 3 };
+	vector<int> ranking = { 5, 6, 4, 3, 2, 1, 0 };
+	-1
+
+		vector<int> init	= { 1, 1, 1, 4, 5, 6, 7 };
+	vector<int> speed	= { 20, 18, 17, 16, 15, 14, 13 };
+	vector<int> ranking = { 0, 1, 2, 3, 4, 5, 6 };
+	4 ->  correct
+
+
+		vector<int> init	= { 1, 3, 1, 4, 5, 6, 7 };
+	vector<int> speed	= { 20, 18, 17, 16, 15, 14, 13 };
+	vector<int> ranking = { 0, 1, 2, 3, 4, 5, 6 };
+	4 -> correct
+
+		vector<int> init	= { 1, 10, 1, 4, 5, 20, 7 };
+	vector<int> speed	= { 20, 18, 17, 16, 15, 14, 13 };
+	vector<int> ranking = { 0, 1, 2, 3, 4, 5, 6 };
+	16 -> correct
+
+		vector<int> init	= { 90, 100, 80, 70, 50, 40, 40 };
+	vector<int> speed	= {  7,  6,   5,  5,  5,  2,  1 };
+	vector<int> ranking = { 0, 1, 2, 3, 4, 5, 6 };
+	11 -> correct
+
+		vector<int> init	= { 200, 100, 80, 70, 50, 40, 50 };
+	vector<int> speed	= {  7,  6,   6,  5,  5,  5,  1 };
+	vector<int> ranking = { 0, 1, 2, 3, 4, 5, 6 };
+	int n = init.size();
+	=> 3
+
+	vector<int> init	= { 210,150,110,120,60,50,40};
+	vector<int> speed   = { 50,0,30,10,1,1,1};
+	vector<int> ranking = { 0, 1, 2, 3, 4, 5, 6 };
+	=>  -1 (Wrong), 1(true)
+	-> fix :
+	if (((tr[i - 1][3] - tr[i][3] < gap[i]) && (gap[i] < 0)) ||   // gap[i] <0
+
+		vector<int> init	= { 210,170,110,120,60,50,40};
+	vector<int> speed   = { 50,5,30,10,1,1,1};
+	vector<int> ranking = { 0, 1, 2, 3, 4, 5, 6 };
+	-> 1(true)
+
+		vector<int> init	= { 160,170,110,120,60,50,40};
+	vector<int> speed   = { 20,15,30,10,1,1,1};
+	vector<int> ranking = { 0, 1, 2, 3, 4, 5, 6 };
+	-> 3(true)
+
+
+
+*/

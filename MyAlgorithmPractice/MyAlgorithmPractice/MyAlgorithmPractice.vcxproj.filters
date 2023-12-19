@@ -1749,6 +1749,9 @@
     <ClCompile Include="3.FarmerJohnactuallyFarms_v0.3.cpp">
       <Filter>Source Files\USACO</Filter>
     </ClCompile>
+    <ClCompile Include="2202.MaximizetheTopmostElementAfterKMoves.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
