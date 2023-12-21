@@ -578,7 +578,10 @@
     <ClCompile Include="220.ContainsDuplicateIII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2202.MaximizetheTopmostElementAfterKMoves.cpp" />
+    <ClCompile Include="2201.CountArtifactsThatCanBeExtracted.cpp" />
+    <ClCompile Include="2202.MaximizetheTopmostElementAfterKMoves.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2207.MaximizeNumberofSubsequenceinaString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

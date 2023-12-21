@@ -14,6 +14,31 @@
 
 using namespace std;
 
+
+class Solution {
+public:
+	int maximumTop(vector<int>& nums, int k) {
+		if (!k) return nums[0];
+
+		int n = nums.size();
+		int mx = 0;
+		vector<int> prefix;
+		for (int i : nums) {
+			mx = max(mx, i);
+			prefix.push_back(mx);
+		}
+
+		if (k > n) {
+			if (n == 1) return k % 2 ? -1 : mx;
+			return mx;
+		}
+		if (k == 1) return n == 1 ? -1 : nums[1];
+		if (k == n) return prefix[n - 2];
+		return max(prefix[k - 2], nums[k]);
+	}
+};
+
+
 class Solution {
 public:
 	int maximumTop(vector<int>& nums, int k) {
