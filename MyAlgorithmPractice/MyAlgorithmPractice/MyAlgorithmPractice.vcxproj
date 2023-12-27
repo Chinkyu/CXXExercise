@@ -572,7 +572,10 @@
     <ClCompile Include="2171.RemovingMinimumNumberofMagicBeans.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2191.SortTheJumbledNumbers.cpp" />
+    <ClCompile Include="2189.NumberofWaystoBuildHouseofCards.cpp" />
+    <ClCompile Include="2191.SortTheJumbledNumbers.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2192.AllAncestorsofaNodeinaDirectedAcyclicGraph.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

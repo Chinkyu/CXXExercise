@@ -1770,6 +1770,9 @@
     <ClCompile Include="2191.SortTheJumbledNumbers.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2189.NumberofWaystoBuildHouseofCards.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
