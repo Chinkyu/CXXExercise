@@ -572,7 +572,10 @@
     <ClCompile Include="2171.RemovingMinimumNumberofMagicBeans.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2187.MinimumTimetoCompleteTrips.cpp" />
+    <ClCompile Include="2186.MinimumNumberofStepstoMakeTwoStringsAnagramII.cpp" />
+    <ClCompile Include="2187.MinimumTimetoCompleteTrips.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2189.NumberofWaystoBuildHouseofCards.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

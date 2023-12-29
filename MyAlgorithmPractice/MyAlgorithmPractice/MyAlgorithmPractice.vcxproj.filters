@@ -1776,6 +1776,9 @@
     <ClCompile Include="2187.MinimumTimetoCompleteTrips.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2186.MinimumNumberofStepstoMakeTwoStringsAnagramII.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
