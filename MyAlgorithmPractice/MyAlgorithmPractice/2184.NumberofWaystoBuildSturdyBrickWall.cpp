@@ -1,5 +1,4 @@
-//  답봤음 
-//  모든 컨비네이션 찾은후에.. 중복되지 않는  그래프를 만든뒤에  트레버스 하면서 개수를 찾아 낸다 
+//  easy
 #include <iostream>
 #include <sstream>
 #include <vector>
@@ -16,7 +15,9 @@
 
 using namespace std;
 
-class Solution {
+
+// answer from site
+class _Solution {
 public:
 	int dp[101][1024] = {};
 	int dfs_h(int h, int prev, const vector<int>& masks) {
@@ -42,6 +43,60 @@ public:
 	}
 	int buildWall(int height, int width, vector<int>& bricks) {
 		return dfs_h(height, 0, dfs_w(0, width, bricks, 0, vector<int>() = {}));
+	}
+};
+
+
+class Solution {
+public:
+	void findCombination(int width, vector<int> &bricks, set<vector<int>> &s, int cWidth, vector<int> &cBricks) {
+
+		// for safety
+		if (cWidth > width) {
+			return;
+		}
+
+		for (auto &it : bricks) {
+			if (cWidth + it > width) {
+				break;
+			}
+			else if (cWidth + it < width) {
+				cWidth += it;
+				cBricks.push_back(cWidth);
+				findCombination(width, bricks, s, cWidth, cBricks);
+				cBricks.pop_back();
+				cWidth -= it;
+			}
+			else {  // == 
+				s.insert(cBricks);
+				for (auto &it : cBricks) {
+					cout << it << " ";
+				}
+				cout << endl;
+
+				break;
+			}
+		}
+
+	}
+
+
+	int buildWall(int height, int width, vector<int>& bricks) {
+
+		// find all combinations 
+		set<vector<int>>  s;
+		int cWidth = 0;
+		vector<int> cBricks;
+
+		sort(bricks.begin(), bricks.end());
+
+		vector<int> t = { 1, 2, 3 };
+		s.insert(t);
+
+		findCombination(width, bricks, s, cWidth, cBricks);
+
+
+		return 1;
 	}
 };
 

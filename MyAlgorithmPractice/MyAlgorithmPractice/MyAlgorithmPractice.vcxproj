@@ -572,7 +572,10 @@
     <ClCompile Include="2171.RemovingMinimumNumberofMagicBeans.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2184.NumberofWaystoBuildSturdyBrickWall.cpp" />
+    <ClCompile Include="2182.ConstructStringWithRepeatLimit.cpp" />
+    <ClCompile Include="2184.NumberofWaystoBuildSturdyBrickWall.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2186.MinimumNumberofStepstoMakeTwoStringsAnagramII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
