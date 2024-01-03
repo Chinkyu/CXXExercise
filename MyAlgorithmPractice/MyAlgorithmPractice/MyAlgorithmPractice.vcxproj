@@ -572,7 +572,10 @@
     <ClCompile Include="2171.RemovingMinimumNumberofMagicBeans.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2181.MergeNodesinBetweenZeros.cpp" />
+    <ClCompile Include="2178.MaximumSplitofPositiveEvenIntegers.cpp" />
+    <ClCompile Include="2181.MergeNodesinBetweenZeros.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2182.ConstructStringWithRepeatLimit.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
