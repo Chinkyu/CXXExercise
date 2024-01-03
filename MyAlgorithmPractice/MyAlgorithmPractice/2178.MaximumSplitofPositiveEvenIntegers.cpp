@@ -15,7 +15,7 @@
 
 using namespace std;
 
-class Solution {
+class _Solution {
 public:
 	vector<long long> maximumEvenSplit(long long n) {
 		if (n % 2) // odd
@@ -39,15 +39,42 @@ public:
 	}
 };
 
+class Solution {
+public:
+	vector<long long> maximumEvenSplit(long long n) {
+		vector<long long> ans;
+
+		if (n % 2 == 1) return ans;
+
+		long long num = 0, sum = 0;
+		long long inc = 2;
+
+		while (sum + num + 2 <= n) {
+			num += 2;
+			ans.push_back(num);
+			sum += num;
+		}
+		
+		if (sum < n) {
+			ans[ans.size() - 1] += n - sum;
+		}
+
+		return ans;
+	}
+};
+
+
 
 int main() {
 	char c;
 
 	Solution sol;
 
-	string s = "robnsdvpuxbapuqgopqvxdrchivlifeepy";
+	vector<long long> ans = sol.maximumEvenSplit(28);
 
-	cout << sol.repeatLimitedString(s, 2);
+	for (auto &it : ans) {
+		cout << it << " ";
+	}
 
 	cin >> c;
 
