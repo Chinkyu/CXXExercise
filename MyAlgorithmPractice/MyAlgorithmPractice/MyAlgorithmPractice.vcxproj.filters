@@ -1791,6 +1791,9 @@
     <ClCompile Include="2178.MaximumSplitofPositiveEvenIntegers.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2177.FindThreeConsecutiveIntegersThatSumtoaGivenNumber.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
