@@ -569,10 +569,16 @@
     <ClCompile Include="2161.PartitionArrayAccordingtoGivenPivot.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2170.MinimumOperationstoMaketheArrayAlternating.cpp" />
     <ClCompile Include="2171.RemovingMinimumNumberofMagicBeans.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2177.FindThreeConsecutiveIntegersThatSumtoaGivenNumber.cpp" />
+    <ClCompile Include="2174.RemoveAllOnesWithRowandColumnFlipsII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2177.FindThreeConsecutiveIntegersThatSumtoaGivenNumber.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2178.MaximumSplitofPositiveEvenIntegers.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

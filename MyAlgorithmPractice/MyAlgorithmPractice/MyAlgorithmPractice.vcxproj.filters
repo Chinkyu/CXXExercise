@@ -1794,6 +1794,12 @@
     <ClCompile Include="2177.FindThreeConsecutiveIntegersThatSumtoaGivenNumber.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2174.RemoveAllOnesWithRowandColumnFlipsII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2170.MinimumOperationstoMaketheArrayAlternating.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
