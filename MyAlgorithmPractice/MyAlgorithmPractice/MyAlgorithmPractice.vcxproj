@@ -569,7 +569,10 @@
     <ClCompile Include="2161.PartitionArrayAccordingtoGivenPivot.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2168.UniqueSubstringsWithEqualDigitFrequency.cpp" />
+    <ClCompile Include="2166.DesignBitset.cpp" />
+    <ClCompile Include="2168.UniqueSubstringsWithEqualDigitFrequency.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2170.MinimumOperationstoMaketheArrayAlternating.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
