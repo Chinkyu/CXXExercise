@@ -1809,6 +1809,9 @@
     <ClCompile Include="2165.SmallestValueoftheRearrangedNumber.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2162.MinimumCosttoSetCookingTime.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">

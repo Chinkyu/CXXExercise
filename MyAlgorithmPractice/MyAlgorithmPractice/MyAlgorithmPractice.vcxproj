@@ -569,7 +569,10 @@
     <ClCompile Include="2161.PartitionArrayAccordingtoGivenPivot.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2165.SmallestValueoftheRearrangedNumber.cpp" />
+    <ClCompile Include="2162.MinimumCosttoSetCookingTime.cpp" />
+    <ClCompile Include="2165.SmallestValueoftheRearrangedNumber.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2166.DesignBitset.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
