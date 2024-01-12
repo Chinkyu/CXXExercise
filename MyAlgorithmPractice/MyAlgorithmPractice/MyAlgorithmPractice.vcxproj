@@ -563,13 +563,16 @@
     <ClCompile Include="215.KthLargestElementinanArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2155.AlldivisionsWiththeHighestScoreofaBinaryArray.cpp" />
     <ClCompile Include="216.CombinationSumII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="2161.PartitionArrayAccordingtoGivenPivot.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2162.MinimumCosttoSetCookingTime.cpp" />
+    <ClCompile Include="2162.MinimumCosttoSetCookingTime.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2165.SmallestValueoftheRearrangedNumber.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
