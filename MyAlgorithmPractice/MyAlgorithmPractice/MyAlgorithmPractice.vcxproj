@@ -563,7 +563,10 @@
     <ClCompile Include="215.KthLargestElementinanArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2155.AlldivisionsWiththeHighestScoreofaBinaryArray.cpp" />
+    <ClCompile Include="2152.MinimumNumberofLinestoCoverPoints.cpp" />
+    <ClCompile Include="2155.AlldivisionsWiththeHighestScoreofaBinaryArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="216.CombinationSumII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
