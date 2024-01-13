@@ -1818,6 +1818,9 @@
     <ClCompile Include="2152.MinimumNumberofLinestoCoverPoints.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2150.FindAllLoneyNumbersintheArray.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
