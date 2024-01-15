@@ -1,4 +1,5 @@
 // 답봤음 :   bfs + sorting   .....  
+// 이것을  distance 로 하는것 보다... queue를 써서 바깥으로 가면서 추가 하는 방법으로 하면 좋겠음.. 
 #include <iostream>
 #include <vector>
 #include <unordered_map>
