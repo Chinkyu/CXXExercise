@@ -1842,6 +1842,9 @@
     <ClCompile Include="2134.MinimumSwapstoGroupAll1TogetherII.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2131.LongestPalindromebyConcatenatingTwoLetterWords.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">

@@ -549,7 +549,10 @@
     <ClCompile Include="213.HouseRobberII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2134.MinimumSwapstoGroupAll1TogetherII.cpp" />
+    <ClCompile Include="2131.LongestPalindromebyConcatenatingTwoLetterWords.cpp" />
+    <ClCompile Include="2134.MinimumSwapstoGroupAll1TogetherII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2135.CountWordsObtainedAfterAddingaLetter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

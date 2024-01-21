@@ -27,12 +27,7 @@ public:
 		}
 		return res;
 	}
-}
-
-}
-
-
-
+};
 
 // wrong approach
 class Solution {
