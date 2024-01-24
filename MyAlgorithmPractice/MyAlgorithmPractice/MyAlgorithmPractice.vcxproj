@@ -542,6 +542,7 @@
     <ClCompile Include="2120.ExecutionofAllSuffixInstructionsStayinginaGrid.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2128.RemoveAllOneswithRawandColumnFlips.cpp" />
     <ClCompile Include="2128.RemoveAllOnesWithRowAndColumnFilps.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
@@ -549,7 +550,9 @@
     <ClCompile Include="213.HouseRobberII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2130.MaximumTwinSumofaLinkedList.cpp" />
+    <ClCompile Include="2130.MaximumTwinSumofaLinkedList.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2131.LongestPalindromebyConcatenatingTwoLetterWords.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
