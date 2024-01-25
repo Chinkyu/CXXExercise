@@ -1851,6 +1851,9 @@
     <ClCompile Include="2128.RemoveAllOneswithRawandColumnFlips.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2126.DestroyingAsteroids.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">

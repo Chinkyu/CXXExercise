@@ -542,7 +542,10 @@
     <ClCompile Include="2120.ExecutionofAllSuffixInstructionsStayinginaGrid.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2128.RemoveAllOneswithRawandColumnFlips.cpp" />
+    <ClCompile Include="2126.DestroyingAsteroids.cpp" />
+    <ClCompile Include="2128.RemoveAllOneswithRawandColumnFlips.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2128.RemoveAllOnesWithRowAndColumnFilps.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
