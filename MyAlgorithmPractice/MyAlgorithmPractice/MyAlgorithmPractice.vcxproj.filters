@@ -1863,6 +1863,12 @@
     <ClCompile Include="2116.CheckIfaParanthesesStringCanBeValid.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2115.FindAllPossibleRecipesfromGivenSupplies.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="2113.ElementsinArrayAfterRemovingandReplacingElements.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">

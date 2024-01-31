@@ -536,7 +536,13 @@
     <ClCompile Include="211.AddandSearchSord.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2116.CheckIfaParanthesesStringCanBeValid.cpp" />
+    <ClCompile Include="2113.ElementsinArrayAfterRemovingandReplacingElements.cpp" />
+    <ClCompile Include="2115.FindAllPossibleRecipesfromGivenSupplies.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2116.CheckIfaParanthesesStringCanBeValid.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="212.WordSearchII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
