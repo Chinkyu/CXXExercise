@@ -536,7 +536,10 @@
     <ClCompile Include="211.AddandSearchSord.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2113.ElementsinArrayAfterRemovingandReplacingElements.cpp" />
+    <ClCompile Include="2110.NumberofSmoothDescentPeriodsofaStock.cpp" />
+    <ClCompile Include="2113.ElementsinArrayAfterRemovingandReplacingElements.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2115.FindAllPossibleRecipesfromGivenSupplies.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
