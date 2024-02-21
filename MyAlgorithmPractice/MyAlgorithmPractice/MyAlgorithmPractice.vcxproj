@@ -533,10 +533,13 @@
     <ClCompile Include="207.CouseSchedule.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2109.AddingSpacesToAString.cpp" />
     <ClCompile Include="211.AddandSearchSord.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2110.NumberofSmoothDescentPeriodsofaStock.cpp" />
+    <ClCompile Include="2110.NumberofSmoothDescentPeriodsofaStock.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2113.ElementsinArrayAfterRemovingandReplacingElements.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
