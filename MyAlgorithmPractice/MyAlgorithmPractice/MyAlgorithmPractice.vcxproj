@@ -533,7 +533,10 @@
     <ClCompile Include="207.CouseSchedule.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2109.AddingSpacesToAString.cpp" />
+    <ClCompile Include="2107.NumberofUniqueFlavorsAfterSharingKCandies.cpp" />
+    <ClCompile Include="2109.AddingSpacesToAString.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="211.AddandSearchSord.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
