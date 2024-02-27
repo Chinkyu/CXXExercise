@@ -533,7 +533,10 @@
     <ClCompile Include="207.CouseSchedule.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2101.DetonatetheMaximumBombs.cpp" />
+    <ClCompile Include="2100.FindBoodDaystoRobtheBank.cpp" />
+    <ClCompile Include="2101.DetonatetheMaximumBombs.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2104.SumofSubarrayRanges.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
