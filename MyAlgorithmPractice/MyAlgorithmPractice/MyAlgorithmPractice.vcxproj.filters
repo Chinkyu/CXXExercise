@@ -1893,6 +1893,9 @@
     <ClCompile Include="2098.SubsequenceofSizeKWithTheLargestEvenSum.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2096.StepByStepDirectionsFromaBinaryTreeNodetoAnother.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
