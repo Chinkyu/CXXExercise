@@ -527,7 +527,10 @@
     <ClCompile Include="209.MinSizeSubarraySum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2096.StepByStepDirectionsFromaBinaryTreeNodetoAnother.cpp" />
+    <ClCompile Include="2095.DeletetheMiddleNodeofaLinkedList.cpp" />
+    <ClCompile Include="2096.StepByStepDirectionsFromaBinaryTreeNodetoAnother.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2098.SubsequenceofSizeKWithTheLargestEvenSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
