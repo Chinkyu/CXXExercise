@@ -1899,6 +1899,12 @@
     <ClCompile Include="2095.DeletetheMiddleNodeofaLinkedList.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2093.MinimumCosttoReachCityWithDiscounts.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="2091.RemovingMinimumandMaximumFromArray.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
