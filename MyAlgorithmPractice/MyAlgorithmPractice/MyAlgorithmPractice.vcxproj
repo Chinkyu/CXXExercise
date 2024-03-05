@@ -527,7 +527,10 @@
     <ClCompile Include="209.MinSizeSubarraySum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2091.RemovingMinimumandMaximumFromArray.cpp" />
+    <ClCompile Include="2090.KRadiusSubarrayAverages.cpp" />
+    <ClCompile Include="2091.RemovingMinimumandMaximumFromArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2093.MinimumCosttoReachCityWithDiscounts.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
