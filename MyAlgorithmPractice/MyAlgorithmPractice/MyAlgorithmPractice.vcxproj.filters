@@ -1908,6 +1908,9 @@
     <ClCompile Include="2090.KRadiusSubarrayAverages.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2086.MinimumNumberofFoodBucketstoFeedtheHamsters.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
