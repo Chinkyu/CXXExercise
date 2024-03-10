@@ -1917,6 +1917,12 @@
     <ClCompile Include="2079.WateringPlants.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2077.PathinMazeThatLeadtoSameRoom.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="2075.DecodetheSlantedCipherText.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
