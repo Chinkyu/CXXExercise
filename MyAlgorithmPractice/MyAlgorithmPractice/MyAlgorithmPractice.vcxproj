@@ -514,7 +514,10 @@
     <ClCompile Include="2070.MostBeautifulItemforEachQuery.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2075.DecodetheSlantedCipherText.cpp" />
+    <ClCompile Include="2074.ReverseNodesinEvenLengthGroups.cpp" />
+    <ClCompile Include="2075.DecodetheSlantedCipherText.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2077.PathinMazeThatLeadtoSameRoom.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
