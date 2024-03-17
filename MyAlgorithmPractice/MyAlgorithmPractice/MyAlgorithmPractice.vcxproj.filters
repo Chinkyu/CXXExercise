@@ -1935,6 +1935,9 @@
     <ClCompile Include="2063.VowelsofAllStrings.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2061.NumberofspacesCleaningrobotCleaned.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">

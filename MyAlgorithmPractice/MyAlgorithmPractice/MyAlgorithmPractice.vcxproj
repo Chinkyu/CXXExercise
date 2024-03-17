@@ -508,7 +508,10 @@
     <ClCompile Include="2058.FindMinMaxOfCriticalPoint.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2063.VowelsofAllStrings.cpp" />
+    <ClCompile Include="2061.NumberofspacesCleaningrobotCleaned.cpp" />
+    <ClCompile Include="2063.VowelsofAllStrings.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2064.MinimizedMaximumofProductsDistributedtoAnyStore.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
