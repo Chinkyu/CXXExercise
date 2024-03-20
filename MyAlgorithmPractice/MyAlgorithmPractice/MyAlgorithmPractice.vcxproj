@@ -505,10 +505,13 @@
     <ClCompile Include="2049.CountNodesWithTheHighestScore.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2055.PlatesBetweenCandles.cpp" />
     <ClCompile Include="2058.FindMinMaxOfCriticalPoint.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2059.MinimumOperationstoConvertNumber.cpp" />
+    <ClCompile Include="2059.MinimumOperationstoConvertNumber.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2061.NumberofspacesCleaningrobotCleaned.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
