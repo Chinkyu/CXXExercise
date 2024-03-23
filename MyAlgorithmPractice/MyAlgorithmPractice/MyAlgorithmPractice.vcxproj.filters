@@ -1953,6 +1953,9 @@
     <ClCompile Include="2048.NextGreaterNumericallyBalancedNumber.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2046.SortLinkedListAlreadySortedUsingAbsoluteValues.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
