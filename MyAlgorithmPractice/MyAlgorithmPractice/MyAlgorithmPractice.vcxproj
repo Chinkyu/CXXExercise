@@ -502,7 +502,10 @@
     <ClCompile Include="2024.MaximizetheConfusionofanExam.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2043.SimpleBankSystem.cpp" />
+    <ClCompile Include="2039.TheTimeWhentheNetworkBecomeIdle.cpp" />
+    <ClCompile Include="2043.SimpleBankSystem.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2044.CountNumberofMaximumBitwiseOfSubsets.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
