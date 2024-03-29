@@ -502,7 +502,10 @@
     <ClCompile Include="2024.MaximizetheConfusionofanExam.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2036.MaximumAlternatingSubarraySum.cpp" />
+    <ClCompile Include="2034.StockPriceFluctuation.cpp" />
+    <ClCompile Include="2036.MaximumAlternatingSubarraySum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2038.RemoveColoredPiecesIfBothNeighborsaretheSameColor.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
