@@ -1,4 +1,4 @@
-//  답봤음 : 타입아웃
+//  답봤음 : multiset 가지고 하니까 너무 쉬운데...
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -15,6 +15,41 @@
 using namespace std;
 
 class StockPrice {
+public:
+	map<int, int> m;
+	multiset<int> s;
+	//int time = -1, cur = -1;
+
+	StockPrice() {
+		m.clear();
+		s.clear();
+	}
+
+	void update(int timestamp, int price) {
+
+		if (m.find(timestamp) != m.end()) {
+			s.erase(s.find(m[timestamp]));
+		}
+
+		m[timestamp] = price;
+		s.insert(price);
+	}
+
+	int current() {
+		return m.rbegin()->second;
+	}
+
+	int maximum() {
+		return *s.rbegin();
+	}
+	int minimum() {
+		return *s.begin();
+	}
+};
+
+
+
+class __StockPrice {
 public:
 	map<int, int> mp;
 	multiset<int> mset;
@@ -64,7 +99,7 @@ public:
  * int param_4 = obj->minimum();
  */
 
-class StockPrice {
+class _StockPrice {
 public:
 	map<int, int> m;
 	int min;
