@@ -502,7 +502,10 @@
     <ClCompile Include="2024.MaximizetheConfusionofanExam.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2033.MinimumOperationstoMakeaUniValueGrid.cpp" />
+    <ClCompile Include="2031.CountSubarraysWithMoreOnesThanZeros.cpp" />
+    <ClCompile Include="2033.MinimumOperationstoMakeaUniValueGrid.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2034.StockPriceFluctuation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
