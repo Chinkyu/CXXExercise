@@ -496,7 +496,10 @@
     <ClCompile Include="201.BitwiseAndofNumbersRange.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2021.BrightestPositiononStreet.cpp" />
+    <ClCompile Include="2018.CheckIfWorldCanBePlacedInCrossword.cpp" />
+    <ClCompile Include="2021.BrightestPositiononStreet.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2023.NumberofPairsofStringwithConcatenationforTarget.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
