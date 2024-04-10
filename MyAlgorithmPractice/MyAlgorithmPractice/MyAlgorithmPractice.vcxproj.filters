@@ -2004,6 +2004,9 @@
     <ClCompile Include="2012.SumofBeautyintheArray.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2008.MaximumEarningsFromTaxi.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
