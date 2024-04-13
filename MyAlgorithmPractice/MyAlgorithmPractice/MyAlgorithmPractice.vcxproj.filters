@@ -2007,6 +2007,15 @@
     <ClCompile Include="2008.MaximumEarningsFromTaxi.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="2007.FindOriginalArrayFromDoubledArray.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="2001.NumberofPairsofInterchangableRectangles.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1999.SmallestGreaterMultipleMadeofTwoDigits.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
