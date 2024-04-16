@@ -480,7 +480,10 @@
     <ClCompile Include="199.BinTreeRightSideView.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1996.TheNumberofWeekCharactersintheGame.cpp" />
+    <ClCompile Include="1993.OperationsonTree.cpp" />
+    <ClCompile Include="1996.TheNumberofWeekCharactersintheGame.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1997.FirstDayWhereYouHaveBeeninAlltheRooms.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
