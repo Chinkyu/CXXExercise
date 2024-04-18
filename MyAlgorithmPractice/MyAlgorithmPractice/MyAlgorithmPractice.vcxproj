@@ -474,13 +474,16 @@
     <ClCompile Include="1981.!_MinDiffBetweenTargetAndChoosenElements.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1986.MinimumNumberofWorkSessionstoFinishtheTasks.cpp" />
     <ClCompile Include="1989.MaximumNumberofPeopleThatCanBeCaughtinTag.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="199.BinTreeRightSideView.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1992.FindAllGroupsofFarmland.cpp" />
+    <ClCompile Include="1992.FindAllGroupsofFarmland.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1993.OperationsonTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
