@@ -474,7 +474,10 @@
     <ClCompile Include="1981.!_MinDiffBetweenTargetAndChoosenElements.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1986.MinimumNumberofWorkSessionstoFinishtheTasks.cpp" />
+    <ClCompile Include="1985.FindtheKthLargestIntegerintheArray.cpp" />
+    <ClCompile Include="1986.MinimumNumberofWorkSessionstoFinishtheTasks.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1989.MaximumNumberofPeopleThatCanBeCaughtinTag.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
