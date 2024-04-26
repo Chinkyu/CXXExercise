@@ -468,7 +468,10 @@
     <ClCompile Include="1894.FindtheStudentthatWillReplacetheChalk.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1968.ArrayWithelementsNotEqualtoAverageofNeighbors.cpp" />
+    <ClCompile Include="1966.BinarySearchableNumbersinanUnsortedArray.cpp" />
+    <ClCompile Include="1968.ArrayWithelementsNotEqualtoAverageofNeighbors.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1969.MinimumNonZeroProductoftheArrayElements.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

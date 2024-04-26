@@ -2052,6 +2052,9 @@
     <ClCompile Include="1968.ArrayWithelementsNotEqualtoAverageofNeighbors.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="1966.BinarySearchableNumbersinanUnsortedArray.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">

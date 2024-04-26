@@ -42,6 +42,9 @@
     <ClCompile Include="01.BracesCheck1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="packed_structure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="40.Dijkstra1.cpp">
