@@ -468,7 +468,10 @@
     <ClCompile Include="1894.FindtheStudentthatWillReplacetheChalk.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1962.RemoveStonestoMinimizetheTotal.cpp" />
+    <ClCompile Include="1959.MinimumTotalSpaceWastedWithKResizingOperations.cpp" />
+    <ClCompile Include="1962.RemoveStonestoMinimizetheTotal.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1963.MinimumNumberofSwaptoMaketheStringBalanced.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
