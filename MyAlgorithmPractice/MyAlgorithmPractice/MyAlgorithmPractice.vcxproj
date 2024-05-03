@@ -468,7 +468,10 @@
     <ClCompile Include="1894.FindtheStudentthatWillReplacetheChalk.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1954.MinimumGardenPerimetertoCollectEnoughApples.cpp" />
+    <ClCompile Include="1953.MaximumNumberofWeeksforWhichYouCanWork.cpp" />
+    <ClCompile Include="1954.MinimumGardenPerimetertoCollectEnoughApples.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1958.CheckIfMoveILLegal.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
