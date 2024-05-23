@@ -2100,6 +2100,9 @@
     <ClCompile Include="1930.UniqueLengh3PalindromicSubsequences.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="1927.SumGame.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
