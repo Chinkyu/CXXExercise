@@ -468,7 +468,10 @@
     <ClCompile Include="1894.FindtheStudentthatWillReplacetheChalk.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1922.CountGoodNumbers.cpp" />
+    <ClCompile Include="1921.EliminateMaximumNumberofMonsters.cpp" />
+    <ClCompile Include="1922.CountGoodNumbers.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1926.NearestExitfromEntranceInMaze.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
