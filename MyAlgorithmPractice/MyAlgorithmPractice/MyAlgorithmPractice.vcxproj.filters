@@ -2115,6 +2115,9 @@
     <ClCompile Include="1915.NumberofWonderfulSubstrings.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="1914.CyclicallyRotatingaGrid.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
