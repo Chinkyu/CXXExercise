@@ -468,7 +468,13 @@
     <ClCompile Include="1894.FindtheStudentthatWillReplacetheChalk.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1914.CyclicallyRotatingaGrid.cpp" />
+    <ClCompile Include="1910.RemoveAllOccurrencesofaSubstring.cpp" />
+    <ClCompile Include="1911.MaximumAlternatingSubsequenceSum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1914.CyclicallyRotatingaGrid.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1915.NumberofWonderfulSubstrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

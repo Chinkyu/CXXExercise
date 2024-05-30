@@ -2118,6 +2118,12 @@
     <ClCompile Include="1914.CyclicallyRotatingaGrid.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="1911.MaximumAlternatingSubsequenceSum.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1910.RemoveAllOccurrencesofaSubstring.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
