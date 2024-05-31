@@ -2124,6 +2124,9 @@
     <ClCompile Include="1910.RemoveAllOccurrencesofaSubstring.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
     </ClCompile>
+    <ClCompile Include="1906.MinimumAbsoluteDifferenceQueries.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
