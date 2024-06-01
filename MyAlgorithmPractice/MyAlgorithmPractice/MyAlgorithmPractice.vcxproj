@@ -468,7 +468,10 @@
     <ClCompile Include="1894.FindtheStudentthatWillReplacetheChalk.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1906.MinimumAbsoluteDifferenceQueries.cpp" />
+    <ClCompile Include="1905.CountSubIslands.cpp" />
+    <ClCompile Include="1906.MinimumAbsoluteDifferenceQueries.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1910.RemoveAllOccurrencesofaSubstring.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
