@@ -61,6 +61,9 @@
     <Filter Include="Source Files\USACO">
       <UniqueIdentifier>{6c6d6ec8-f003-4ebe-ab0b-ac4911e8a599}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\SunnyIDTest\Hard">
+      <UniqueIdentifier>{007136e4-b181-4568-bd3f-fab49ac96669}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="00.Test1.cpp">
@@ -2138,6 +2141,12 @@
     </ClCompile>
     <ClCompile Include="1899.MergeTripletstoFormTargetTriplet.cpp">
       <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1989.MaximumNumberofRemovableCharacters.cpp">
+      <Filter>Source Files\SunnyIDTest</Filter>
+    </ClCompile>
+    <ClCompile Include="4.MedianofTwoSortedArrays.cpp">
+      <Filter>Source Files\SunnyIDTest\Hard</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
