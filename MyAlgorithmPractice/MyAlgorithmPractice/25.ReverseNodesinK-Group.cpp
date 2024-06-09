@@ -1,4 +1,4 @@
-//  ¥‰∫√¿Ω 
+//  tricky 
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -35,6 +35,64 @@ struct ListNode {
 	ListNode() : val(0), next(nullptr) {}
 	ListNode(int x) : val(x), next(nullptr) {}
 	ListNode(int x, ListNode* next) : val(x), next(next) {}
+};
+
+class Solution {
+public:
+
+	ListNode * reverse(ListNode* s, int k) {
+
+		ListNode* end = nullptr, * ol = nullptr;
+		ListNode* p, * q = nullptr, * r;
+
+		// check k number
+		p = s;
+		for (int i = 0; i < k; ++i) {
+			if (p == nullptr) return nullptr;
+			p = p->next;
+		}
+
+		p = s;
+		end = s;
+		r = nullptr;
+		for (int i = 0; i < k; ++i) {
+			q = p->next;
+			p->next = r;
+			r = p;
+			p = q;
+		}
+
+		end->next = p;
+		s = r;
+		return s;
+	}
+
+	ListNode* reverseKGroup(ListNode* head, int k) {
+
+		ListNode* l = nullptr, * p_last = nullptr;
+		ListNode* p, * q, * r;
+		ListNode* ans = nullptr;
+		
+		ans = reverse(head, k);
+
+		if (ans == nullptr) return head;
+
+		p = r = ans;
+		for (int i = 0; i < k; ++i) {
+			r = p;
+			p = p->next;
+		}
+		
+		while (p = reverse(p, k)) {
+			r->next = p;
+			for (int i = 0; i < k; ++i) {
+				r = p;
+				p = p->next;
+			}
+		}
+
+		return ans;
+	}
 };
 
 class _Solution {
@@ -86,62 +144,6 @@ public:
 	}
 };
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
-class Solution {
-public:
-	ListNode* reverseKGroup(ListNode* head, int k) {
-		ListNode* prev = NULL, * curr = head, * start = head;
-		int count = 0, totalcount = 0;
-
-		// Create a dummy node to serve as the head of the final list
-		ListNode* dummy = new ListNode(0);
-		ListNode* end = dummy;
-
-		// Count the total number of nodes in the list
-		int n = 0;
-		ListNode* temp = head;
-		while (temp != nullptr)
-		{
-			n++;
-			temp = temp->next;
-		}
-		while (curr != nullptr)
-		{
-			// Reversing 
-			ListNode* nxt = curr->next;
-			curr->next = prev;
-			prev = curr;
-			curr = nxt;
-			count++;
-			totalcount++; //keep track of num of nodes processed
-
-			// If we have reversed k nodes, we link the reversed group to the final list
-			if (count == k)
-			{
-				count = 0; // Reset count if k elements are reached
-				end->next = prev; // This will be the first element of reversed group
-				end = start;
-				start->next = curr; // Linking the start of reversed group to rest of the list
-				start = curr;
-				prev = NULL;
-
-				// If there are less than k nodes left, we break the loop
-				if (n - totalcount < k) break;
-			}
-		}
-		return dummy->next;
-	}
-};
-
 
 int main() {
 	char c;
@@ -158,10 +160,11 @@ int main() {
 	}
 
 
-	ListNode* ans = sol.reverseKGroup(h, 2);
+	ListNode* ans = sol.reverseKGroup(h, 3);
 
+	p = ans;
 	do {
-		cout << p->next << " ";
+		cout << p->val << " ";
 		p = p->next;
 	} while (p != nullptr);
 
