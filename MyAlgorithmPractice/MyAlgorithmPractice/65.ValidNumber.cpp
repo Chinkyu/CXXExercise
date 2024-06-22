@@ -1,4 +1,4 @@
-﻿// 답봤음.. finite state machine : 이렇게 까지 automata.. 
+﻿// 답봤나??
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -17,6 +17,49 @@
 #include <memory>
 
 using namespace std;
+
+class _Solution {
+public:
+
+    bool isMatch(string s) {
+
+        string mp = "(\\+|-)?[[:digit:]]+(.)?[[:digit:]]*";
+
+        regex re(mp);
+        cmatch m;
+
+        return regex_match(s, re);
+    }
+
+    bool isNumber(string s) {
+        int l = s.size();
+
+        int eidx = -1;
+        for (int i = 0; i < l; ++i) {
+            if (s[i] == 'e' || s[i] == 'E') {
+                eidx = i;
+                break;
+            }
+        }
+
+        bool ans = false;
+        if (eidx != -1) {
+            string ss = s.substr(0, eidx - 1);
+            string ns = s.substr(eidx + 1);
+
+            bool sm = isMatch(ss);
+            bool nm = isMatch(ns);
+            ans = sm && nm;
+
+        }
+        else {
+            ans = isMatch(s);
+        }
+
+        return ans;
+    }
+};
+
 
 enum STATE {
     INIT, I1, I2, I3, I4, I5, S1, S2, S3
@@ -103,10 +146,9 @@ int main() {
     //string s = "aa";
     //string p = "*";
 
-    string s = "aaaabaaaabbbbaabbbaabbaababbabbaaaababaaabbbbbbaabbbabababbaaabaabaaaaaabbaabbbbaababbababaabbbaababbbba";
-    string p = "*****b*aba***babaa*bbaba***a*aaba*b*aa**a*b**ba***a*a*";
+    string s = "53.5e9e3";
 
-    cout << sol.isMatch(s, p);
+    cout << sol.isNumber(s);
 
     cin >> c;
 }

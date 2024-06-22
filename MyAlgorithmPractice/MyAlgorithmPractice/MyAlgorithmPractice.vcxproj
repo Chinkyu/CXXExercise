@@ -1689,7 +1689,10 @@
     <ClCompile Include="44.WildcardMatching.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="51.NQueens.cpp" />
+    <ClCompile Include="51.NQueens.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="65.ValidNumber.cpp" />
     <ClCompile Include="_41.FirstMissingPositive.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

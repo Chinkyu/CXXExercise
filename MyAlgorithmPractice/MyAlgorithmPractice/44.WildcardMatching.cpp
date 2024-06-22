@@ -1,4 +1,4 @@
-// ¥‰∫√¿Ω : ....   manually checking 
+// ¥‰∫√¿Ω : ....   manually checking
 #include <iostream>
 #include <vector>
 #include <unordered_map>
