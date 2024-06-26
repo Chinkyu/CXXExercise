@@ -1698,7 +1698,10 @@
     <ClCompile Include="68.TextJustification.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="76.MinimumWindowSubstring.cpp" />
+    <ClCompile Include="76.MinimumWindowSubstring.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="84.LargestRectangleinHistogram.cpp" />
     <ClCompile Include="_41.FirstMissingPositive.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
