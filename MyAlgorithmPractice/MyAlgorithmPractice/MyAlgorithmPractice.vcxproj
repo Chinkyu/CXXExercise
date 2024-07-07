@@ -287,7 +287,10 @@
     <ClCompile Include="120.Triangle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="123.BestTimetoBuyandSellStockIII.cpp" />
+    <ClCompile Include="123.BestTimetoBuyandSellStockIII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="124.BinaryTreeMaximumPathSum.cpp" />
     <ClCompile Include="1247. MinSwapsToMakeStringsEqual.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
