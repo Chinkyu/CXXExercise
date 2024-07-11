@@ -2208,6 +2208,9 @@
     <ClCompile Include="132.PalindromPartitioningII.cpp">
       <Filter>Source Files\SunnyIDTest\Hard</Filter>
     </ClCompile>
+    <ClCompile Include="135.Candy.cpp">
+      <Filter>Source Files\SunnyIDTest\Hard</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
