@@ -346,7 +346,9 @@
     <ClCompile Include="1375.NumberofTimesBinaryStringIsPrefixAligned.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="140.WordBreakII.cpp" />
+    <ClCompile Include="140.WordBreakII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1404.NumStepofReduceToOne.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -404,6 +406,7 @@
     <ClCompile Include="1481.LeastNumberofUniqueIntegerafterKRemovals.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="149.MaxPointsOnaLine.cpp" />
     <ClCompile Include="1490.CloneN-aryTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
