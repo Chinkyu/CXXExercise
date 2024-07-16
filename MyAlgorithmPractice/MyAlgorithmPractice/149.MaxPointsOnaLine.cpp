@@ -47,6 +47,8 @@ public:
         }
         return maxi;
     }
+
+    Solution() = default;
 };
 
 

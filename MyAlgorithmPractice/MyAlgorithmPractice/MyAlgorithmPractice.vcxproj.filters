@@ -2217,6 +2217,12 @@
     <ClCompile Include="149.MaxPointsOnaLine.cpp">
       <Filter>Source Files\SunnyIDTest\Hard</Filter>
     </ClCompile>
+    <ClCompile Include="154.FindMinimuminRotatedSortedArrayII.cpp">
+      <Filter>Source Files\SunnyIDTest\Hard</Filter>
+    </ClCompile>
+    <ClCompile Include="174.DungeonGame.cpp">
+      <Filter>Source Files\SunnyIDTest\Hard</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
