@@ -474,7 +474,9 @@
     <ClCompile Include="173.BSTIterator1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="174.DungeonGame.cpp" />
+    <ClCompile Include="174.DungeonGame.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1744.CanYouEatYourFavoriteCandyonYourFavoriteDay.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -493,6 +495,7 @@
     <ClCompile Include="1877.MinimizeMaximumPairSuminArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="188.BestTimetoBuyandSellStockIV.cpp" />
     <ClCompile Include="189.RotateArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
