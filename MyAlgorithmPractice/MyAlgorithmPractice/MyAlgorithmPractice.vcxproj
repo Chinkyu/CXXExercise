@@ -495,7 +495,9 @@
     <ClCompile Include="1877.MinimizeMaximumPairSuminArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="188.BestTimetoBuyandSellStockIV.cpp" />
+    <ClCompile Include="188.BestTimetoBuyandSellStockIV.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="189.RotateArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -899,6 +901,7 @@
     <ClCompile Include="2139.MinimumMovestoReachTargetScore.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="214.SortestPalindrome.cpp" />
     <ClCompile Include="2140.SolvingQuestionsWithBrainPower.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

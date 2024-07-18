@@ -8,7 +8,7 @@ using namespace std;
 class Solution {
 public:
 	struct Node {
-		unordered_map<char, struct Node *> map;
+		unordered_Amap<char, struct Node *> map;
 		bool isExist;
 		string word;
 	};
