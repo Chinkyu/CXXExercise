@@ -901,7 +901,9 @@
     <ClCompile Include="2139.MinimumMovestoReachTargetScore.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="214.SortestPalindrome.cpp" />
+    <ClCompile Include="214.SortestPalindrome.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2140.SolvingQuestionsWithBrainPower.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -963,6 +965,7 @@
     <ClCompile Include="2178.MaximumSplitofPositiveEvenIntegers.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="218.TheSkylineProblem.cpp" />
     <ClCompile Include="2181.MergeNodesinBetweenZeros.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
