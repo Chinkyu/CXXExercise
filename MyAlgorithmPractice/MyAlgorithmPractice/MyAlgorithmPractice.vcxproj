@@ -965,7 +965,9 @@
     <ClCompile Include="2178.MaximumSplitofPositiveEvenIntegers.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="218.TheSkylineProblem.cpp" />
+    <ClCompile Include="218.TheSkylineProblem.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2181.MergeNodesinBetweenZeros.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -1068,6 +1070,7 @@
     <ClCompile Include="2237.CountPositionsonStreetWithRequiredBrightness.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="224.BasicCalculator.cpp" />
     <ClCompile Include="2240.NumberofWaystoBuyPensandPencils.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
