@@ -2238,6 +2238,9 @@
     <ClCompile Include="233.NumberofDigitOne.cpp">
       <Filter>Source Files\SunnyIDTest\Hard</Filter>
     </ClCompile>
+    <ClCompile Include="239.SlidingWindowMaximum.cpp">
+      <Filter>Source Files\SunnyIDTest\Hard</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">
