@@ -1290,7 +1290,9 @@
     <ClCompile Include="2387.MedianofaRowWiseSortedMatrix.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="239.SlidingWindowMaximum.cpp" />
+    <ClCompile Include="239.SlidingWindowMaximum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2390.RemovingStarsFromaString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -1492,6 +1494,7 @@
     <ClCompile Include="2718.SumofMatrixAfterQueries.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="273.IntegertoEnglishWords.cpp" />
     <ClCompile Include="2730.FindtheLongestSemiRepetitiveSubstring.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
