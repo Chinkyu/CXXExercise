@@ -1494,7 +1494,9 @@
     <ClCompile Include="2718.SumofMatrixAfterQueries.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="273.IntegertoEnglishWords.cpp" />
+    <ClCompile Include="273.IntegertoEnglishWords.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2730.FindtheLongestSemiRepetitiveSubstring.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -1549,6 +1551,7 @@
     <ClCompile Include="2773.HeightofSepcialBinaryTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="282.ExpressionAddOperators.cpp" />
     <ClCompile Include="286.WallsandGates.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
