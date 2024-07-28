@@ -2253,6 +2253,9 @@
     <ClCompile Include="297.SerializeAndDeserializeBinaryTree.cpp">
       <Filter>Source Files\SunnyIDTest\Hard</Filter>
     </ClCompile>
+    <ClCompile Include="301.RemoveInvalidParentheses.cpp">
+      <Filter>Source Files\SunnyIDTest\Hard</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">

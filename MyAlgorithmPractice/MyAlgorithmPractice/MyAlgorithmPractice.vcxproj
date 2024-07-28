@@ -1563,7 +1563,9 @@
     <ClCompile Include="295.FindMedianFromDataStream.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="297.SerializeAndDeserializeBinaryTree.cpp" />
+    <ClCompile Include="297.SerializeAndDeserializeBinaryTree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="298.BinaryTreeLongestConsecutiveSequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -1587,6 +1589,7 @@
     <ClCompile Include="300.LongestIncreasingSubsequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="301.RemoveInvalidParentheses.cpp" />
     <ClCompile Include="304.RangeSumQuery2D.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
