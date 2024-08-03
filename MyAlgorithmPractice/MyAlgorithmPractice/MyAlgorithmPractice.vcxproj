@@ -1643,7 +1643,10 @@
     <ClCompile Include="327.CountofRangeSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="329.LongestIncreasingPathinaMatrix.cpp" />
+    <ClCompile Include="329.LongestIncreasingPathinaMatrix.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="330.PatchingArray.cpp" />
     <ClCompile Include="332.ReconstructItenerary.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
