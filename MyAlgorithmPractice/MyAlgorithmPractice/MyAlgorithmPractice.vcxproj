@@ -1640,7 +1640,10 @@
     <ClCompile Include="323.NumberOfConnectedComponentsInAnUndirectedGraph.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="327.CountofRangeSum.cpp" />
+    <ClCompile Include="327.CountofRangeSum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="329.LongestIncreasingPathinaMatrix.cpp" />
     <ClCompile Include="332.ReconstructItenerary.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
