@@ -1694,7 +1694,9 @@
     <ClCompile Include="357.CountNumberswithUnique.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="363.MaxSumofRectanbleNoLargerThanK.cpp" />
+    <ClCompile Include="363.MaxSumofRectanbleNoLargerThanK.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="365. _CheckLater_Water and Jug Problem.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -1719,6 +1721,7 @@
     <ClCompile Include="380.InsertDeleteGetRandom.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="381.InsertDeleteGetRandom_duplicatedallowed.cpp" />
     <ClCompile Include="382.LinkedListRandomNode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
