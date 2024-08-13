@@ -2295,6 +2295,9 @@
     <ClCompile Include="381.InsertDeleteGetRandom_duplicatedallowed.cpp">
       <Filter>Source Files\SunnyIDTest\Hard</Filter>
     </ClCompile>
+    <ClCompile Include="391.PerfectRectangle.cpp">
+      <Filter>Source Files\SunnyIDTest\Hard</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="12.IntegertoRoman1.cpp">

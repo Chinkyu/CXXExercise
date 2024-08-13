@@ -1721,7 +1721,9 @@
     <ClCompile Include="380.InsertDeleteGetRandom.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="381.InsertDeleteGetRandom_duplicatedallowed.cpp" />
+    <ClCompile Include="381.InsertDeleteGetRandom_duplicatedallowed.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="382.LinkedListRandomNode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -1746,6 +1748,7 @@
     <ClCompile Include="390.EliminationGame.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="391.PerfectRectangle.cpp" />
     <ClCompile Include="393.UTF-8Validation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
