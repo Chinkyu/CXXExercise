@@ -1827,7 +1827,10 @@
     <ClCompile Include="472.ConcatenateWordse.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="479.LargestPalindromeProduct.cpp" />
+    <ClCompile Include="479.LargestPalindromeProduct.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="480.SlidingWindowMedian.cpp" />
     <ClCompile Include="51.NQueens.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
