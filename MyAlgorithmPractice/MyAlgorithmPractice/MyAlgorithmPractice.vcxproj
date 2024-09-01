@@ -1833,7 +1833,10 @@
     <ClCompile Include="480.SlidingWindowMedian.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="483.SmallestGoodBase.cpp" />
+    <ClCompile Include="483.SmallestGoodBase.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="488.ZumaGame.cpp" />
     <ClCompile Include="51.NQueens.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
