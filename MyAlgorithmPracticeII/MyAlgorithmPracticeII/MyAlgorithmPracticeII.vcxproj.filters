@@ -24,5 +24,8 @@
     <ClCompile Include="test..cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1144.DecreaseElementsToMakeArrayZigzag.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
