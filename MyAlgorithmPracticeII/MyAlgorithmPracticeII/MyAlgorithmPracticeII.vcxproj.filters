@@ -27,5 +27,8 @@
     <ClCompile Include="1144.DecreaseElementsToMakeArrayZigzag.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="139.WordBreak.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
