@@ -130,7 +130,10 @@
     <ClCompile Include="1144.DecreaseElementsToMakeArrayZigzag.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="139.WordBreak.cpp" />
+    <ClCompile Include="1300.SumofMutatedArrayclosesttoTarget.cpp" />
+    <ClCompile Include="139.WordBreak.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="test..cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
