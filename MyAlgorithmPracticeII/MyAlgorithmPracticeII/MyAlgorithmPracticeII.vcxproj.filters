@@ -33,5 +33,8 @@
     <ClCompile Include="1300.SumofMutatedArrayclosesttoTarget.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1054.DistantBarcodes.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
