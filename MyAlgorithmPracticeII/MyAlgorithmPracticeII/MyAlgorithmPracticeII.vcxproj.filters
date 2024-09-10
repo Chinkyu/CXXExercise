@@ -36,5 +36,8 @@
     <ClCompile Include="1054.DistantBarcodes.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1208.GetEqualSubstringsWithinBudget.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
