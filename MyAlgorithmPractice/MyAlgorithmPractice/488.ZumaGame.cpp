@@ -9,7 +9,7 @@
 #include <string>
 #include <sstream>
 #include <iomanip>
-#include <algorithm>f
+#include <algorithm>
 #include <stack>
 #include <bitset>
 #include <set>
