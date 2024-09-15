@@ -148,7 +148,10 @@
     <ClCompile Include="2563.CounttheNumberOfFairPairs.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="454.4SumII.cpp" />
+    <ClCompile Include="416.PartitionEqualSubsetSum.cpp" />
+    <ClCompile Include="454.4SumII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="test..cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -48,5 +48,8 @@
     <ClCompile Include="454.4SumII.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="416.PartitionEqualSubsetSum.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
