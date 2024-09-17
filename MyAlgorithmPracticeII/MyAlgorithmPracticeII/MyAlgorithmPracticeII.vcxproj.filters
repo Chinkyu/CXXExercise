@@ -51,5 +51,8 @@
     <ClCompile Include="416.PartitionEqualSubsetSum.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1738.FindKthLargestXORCoordinateValue.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
