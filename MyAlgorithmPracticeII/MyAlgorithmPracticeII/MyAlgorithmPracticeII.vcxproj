@@ -142,7 +142,10 @@
     <ClCompile Include="139.WordBreak.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1738.FindKthLargestXORCoordinateValue.cpp" />
+    <ClCompile Include="1673.FindtheMostCompetitiveSubsequence.cpp" />
+    <ClCompile Include="1738.FindKthLargestXORCoordinateValue.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1786.NumberofRestrictedPathsFromFirsttoLastNode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

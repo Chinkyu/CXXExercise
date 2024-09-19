@@ -54,5 +54,8 @@
     <ClCompile Include="1738.FindKthLargestXORCoordinateValue.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1673.FindtheMostCompetitiveSubsequence.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
