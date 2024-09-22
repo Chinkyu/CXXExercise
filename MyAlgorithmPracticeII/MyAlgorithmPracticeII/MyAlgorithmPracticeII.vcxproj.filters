@@ -60,5 +60,8 @@
     <ClCompile Include="1366.RankTeamsbyVotes.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1233.RemoveSubFoldersfromtheFilesystem.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
