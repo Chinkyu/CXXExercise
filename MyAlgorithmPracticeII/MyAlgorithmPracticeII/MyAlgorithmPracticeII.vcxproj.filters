@@ -63,5 +63,8 @@
     <ClCompile Include="1233.RemoveSubFoldersfromtheFilesystem.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1238.CircularPermuationinBinaryRepresentation.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
