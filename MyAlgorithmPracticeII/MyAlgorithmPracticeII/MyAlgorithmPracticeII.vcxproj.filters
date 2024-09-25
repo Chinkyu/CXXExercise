@@ -66,5 +66,8 @@
     <ClCompile Include="1238.CircularPermuationinBinaryRepresentation.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1130.MinimumCostTreeFromLeafValues.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

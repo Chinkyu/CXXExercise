@@ -130,6 +130,7 @@
     <ClCompile Include="1054.DistantBarcodes.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1130.MinimumCostTreeFromLeafValues.cpp" />
     <ClCompile Include="1144.DecreaseElementsToMakeArrayZigzag.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -139,7 +140,9 @@
     <ClCompile Include="1233.RemoveSubFoldersfromtheFilesystem.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1238.CircularPermuationinBinaryRepresentation.cpp" />
+    <ClCompile Include="1238.CircularPermuationinBinaryRepresentation.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1300.SumofMutatedArrayclosesttoTarget.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
