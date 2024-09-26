@@ -69,5 +69,8 @@
     <ClCompile Include="1130.MinimumCostTreeFromLeafValues.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2684.MaximumNumberofMovesinaGrid.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
