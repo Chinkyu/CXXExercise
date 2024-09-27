@@ -72,5 +72,8 @@
     <ClCompile Include="2684.MaximumNumberofMovesinaGrid.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2579.CountTotalNumberofColoredCells.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
