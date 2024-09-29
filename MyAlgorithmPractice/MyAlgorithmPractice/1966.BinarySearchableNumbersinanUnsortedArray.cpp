@@ -26,7 +26,8 @@ public:
 			int c = nums[i];
 			sr.erase(c);
 			bool l = true, r = true;
-			if (sl.size() > 0 && c < *sl.rbegin()) l = false;
+			if (sl.size() > 0 && c < *sl.
+				()) l = false;
 			if (sr.size() > 0 && *sr.begin() < c) r = false;
 
 			if (l == true && r == true) ans++;

@@ -20,7 +20,8 @@ public:
 		multiset<int> ms(piles.begin(), piles.end());
 
 		for (int i = 0; i < k; ++i) {
-			int v = *ms.rbegin();
+			int v = *ms.
+				();
 			ms.erase(ms.find(v));
 			v = ceil((double)v / 2);
 			ms.insert(v);
