@@ -81,5 +81,8 @@
     <ClCompile Include="1239.MaximumLengthofaConcatenatedStringwithUniqueCharacters.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1352.ProductofteLastKNumbers.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

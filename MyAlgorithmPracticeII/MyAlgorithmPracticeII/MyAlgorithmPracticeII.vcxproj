@@ -145,10 +145,13 @@
     <ClCompile Include="1238.CircularPermuationinBinaryRepresentation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1239.MaximumLengthofaConcatenatedStringwithUniqueCharacters.cpp" />
+    <ClCompile Include="1239.MaximumLengthofaConcatenatedStringwithUniqueCharacters.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1300.SumofMutatedArrayclosesttoTarget.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1352.ProductofteLastKNumbers.cpp" />
     <ClCompile Include="1366.RankTeamsbyVotes.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
