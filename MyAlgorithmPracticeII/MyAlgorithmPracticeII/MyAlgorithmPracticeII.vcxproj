@@ -160,7 +160,10 @@
     <ClCompile Include="139.WordBreak.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1476.SubrectangleQueries.cpp" />
+    <ClCompile Include="1476.SubrectangleQueries.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1583.CountUnhappyFriends.cpp" />
     <ClCompile Include="1673.FindtheMostCompetitiveSubsequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

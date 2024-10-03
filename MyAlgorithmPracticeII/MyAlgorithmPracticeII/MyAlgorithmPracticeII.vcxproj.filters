@@ -87,5 +87,8 @@
     <ClCompile Include="1476.SubrectangleQueries.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1583.CountUnhappyFriends.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
