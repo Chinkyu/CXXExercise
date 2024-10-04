@@ -90,5 +90,8 @@
     <ClCompile Include="1583.CountUnhappyFriends.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1519.NumberofNodesintheSubTreeWiththeSameLabel.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
