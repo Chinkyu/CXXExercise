@@ -96,5 +96,8 @@
     <ClCompile Include="1509.MinimumDifferenceBetweenLargestandSmallestValueinThreeMoves.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1529.MinimumSuffixFlips.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
