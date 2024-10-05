@@ -93,5 +93,8 @@
     <ClCompile Include="1519.NumberofNodesintheSubTreeWiththeSameLabel.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1509.MinimumDifferenceBetweenLargestandSmallestValueinThreeMoves.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
