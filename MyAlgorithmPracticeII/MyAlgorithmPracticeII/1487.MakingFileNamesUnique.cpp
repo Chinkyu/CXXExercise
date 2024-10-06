@@ -19,7 +19,7 @@
 
 using namespace std;
 
-class Solution {
+class __Solution {
 public:
     vector<string> getFolderNames(vector<string>& names) {
         unordered_map<string, int> m;// A map to store whether the particular name occurs how many times already
@@ -47,7 +47,7 @@ public:
 };
 
 
-class _Solution {
+class Solution {
 public:
     vector<string> getFolderNames(vector<string>& names) {
         unordered_map<string, int> m;
@@ -58,6 +58,13 @@ public:
 
             string token, ntoken;
             int n = 0;
+
+            if (m.find(it) != m.end()) {  // already existing
+                m[it]++;
+                ans.push_back(it + "(" + to_string(m[it]) + ")");
+                m[it + "(" + to_string(m[it]) + ")"] = 0;
+                continue;
+            }
 
             getline(iss, token, '(');
 
