@@ -102,5 +102,8 @@
     <ClCompile Include="1487.MakingFileNamesUnique.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1525.NumberofGoodWaystoSplitaString.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
