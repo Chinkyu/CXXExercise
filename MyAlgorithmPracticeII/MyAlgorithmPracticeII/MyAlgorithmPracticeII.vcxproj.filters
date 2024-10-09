@@ -105,5 +105,8 @@
     <ClCompile Include="1525.NumberofGoodWaystoSplitaString.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="866.PrimePalindrome.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
