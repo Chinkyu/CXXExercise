@@ -108,5 +108,8 @@
     <ClCompile Include="866.PrimePalindrome.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="789.EscapeTheGhosts.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
