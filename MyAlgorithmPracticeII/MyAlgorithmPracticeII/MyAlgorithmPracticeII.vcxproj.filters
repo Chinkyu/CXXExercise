@@ -111,5 +111,8 @@
     <ClCompile Include="789.EscapeTheGhosts.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="838.PushDominoes.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

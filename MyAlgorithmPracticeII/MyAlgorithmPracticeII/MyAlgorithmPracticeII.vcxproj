@@ -208,7 +208,10 @@
     <ClCompile Include="454.4SumII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="789.EscapeTheGhosts.cpp" />
+    <ClCompile Include="789.EscapeTheGhosts.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="838.PushDominoes.cpp" />
     <ClCompile Include="866.PrimePalindrome.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
