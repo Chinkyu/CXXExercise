@@ -114,5 +114,8 @@
     <ClCompile Include="838.PushDominoes.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="795.NumberofSubarrayWithBoundedMaximum.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
