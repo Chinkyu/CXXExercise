@@ -120,5 +120,8 @@
     <ClCompile Include="721.AccountsMerge.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="788.RotateDigits.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
