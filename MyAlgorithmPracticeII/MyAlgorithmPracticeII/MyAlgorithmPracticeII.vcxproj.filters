@@ -126,5 +126,8 @@
     <ClCompile Include="826.MostProfitAssigningWork.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="752.OpentheLock.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
