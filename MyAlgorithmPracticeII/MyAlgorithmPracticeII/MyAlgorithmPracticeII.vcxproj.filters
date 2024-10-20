@@ -132,5 +132,8 @@
     <ClCompile Include="690.EmployeeImportance.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="678.ValidParenthesisString.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
