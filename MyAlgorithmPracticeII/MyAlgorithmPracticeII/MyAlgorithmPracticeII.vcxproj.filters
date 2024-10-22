@@ -135,5 +135,8 @@
     <ClCompile Include="678.ValidParenthesisString.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="720.LongestWordInDictionary.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

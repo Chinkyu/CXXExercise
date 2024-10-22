@@ -19,6 +19,7 @@
 
 using namespace std;
 
+//  어떻게 이게 풀리는지????? 
 bool checkValidString(string s) {
     int leftBalance = 0;   // For left to right traversal balance
     int rightBalance = 0;  // For right to left traversal balance
