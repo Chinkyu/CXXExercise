@@ -141,5 +141,8 @@
     <ClCompile Include="677.MapSumPairs.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="640.SolvetheEquation.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
