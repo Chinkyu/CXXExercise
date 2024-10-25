@@ -144,5 +144,8 @@
     <ClCompile Include="640.SolvetheEquation.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2789.LargestElementinanArrayafterMergeOperations.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
