@@ -199,10 +199,13 @@
     <ClCompile Include="2579.CountTotalNumberofColoredCells.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2673.MakeCostsofPathsEqualinaBinaryTree.cpp" />
     <ClCompile Include="2684.MaximumNumberofMovesinaGrid.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2789.LargestElementinanArrayafterMergeOperations.cpp" />
+    <ClCompile Include="2789.LargestElementinanArrayafterMergeOperations.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="416.PartitionEqualSubsetSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
