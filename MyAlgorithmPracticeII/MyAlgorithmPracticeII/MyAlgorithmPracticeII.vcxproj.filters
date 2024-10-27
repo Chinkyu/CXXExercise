@@ -150,5 +150,8 @@
     <ClCompile Include="2673.MakeCostsofPathsEqualinaBinaryTree.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2812.FindtheSafestPathinaGrid.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
