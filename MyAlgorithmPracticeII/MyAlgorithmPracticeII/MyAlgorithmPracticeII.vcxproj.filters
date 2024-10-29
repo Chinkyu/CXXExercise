@@ -153,5 +153,8 @@
     <ClCompile Include="2812.FindtheSafestPathinaGrid.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2749.MinimumOperationstoMaketheIntegerZero.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
