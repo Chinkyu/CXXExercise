@@ -205,7 +205,10 @@
     <ClCompile Include="2684.MaximumNumberofMovesinaGrid.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2749.MinimumOperationstoMaketheIntegerZero.cpp" />
+    <ClCompile Include="2749.MinimumOperationstoMaketheIntegerZero.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2780.MinimumIndexofaValidSplit.cpp" />
     <ClCompile Include="2789.LargestElementinanArrayafterMergeOperations.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
