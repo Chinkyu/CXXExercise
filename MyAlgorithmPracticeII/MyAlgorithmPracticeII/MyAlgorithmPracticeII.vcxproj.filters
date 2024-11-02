@@ -165,5 +165,8 @@
     <ClCompile Include="2785.SortVowelsInaString.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="565.ArrayNesting.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
