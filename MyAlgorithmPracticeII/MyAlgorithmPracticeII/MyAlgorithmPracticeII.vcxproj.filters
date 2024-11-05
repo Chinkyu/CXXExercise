@@ -171,5 +171,8 @@
     <ClCompile Include="592.FractionAdditionandSubtraction.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1493.LongestSubarrayof1sAfterDeletingOneElement.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
