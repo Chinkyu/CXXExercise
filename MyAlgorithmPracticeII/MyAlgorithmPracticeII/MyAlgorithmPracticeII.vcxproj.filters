@@ -174,5 +174,8 @@
     <ClCompile Include="1493.LongestSubarrayof1sAfterDeletingOneElement.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1545.FindKthBitinNthBinaryString.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
