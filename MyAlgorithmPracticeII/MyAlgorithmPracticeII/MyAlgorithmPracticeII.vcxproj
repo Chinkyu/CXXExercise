@@ -187,7 +187,9 @@
     <ClCompile Include="1583.CountUnhappyFriends.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1663.SmallestStringWithAGivenNumbericValue.cpp" />
+    <ClCompile Include="1663.SmallestStringWithAGivenNumbericValue.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1673.FindtheMostCompetitiveSubsequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -206,6 +208,7 @@
     <ClCompile Include="2563.CounttheNumberOfFairPairs.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2564.SubstringXORQueries.cpp" />
     <ClCompile Include="2579.CountTotalNumberofColoredCells.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
