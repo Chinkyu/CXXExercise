@@ -186,5 +186,8 @@
     <ClCompile Include="2564.SubstringXORQueries.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2326.SpiralMatrixIV.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
