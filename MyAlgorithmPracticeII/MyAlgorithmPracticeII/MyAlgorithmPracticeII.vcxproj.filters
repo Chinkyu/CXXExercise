@@ -192,5 +192,8 @@
     <ClCompile Include="2348.NumberofZeroFilledSubarrays.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2397.MaximumRowscoveredbyColumns.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
