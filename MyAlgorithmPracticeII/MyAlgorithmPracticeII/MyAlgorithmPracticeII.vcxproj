@@ -208,7 +208,10 @@
     <ClCompile Include="2348.NumberofZeroFilledSubarrays.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2397.MaximumRowscoveredbyColumns.cpp" />
+    <ClCompile Include="2397.MaximumRowscoveredbyColumns.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2442.CountNumberofDistanctIntegersAfter.cpp" />
     <ClCompile Include="2485.Findthe PivotInteger.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
