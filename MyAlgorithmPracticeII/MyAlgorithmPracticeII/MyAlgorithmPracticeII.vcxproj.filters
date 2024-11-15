@@ -198,5 +198,8 @@
     <ClCompile Include="2442.CountNumberofDistanctIntegersAfter.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2424.LongestUploadedPrefix.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
