@@ -201,5 +201,11 @@
     <ClCompile Include="2424.LongestUploadedPrefix.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2576.FindtheMaximumNumberofMarkedIndices.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
+    <ClCompile Include="2274.MaximumConsecutiveFloorsWithoutSpecialFloors.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
