@@ -207,5 +207,8 @@
     <ClCompile Include="2274.MaximumConsecutiveFloorsWithoutSpecialFloors.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2149.RearrangeArrayElementsbySign.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

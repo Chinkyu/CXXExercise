@@ -202,7 +202,10 @@
     <ClCompile Include="1786.NumberofRestrictedPathsFromFirsttoLastNode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2274.MaximumConsecutiveFloorsWithoutSpecialFloors.cpp" />
+    <ClCompile Include="2149.RearrangeArrayElementsbySign.cpp" />
+    <ClCompile Include="2274.MaximumConsecutiveFloorsWithoutSpecialFloors.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2326.SpiralMatrixIV.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
