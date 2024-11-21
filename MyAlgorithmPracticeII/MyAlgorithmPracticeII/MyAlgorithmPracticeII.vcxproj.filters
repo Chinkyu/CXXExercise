@@ -213,5 +213,8 @@
     <ClCompile Include="2256.MinimumAverageDifference.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2332.TheLatestTimetoCatchaBus.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
