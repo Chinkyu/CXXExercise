@@ -205,7 +205,10 @@
     <ClCompile Include="2149.RearrangeArrayElementsbySign.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2208.MinimumOperationstoHalveArraySum.cpp" />
+    <ClCompile Include="2171.RemovingMinimumNumberofMagicBeans.cpp" />
+    <ClCompile Include="2208.MinimumOperationstoHalveArraySum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2256.MinimumAverageDifference.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
