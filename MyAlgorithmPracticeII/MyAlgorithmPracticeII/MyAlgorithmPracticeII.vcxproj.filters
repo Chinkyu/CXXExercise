@@ -222,5 +222,8 @@
     <ClCompile Include="2171.RemovingMinimumNumberofMagicBeans.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1008.ConstructBinarySearchTreeFromPreorderTraversal.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
