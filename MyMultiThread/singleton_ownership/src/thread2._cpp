@@ -1,0 +1,15 @@
+#include <iostream>
+#include <unistd.h>
+
+#include "thread2.hpp"
+
+void Thread2::Thread21Loop() {
+
+
+}
+
+
+void Thread2::Thread22Loop() {
+
+
+}
