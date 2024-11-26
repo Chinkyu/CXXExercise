@@ -231,5 +231,8 @@
     <ClCompile Include="1090.LargestValuesFromLabels.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1124.LongestWellPerformingInterval.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

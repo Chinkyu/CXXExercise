@@ -133,7 +133,10 @@
     <ClCompile Include="1054.DistantBarcodes.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1090.LargestValuesFromLabels.cpp" />
+    <ClCompile Include="1090.LargestValuesFromLabels.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1124.LongestWellPerformingInterval.cpp" />
     <ClCompile Include="1130.MinimumCostTreeFromLeafValues.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
