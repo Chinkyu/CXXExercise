@@ -1,0 +1,9 @@
+#include <iostream>
+
+class Thread2 {
+public:
+    void Thread21Loop();
+    void Thread22Loop();
+private:
+
+};
