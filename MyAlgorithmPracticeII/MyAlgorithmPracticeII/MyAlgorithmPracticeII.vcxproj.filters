@@ -237,5 +237,8 @@
     <ClCompile Include="1052.GrumpyBookstoreOwner.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1011.CapacityToShipPackagesWithinDDays.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

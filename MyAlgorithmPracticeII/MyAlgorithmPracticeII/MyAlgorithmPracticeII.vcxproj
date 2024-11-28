@@ -130,7 +130,10 @@
     <ClCompile Include="1008.ConstructBinarySearchTreeFromPreorderTraversal.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1052.GrumpyBookstoreOwner.cpp" />
+    <ClCompile Include="1011.CapacityToShipPackagesWithinDDays.cpp" />
+    <ClCompile Include="1052.GrumpyBookstoreOwner.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1054.DistantBarcodes.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
