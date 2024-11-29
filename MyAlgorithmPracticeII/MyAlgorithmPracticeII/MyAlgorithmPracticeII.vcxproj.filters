@@ -240,5 +240,8 @@
     <ClCompile Include="1011.CapacityToShipPackagesWithinDDays.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="966.VowelSpellchecker.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
