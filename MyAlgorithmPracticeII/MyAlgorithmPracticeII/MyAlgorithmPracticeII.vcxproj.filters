@@ -246,5 +246,8 @@
     <ClCompile Include="1004.MaxConsequtiveOnesIII.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="967.NumbersWithSameConsecutiveDifferences.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
