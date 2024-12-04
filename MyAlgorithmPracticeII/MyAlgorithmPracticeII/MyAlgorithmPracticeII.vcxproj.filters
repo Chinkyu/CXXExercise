@@ -252,5 +252,8 @@
     <ClCompile Include="1023.CamelcaseMatching.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="950.RevealCardsInIncreasingOrder.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
