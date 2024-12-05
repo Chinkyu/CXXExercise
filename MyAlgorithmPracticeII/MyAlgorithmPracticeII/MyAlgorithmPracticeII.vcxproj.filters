@@ -255,5 +255,8 @@
     <ClCompile Include="950.RevealCardsInIncreasingOrder.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="931.MinimumFallingPathSum.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
