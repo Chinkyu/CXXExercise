@@ -258,5 +258,8 @@
     <ClCompile Include="931.MinimumFallingPathSum.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="869.ReorderedPowerof2.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
