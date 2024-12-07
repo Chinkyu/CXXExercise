@@ -261,5 +261,8 @@
     <ClCompile Include="869.ReorderedPowerof2.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="901.OnlineStockSpan.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
