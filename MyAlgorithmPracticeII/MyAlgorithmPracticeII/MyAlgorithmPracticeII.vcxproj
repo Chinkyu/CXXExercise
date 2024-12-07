@@ -352,10 +352,13 @@
     <ClCompile Include="869.ReorderedPowerof2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="901.OnlineStockSpan.cpp" />
+    <ClCompile Include="901.OnlineStockSpan.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="931.MinimumFallingPathSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="947.MostStonesRemovedwithSameRaworColumn.cpp" />
     <ClCompile Include="950.RevealCardsInIncreasingOrder.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

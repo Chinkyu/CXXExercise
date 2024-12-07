@@ -264,5 +264,8 @@
     <ClCompile Include="901.OnlineStockSpan.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="947.MostStonesRemovedwithSameRaworColumn.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
