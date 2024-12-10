@@ -1,4 +1,4 @@
-//   답봤음 : 
+//   답봤음 : 문제를 잘못 봤네... digit 은 한자리만 이네... 
 #include <iostream>
 #include <vector>
 #include <unordered_map>
