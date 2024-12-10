@@ -267,5 +267,8 @@
     <ClCompile Include="947.MostStonesRemovedwithSameRaworColumn.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="880.DecodedStringatIndex.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
