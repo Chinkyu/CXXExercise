@@ -270,5 +270,8 @@
     <ClCompile Include="880.DecodedStringatIndex.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="934.ShortestBridge.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
