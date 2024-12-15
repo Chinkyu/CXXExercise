@@ -276,5 +276,8 @@
     <ClCompile Include="881.BoatstoSavePeople.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="973.KClosestPointstoOrigin.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
