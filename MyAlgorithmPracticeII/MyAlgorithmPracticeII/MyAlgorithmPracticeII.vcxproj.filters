@@ -279,5 +279,8 @@
     <ClCompile Include="973.KClosestPointstoOrigin.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="874.WalkingrobotSimulation.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
