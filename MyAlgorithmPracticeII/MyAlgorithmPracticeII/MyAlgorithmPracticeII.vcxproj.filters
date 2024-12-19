@@ -285,5 +285,8 @@
     <ClCompile Include="822.CardFlippingGame.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="791.CustomSortString.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
