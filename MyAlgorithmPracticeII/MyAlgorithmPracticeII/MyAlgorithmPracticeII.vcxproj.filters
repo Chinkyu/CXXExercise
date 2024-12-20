@@ -288,5 +288,8 @@
     <ClCompile Include="791.CustomSortString.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="820.SortEncodingofWords.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
