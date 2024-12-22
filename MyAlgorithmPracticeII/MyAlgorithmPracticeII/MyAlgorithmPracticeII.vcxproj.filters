@@ -297,5 +297,8 @@
     <ClCompile Include="648.ReplaceWords.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="655.PrintBinaryTree.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
