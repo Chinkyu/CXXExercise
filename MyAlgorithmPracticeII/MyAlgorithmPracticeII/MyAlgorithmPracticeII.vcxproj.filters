@@ -303,5 +303,8 @@
     <ClCompile Include="528.RandomPickwihWeight.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="133.CloneGraph.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
