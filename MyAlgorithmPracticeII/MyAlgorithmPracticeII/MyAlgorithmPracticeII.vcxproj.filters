@@ -306,5 +306,8 @@
     <ClCompile Include="133.CloneGraph.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1353.MaximumNumberofEventsThatCanBeAttended.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
