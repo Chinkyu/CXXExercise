@@ -309,5 +309,8 @@
     <ClCompile Include="1353.MaximumNumberofEventsThatCanBeAttended.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2826.SortingThreeGroups.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
