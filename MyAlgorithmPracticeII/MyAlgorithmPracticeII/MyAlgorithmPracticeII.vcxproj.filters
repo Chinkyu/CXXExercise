@@ -315,5 +315,8 @@
     <ClCompile Include="2683.NeighboringBitwiseXOR.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2560.HouseRobberIV.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
