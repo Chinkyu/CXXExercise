@@ -321,5 +321,8 @@
     <ClCompile Include="2483.MinimumPenaltyforaShop.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2406.DivideIntervalsInfoMinimumNumberofGroups.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

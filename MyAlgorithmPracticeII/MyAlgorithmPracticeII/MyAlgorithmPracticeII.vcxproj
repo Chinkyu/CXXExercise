@@ -259,13 +259,16 @@
     <ClCompile Include="2397.MaximumRowscoveredbyColumns.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2406.DivideIntervalsInfoMinimumNumberofGroups.cpp" />
     <ClCompile Include="2424.LongestUploadedPrefix.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="2442.CountNumberofDistanctIntegersAfter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2483.MinimumPenaltyforaShop.cpp" />
+    <ClCompile Include="2483.MinimumPenaltyforaShop.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2485.Findthe PivotInteger.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
