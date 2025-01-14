@@ -259,7 +259,10 @@
     <ClCompile Include="2397.MaximumRowscoveredbyColumns.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2406.DivideIntervalsInfoMinimumNumberofGroups.cpp" />
+    <ClCompile Include="2400.NumberofWaystoReach.cpp" />
+    <ClCompile Include="2406.DivideIntervalsInfoMinimumNumberofGroups.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2424.LongestUploadedPrefix.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
