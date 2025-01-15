@@ -327,5 +327,8 @@
     <ClCompile Include="2400.NumberofWaystoReach.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2390.RemovingStarsFromaString.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
