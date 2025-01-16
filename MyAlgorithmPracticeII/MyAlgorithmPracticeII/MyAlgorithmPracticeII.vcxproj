@@ -256,7 +256,10 @@
     <ClCompile Include="2348.NumberofZeroFilledSubarrays.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2390.RemovingStarsFromaString.cpp" />
+    <ClCompile Include="2365.TaskSchedulerII.cpp" />
+    <ClCompile Include="2390.RemovingStarsFromaString.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2397.MaximumRowscoveredbyColumns.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
