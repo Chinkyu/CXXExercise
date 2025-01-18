@@ -333,5 +333,8 @@
     <ClCompile Include="2365.TaskSchedulerII.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3115.MaximumPrimeDifference.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
