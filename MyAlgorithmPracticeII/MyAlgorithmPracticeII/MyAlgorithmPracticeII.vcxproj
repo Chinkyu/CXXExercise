@@ -328,7 +328,10 @@
     <ClCompile Include="2849.DetermineifaCellIsReachableataGivenTime.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3115.MaximumPrimeDifference.cpp" />
+    <ClCompile Include="3115.MaximumPrimeDifference.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="3305.CountofSubstringsContainingEveryVowelandKConsonatsI.cpp" />
     <ClCompile Include="416.PartitionEqualSubsetSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
