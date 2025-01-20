@@ -339,5 +339,8 @@
     <ClCompile Include="3305.CountofSubstringsContainingEveryVowelandKConsonatsI.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="963.MinimumAreaRectangleII.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

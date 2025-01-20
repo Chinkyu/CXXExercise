@@ -331,7 +331,9 @@
     <ClCompile Include="3115.MaximumPrimeDifference.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3305.CountofSubstringsContainingEveryVowelandKConsonatsI.cpp" />
+    <ClCompile Include="3305.CountofSubstringsContainingEveryVowelandKConsonatsI.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="416.PartitionEqualSubsetSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -431,6 +433,7 @@
     <ClCompile Include="950.RevealCardsInIncreasingOrder.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="963.MinimumAreaRectangleII.cpp" />
     <ClCompile Include="966.VowelSpellchecker.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
