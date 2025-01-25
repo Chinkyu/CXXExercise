@@ -342,5 +342,11 @@
     <ClCompile Include="963.MinimumAreaRectangleII.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3377.DigitOperationsToMakeTwoIntegersEqual.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
+    <ClCompile Include="2135.CountWordsObtainedAfterAddingaLetter.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
