@@ -348,5 +348,8 @@
     <ClCompile Include="2135.CountWordsObtainedAfterAddingaLetter.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2967.MinumumCosttoMakeArrayEqualindromic.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
