@@ -351,5 +351,8 @@
     <ClCompile Include="2967.MinumumCosttoMakeArrayEqualindromic.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2875.CountPairsofPointsWithDistanceK.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
