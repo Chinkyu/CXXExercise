@@ -357,5 +357,8 @@
     <ClCompile Include="1390.FourDivisors.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="767.ReorganizeString.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
