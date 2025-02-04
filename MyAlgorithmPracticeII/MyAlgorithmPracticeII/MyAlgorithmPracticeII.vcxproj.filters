@@ -369,5 +369,8 @@
     <ClCompile Include="62.UniquePaths.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3381.MaximumSubarraySumWithLengthdivisiblebyK.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

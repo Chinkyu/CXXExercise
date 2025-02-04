@@ -355,6 +355,7 @@
     <ClCompile Include="3377.DigitOperationsToMakeTwoIntegersEqual.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3381.MaximumSubarraySumWithLengthdivisiblebyK.cpp" />
     <ClCompile Include="416.PartitionEqualSubsetSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -370,7 +371,9 @@
     <ClCompile Include="592.FractionAdditionandSubtraction.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="62.UniquePaths.cpp" />
+    <ClCompile Include="62.UniquePaths.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="640.SolvetheEquation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
