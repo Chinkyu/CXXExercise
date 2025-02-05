@@ -372,5 +372,8 @@
     <ClCompile Include="3381.MaximumSubarraySumWithLengthdivisiblebyK.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="347.TopKFrequentElements.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
