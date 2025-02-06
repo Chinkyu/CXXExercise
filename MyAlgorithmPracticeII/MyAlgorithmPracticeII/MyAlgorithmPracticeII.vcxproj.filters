@@ -375,5 +375,8 @@
     <ClCompile Include="347.TopKFrequentElements.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="853.CarFleet.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
