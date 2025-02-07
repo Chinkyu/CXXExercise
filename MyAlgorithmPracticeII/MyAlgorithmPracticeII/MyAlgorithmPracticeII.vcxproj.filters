@@ -378,5 +378,8 @@
     <ClCompile Include="853.CarFleet.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="841.KeysandRooms.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
