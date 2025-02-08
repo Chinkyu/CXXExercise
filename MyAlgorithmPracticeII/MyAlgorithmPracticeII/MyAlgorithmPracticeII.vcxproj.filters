@@ -381,5 +381,8 @@
     <ClCompile Include="841.KeysandRooms.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="378.KthSmallestElementinaSortedMatrix.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
