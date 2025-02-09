@@ -384,5 +384,8 @@
     <ClCompile Include="378.KthSmallestElementinaSortedMatrix.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="937.ReorderDataInLogFiles.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
