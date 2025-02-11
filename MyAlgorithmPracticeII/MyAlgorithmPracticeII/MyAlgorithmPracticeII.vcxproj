@@ -316,6 +316,7 @@
     <ClCompile Include="2684.MaximumNumberofMovesinaGrid.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2746.DecrementalStringConcatenation.cpp" />
     <ClCompile Include="2749.MinimumOperationstoMaketheIntegerZero.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -469,7 +470,9 @@
     <ClCompile Include="934.ShortestBridge.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="937.ReorderDataInLogFiles.cpp" />
+    <ClCompile Include="937.ReorderDataInLogFiles.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="947.MostStonesRemovedwithSameRaworColumn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

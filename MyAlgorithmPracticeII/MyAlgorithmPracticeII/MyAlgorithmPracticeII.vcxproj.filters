@@ -387,5 +387,8 @@
     <ClCompile Include="937.ReorderDataInLogFiles.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2746.DecrementalStringConcatenation.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
