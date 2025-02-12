@@ -390,5 +390,8 @@
     <ClCompile Include="2746.DecrementalStringConcatenation.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3176.FindtheMaximumLengthofaGoodSubsequenceI.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
