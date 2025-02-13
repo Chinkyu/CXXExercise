@@ -262,6 +262,7 @@
     <ClCompile Include="2332.TheLatestTimetoCatchaBus.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2343.QueryKthSmallestTrimmedNumber.cpp" />
     <ClCompile Include="2348.NumberofZeroFilledSubarrays.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -349,7 +350,9 @@
     <ClCompile Include="3115.MaximumPrimeDifference.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3176.FindtheMaximumLengthofaGoodSubsequenceI.cpp" />
+    <ClCompile Include="3176.FindtheMaximumLengthofaGoodSubsequenceI.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3191.MinimumOperationstoMakeBinaryArrayElementsEqualtoOneI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
