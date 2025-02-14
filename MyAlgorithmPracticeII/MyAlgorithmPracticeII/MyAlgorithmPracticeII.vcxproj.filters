@@ -396,5 +396,8 @@
     <ClCompile Include="2343.QueryKthSmallestTrimmedNumber.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="235.LowestCommonAncestorofaBinarySearchTree.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

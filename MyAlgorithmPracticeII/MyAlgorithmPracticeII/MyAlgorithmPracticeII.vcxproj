@@ -262,10 +262,13 @@
     <ClCompile Include="2332.TheLatestTimetoCatchaBus.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2343.QueryKthSmallestTrimmedNumber.cpp" />
+    <ClCompile Include="2343.QueryKthSmallestTrimmedNumber.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2348.NumberofZeroFilledSubarrays.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="235.LowestCommonAncestorofaBinarySearchTree.cpp" />
     <ClCompile Include="2365.TaskSchedulerII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
