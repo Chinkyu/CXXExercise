@@ -399,5 +399,8 @@
     <ClCompile Include="235.LowestCommonAncestorofaBinarySearchTree.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1170.CompareStringsbyFrequencyofTheSmallestCharacter.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
