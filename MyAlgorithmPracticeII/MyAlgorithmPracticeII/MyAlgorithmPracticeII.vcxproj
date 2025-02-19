@@ -160,7 +160,9 @@
     <ClCompile Include="1146.SnapshotArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1170.CompareStringsbyFrequencyofTheSmallestCharacter.cpp" />
+    <ClCompile Include="1170.CompareStringsbyFrequencyofTheSmallestCharacter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1208.GetEqualSubstringsWithinBudget.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -371,6 +373,7 @@
     <ClCompile Include="3381.MaximumSubarraySumWithLengthdivisiblebyK.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3397.MaximumNumberofDistinctElementsAfterOperations.cpp" />
     <ClCompile Include="347.TopKFrequentElements.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
