@@ -405,5 +405,8 @@
     <ClCompile Include="3397.MaximumNumberofDistinctElementsAfterOperations.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2546.ApplyBitwiseOperationstoMakeStringsEqual.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
