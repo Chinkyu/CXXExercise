@@ -408,5 +408,8 @@
     <ClCompile Include="2546.ApplyBitwiseOperationstoMakeStringsEqual.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3249.CounttheNumberofGodNodes.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
