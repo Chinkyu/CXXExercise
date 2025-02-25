@@ -238,6 +238,7 @@
     <ClCompile Include="1786.NumberofRestrictedPathsFromFirsttoLastNode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1898.MaximumNumberofRemovableCharacters.cpp" />
     <ClCompile Include="2135.CountWordsObtainedAfterAddingaLetter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -367,7 +368,9 @@
     <ClCompile Include="3191.MinimumOperationstoMakeBinaryArrayElementsEqualtoOneI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3249.CounttheNumberofGodNodes.cpp" />
+    <ClCompile Include="3249.CounttheNumberofGodNodes.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3305.CountofSubstringsContainingEveryVowelandKConsonatsI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

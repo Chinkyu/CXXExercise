@@ -411,5 +411,8 @@
     <ClCompile Include="3249.CounttheNumberofGodNodes.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1898.MaximumNumberofRemovableCharacters.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
