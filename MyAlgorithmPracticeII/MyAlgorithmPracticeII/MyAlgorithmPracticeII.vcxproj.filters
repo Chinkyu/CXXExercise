@@ -414,5 +414,8 @@
     <ClCompile Include="1898.MaximumNumberofRemovableCharacters.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2187.MinimumTimetocompleteTrips.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
