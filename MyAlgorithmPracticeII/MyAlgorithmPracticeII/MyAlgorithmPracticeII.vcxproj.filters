@@ -417,5 +417,8 @@
     <ClCompile Include="2187.MinimumTimetocompleteTrips.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="201.BitwiseAndofNumbersRange.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
