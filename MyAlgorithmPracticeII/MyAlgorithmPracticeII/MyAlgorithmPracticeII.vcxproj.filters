@@ -420,5 +420,8 @@
     <ClCompile Include="201.BitwiseAndofNumbersRange.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1415.TheKthLexicographicalStringofAllHappyStringsofLengthn.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
