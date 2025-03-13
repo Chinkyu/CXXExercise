@@ -426,5 +426,11 @@
     <ClCompile Include="2095.DeletetheMiddleNodeofaLinkedList.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3144.MinimumSubstringPartitionofEqualCharacterFrequency.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
+    <ClCompile Include="2556.DisconnectPathInaBinaryMatrixByatMostOneFlip.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

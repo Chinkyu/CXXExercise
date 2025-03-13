@@ -247,7 +247,9 @@
     <ClCompile Include="201.BitwiseAndofNumbersRange.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2095.DeletetheMiddleNodeofaLinkedList.cpp" />
+    <ClCompile Include="2095.DeletetheMiddleNodeofaLinkedList.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2135.CountWordsObtainedAfterAddingaLetter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -317,6 +319,7 @@
     <ClCompile Include="2546.ApplyBitwiseOperationstoMakeStringsEqual.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2556.DisconnectPathInaBinaryMatrixByatMostOneFlip.cpp" />
     <ClCompile Include="2560.HouseRobberIV.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -372,6 +375,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="3115.MaximumPrimeDifference.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="3144.MinimumSubstringPartitionofEqualCharacterFrequency.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="3176.FindtheMaximumLengthofaGoodSubsequenceI.cpp">
