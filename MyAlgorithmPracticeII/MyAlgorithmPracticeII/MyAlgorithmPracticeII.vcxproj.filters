@@ -432,5 +432,8 @@
     <ClCompile Include="2556.DisconnectPathInaBinaryMatrixByatMostOneFlip.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2201.CountArtifactsThatCanBeExtacted.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
