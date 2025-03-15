@@ -223,6 +223,7 @@
     <ClCompile Include="1545.FindKthBitinNthBinaryString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1578.MinimumTimetoMakeRopeColorful.cpp" />
     <ClCompile Include="1583.CountUnhappyFriends.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -262,7 +263,9 @@
     <ClCompile Include="2187.MinimumTimetocompleteTrips.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2201.CountArtifactsThatCanBeExtacted.cpp" />
+    <ClCompile Include="2201.CountArtifactsThatCanBeExtacted.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2208.MinimumOperationstoHalveArraySum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
