@@ -438,5 +438,8 @@
     <ClCompile Include="1578.MinimumTimetoMakeRopeColorful.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2017.GridGame.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
