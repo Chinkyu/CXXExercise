@@ -441,5 +441,8 @@
     <ClCompile Include="2017.GridGame.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="24.SwapNodesInPairs.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

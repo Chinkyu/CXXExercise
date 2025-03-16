@@ -250,7 +250,9 @@
     <ClCompile Include="201.BitwiseAndofNumbersRange.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2017.GridGame.cpp" />
+    <ClCompile Include="2017.GridGame.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2095.DeletetheMiddleNodeofaLinkedList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -305,6 +307,7 @@
     <ClCompile Include="2397.MaximumRowscoveredbyColumns.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="24.SwapNodesInPairs.cpp" />
     <ClCompile Include="2400.NumberofWaystoReach.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
