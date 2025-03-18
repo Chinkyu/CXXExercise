@@ -444,5 +444,8 @@
     <ClCompile Include="24.SwapNodesInPairs.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="861.ScoreAfterFlippingMatrix.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
