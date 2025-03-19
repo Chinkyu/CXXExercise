@@ -447,5 +447,8 @@
     <ClCompile Include="861.ScoreAfterFlippingMatrix.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="275.H-IndexII.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
