@@ -453,5 +453,8 @@
     <ClCompile Include="3170.LexicographicallyMinimumStringAfterRemovingStars.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1833.MaximumIceCreamBars.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
