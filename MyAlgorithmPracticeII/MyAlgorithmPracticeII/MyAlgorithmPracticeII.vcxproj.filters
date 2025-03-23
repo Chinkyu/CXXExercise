@@ -459,5 +459,8 @@
     <ClCompile Include="1305.AllElementsInTwoBinarySearchTrees.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="769.MaxChunksToMakeSorted.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
