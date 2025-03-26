@@ -379,6 +379,7 @@
     <ClCompile Include="2785.SortVowelsInaString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2787.WaytoExpressanIntegerasSumofPowers.cpp" />
     <ClCompile Include="2789.LargestElementinanArrayafterMergeOperations.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -484,7 +485,9 @@
     <ClCompile Include="767.ReorganizeString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="769.MaxChunksToMakeSorted.cpp" />
+    <ClCompile Include="769.MaxChunksToMakeSorted.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="788.RotateDigits.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
