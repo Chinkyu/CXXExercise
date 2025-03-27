@@ -465,5 +465,8 @@
     <ClCompile Include="2787.WaytoExpressanIntegerasSumofPowers.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2829.DeterminetheMinimumSumofaKavoidingArray.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
