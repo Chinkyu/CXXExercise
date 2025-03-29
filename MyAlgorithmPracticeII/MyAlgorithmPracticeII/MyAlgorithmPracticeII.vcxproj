@@ -334,7 +334,9 @@
     <ClCompile Include="2485.Findthe PivotInteger.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2491.DividePlayersInfoTeamsofEqualSkill.cpp" />
+    <ClCompile Include="2491.DividePlayersInfoTeamsofEqualSkill.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2546.ApplyBitwiseOperationstoMakeStringsEqual.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -404,6 +406,7 @@
     <ClCompile Include="2967.MinumumCosttoMakeArrayEqualindromic.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3076.SortestUncommonSubstringInanArray.cpp" />
     <ClCompile Include="3115.MaximumPrimeDifference.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

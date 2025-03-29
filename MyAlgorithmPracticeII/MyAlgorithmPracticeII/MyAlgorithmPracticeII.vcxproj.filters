@@ -471,5 +471,8 @@
     <ClCompile Include="2491.DividePlayersInfoTeamsofEqualSkill.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3076.SortestUncommonSubstringInanArray.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
