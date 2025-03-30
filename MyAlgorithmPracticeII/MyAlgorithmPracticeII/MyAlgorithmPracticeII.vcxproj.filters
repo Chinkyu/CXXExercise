@@ -474,5 +474,8 @@
     <ClCompile Include="3076.SortestUncommonSubstringInanArray.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2766.RelocateMarbles.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
