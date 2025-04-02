@@ -477,5 +477,8 @@
     <ClCompile Include="2766.RelocateMarbles.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1818.MinimumAbsoluteSumdifference.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
