@@ -480,5 +480,8 @@
     <ClCompile Include="1818.MinimumAbsoluteSumdifference.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3175.FindTheFirstPlayertoWinKgamesInaRow.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
