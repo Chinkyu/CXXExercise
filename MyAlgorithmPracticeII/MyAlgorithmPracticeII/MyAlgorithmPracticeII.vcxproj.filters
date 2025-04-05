@@ -483,5 +483,8 @@
     <ClCompile Include="3175.FindTheFirstPlayertoWinKgamesInaRow.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2337.MovePiecestoObtainaString.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

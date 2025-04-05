@@ -298,6 +298,7 @@
     <ClCompile Include="2332.TheLatestTimetoCatchaBus.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2337.MovePiecestoObtainaString.cpp" />
     <ClCompile Include="2343.QueryKthSmallestTrimmedNumber.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -424,7 +425,9 @@
     <ClCompile Include="3170.LexicographicallyMinimumStringAfterRemovingStars.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3175.FindTheFirstPlayertoWinKgamesInaRow.cpp" />
+    <ClCompile Include="3175.FindTheFirstPlayertoWinKgamesInaRow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3176.FindtheMaximumLengthofaGoodSubsequenceI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
