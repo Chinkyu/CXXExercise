@@ -486,5 +486,8 @@
     <ClCompile Include="2337.MovePiecestoObtainaString.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1524.NumberofSubarraysWithOddSum.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

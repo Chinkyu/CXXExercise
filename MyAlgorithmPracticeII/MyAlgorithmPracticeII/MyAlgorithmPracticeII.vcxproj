@@ -217,6 +217,7 @@
     <ClCompile Include="1519.NumberofNodesintheSubTreeWiththeSameLabel.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1524.NumberofSubarraysWithOddSum.cpp" />
     <ClCompile Include="1525.NumberofGoodWaystoSplitaString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -298,7 +299,9 @@
     <ClCompile Include="2332.TheLatestTimetoCatchaBus.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2337.MovePiecestoObtainaString.cpp" />
+    <ClCompile Include="2337.MovePiecestoObtainaString.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2343.QueryKthSmallestTrimmedNumber.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
