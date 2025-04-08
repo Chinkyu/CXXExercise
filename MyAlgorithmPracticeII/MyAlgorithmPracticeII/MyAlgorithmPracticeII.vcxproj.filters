@@ -489,5 +489,8 @@
     <ClCompile Include="1524.NumberofSubarraysWithOddSum.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2943.MaximizeAreaofSquairHoleInGrid.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
