@@ -492,5 +492,8 @@
     <ClCompile Include="2943.MaximizeAreaofSquairHoleInGrid.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="343.IntegerBreak.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
