@@ -498,5 +498,8 @@
     <ClCompile Include="1311.GetWatchedVideosbyYourFriends.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1870.MinimumSpeedtoArraiveOnTime.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
