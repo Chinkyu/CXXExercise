@@ -504,5 +504,8 @@
     <ClCompile Include="1653.MinimumDeletionstoMakeStringBalanced.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="432.ReconstructOriginalDigitsFromEnglish.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
