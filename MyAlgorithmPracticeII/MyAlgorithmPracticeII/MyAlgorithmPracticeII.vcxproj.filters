@@ -510,5 +510,8 @@
     <ClCompile Include="1471.TheKStrongestValuesInAnArray.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="388.LongestAbsoluteFilePath.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

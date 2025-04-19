@@ -11,7 +11,6 @@
 #include <iomanip>
 #include <algorithm>
 #include <stack>
-#include <bitset>
 #include <set>
 #include <list>
 #include <regex>
