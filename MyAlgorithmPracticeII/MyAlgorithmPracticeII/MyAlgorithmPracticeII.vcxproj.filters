@@ -513,5 +513,11 @@
     <ClCompile Include="388.LongestAbsoluteFilePath.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="15.3Sum.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
+    <ClCompile Include="198.HouseRobber.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
