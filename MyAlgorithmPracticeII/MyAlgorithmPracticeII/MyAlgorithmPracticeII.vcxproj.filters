@@ -522,5 +522,8 @@
     <ClCompile Include="64.MinimumPathSum.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2966.DivideArrayIntoArraysWithMaxDifference.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
