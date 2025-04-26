@@ -525,5 +525,8 @@
     <ClCompile Include="2966.DivideArrayIntoArraysWithMaxDifference.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2939.MaximumXorProduct.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
