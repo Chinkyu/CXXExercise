@@ -531,5 +531,8 @@
     <ClCompile Include="3039.ApplyOperationstoMakeStringEmpty.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1590.MakeSumdivisibleByP.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

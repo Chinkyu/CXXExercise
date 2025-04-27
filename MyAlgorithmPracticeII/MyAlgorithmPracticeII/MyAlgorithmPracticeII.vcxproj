@@ -244,6 +244,7 @@
     <ClCompile Include="1583.CountUnhappyFriends.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1590.MakeSumdivisibleByP.cpp" />
     <ClCompile Include="1653.MinimumDeletionstoMakeStringBalanced.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -442,7 +443,9 @@
     <ClCompile Include="2967.MinumumCosttoMakeArrayEqualindromic.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3039.ApplyOperationstoMakeStringEmpty.cpp" />
+    <ClCompile Include="3039.ApplyOperationstoMakeStringEmpty.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3076.SortestUncommonSubstringInanArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
