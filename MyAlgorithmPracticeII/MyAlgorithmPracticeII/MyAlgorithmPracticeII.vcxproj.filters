@@ -537,5 +537,8 @@
     <ClCompile Include="106.ConstructBinaryTree.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2527.FindXorBeautyofArray.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
