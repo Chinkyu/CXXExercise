@@ -298,6 +298,7 @@
     <ClCompile Include="2149.RearrangeArrayElementsbySign.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2150.FindAllLonelyNumbersInTheArray.cpp" />
     <ClCompile Include="2171.RemovingMinimumNumberofMagicBeans.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -370,7 +371,9 @@
     <ClCompile Include="2491.DividePlayersInfoTeamsofEqualSkill.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2527.FindXorBeautyofArray.cpp" />
+    <ClCompile Include="2527.FindXorBeautyofArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2546.ApplyBitwiseOperationstoMakeStringsEqual.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

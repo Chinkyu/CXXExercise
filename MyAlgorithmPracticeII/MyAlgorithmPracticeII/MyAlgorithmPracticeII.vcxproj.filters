@@ -540,5 +540,8 @@
     <ClCompile Include="2527.FindXorBeautyofArray.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2150.FindAllLonelyNumbersInTheArray.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
