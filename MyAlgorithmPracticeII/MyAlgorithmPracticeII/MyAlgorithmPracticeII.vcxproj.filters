@@ -543,5 +543,8 @@
     <ClCompile Include="2150.FindAllLonelyNumbersInTheArray.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1626.BestTeamWithNoConflicts.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
