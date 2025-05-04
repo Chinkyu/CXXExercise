@@ -250,7 +250,9 @@
     <ClCompile Include="1590.MakeSumdivisibleByP.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1626.BestTeamWithNoConflicts.cpp" />
+    <ClCompile Include="1626.BestTeamWithNoConflicts.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1653.MinimumDeletionstoMakeStringBalanced.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -479,6 +481,7 @@
     <ClCompile Include="3191.MinimumOperationstoMakeBinaryArrayElementsEqualtoOneI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3208.AlternatingGroupsII.cpp" />
     <ClCompile Include="3249.CounttheNumberofGodNodes.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

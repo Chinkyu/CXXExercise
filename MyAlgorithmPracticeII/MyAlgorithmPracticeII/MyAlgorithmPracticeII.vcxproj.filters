@@ -546,5 +546,8 @@
     <ClCompile Include="1626.BestTeamWithNoConflicts.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3208.AlternatingGroupsII.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
