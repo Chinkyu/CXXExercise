@@ -558,5 +558,8 @@
     <ClCompile Include="1631.PathWithMinimumEffort.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1936.AddMinimumNumberofRungs.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

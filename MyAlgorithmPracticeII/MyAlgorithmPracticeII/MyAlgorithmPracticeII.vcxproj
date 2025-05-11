@@ -253,7 +253,9 @@
     <ClCompile Include="1626.BestTeamWithNoConflicts.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1631.PathWithMinimumEffort.cpp" />
+    <ClCompile Include="1631.PathWithMinimumEffort.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1653.MinimumDeletionstoMakeStringBalanced.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -284,6 +286,7 @@
     <ClCompile Include="1898.MaximumNumberofRemovableCharacters.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1936.AddMinimumNumberofRungs.cpp" />
     <ClCompile Include="198.HouseRobber.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
