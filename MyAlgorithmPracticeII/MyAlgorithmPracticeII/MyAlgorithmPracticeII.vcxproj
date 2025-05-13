@@ -271,6 +271,7 @@
     <ClCompile Include="1738.FindKthLargestXORCoordinateValue.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1785.MinimumElementstoAddtoFormaGivenSum.cpp" />
     <ClCompile Include="1786.NumberofRestrictedPathsFromFirsttoLastNode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -286,7 +287,9 @@
     <ClCompile Include="1898.MaximumNumberofRemovableCharacters.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1936.AddMinimumNumberofRungs.cpp" />
+    <ClCompile Include="1936.AddMinimumNumberofRungs.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="198.HouseRobber.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -561,5 +561,8 @@
     <ClCompile Include="1936.AddMinimumNumberofRungs.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1785.MinimumElementstoAddtoFormaGivenSum.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
