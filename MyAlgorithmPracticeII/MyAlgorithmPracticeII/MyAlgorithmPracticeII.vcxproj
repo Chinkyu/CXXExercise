@@ -136,6 +136,7 @@
     <ClCompile Include="1011.CapacityToShipPackagesWithinDDays.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1019.NextGreaterNodeInLinkedList.cpp" />
     <ClCompile Include="1023.CamelcaseMatching.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -271,7 +272,9 @@
     <ClCompile Include="1738.FindKthLargestXORCoordinateValue.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1785.MinimumElementstoAddtoFormaGivenSum.cpp" />
+    <ClCompile Include="1785.MinimumElementstoAddtoFormaGivenSum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1786.NumberofRestrictedPathsFromFirsttoLastNode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
