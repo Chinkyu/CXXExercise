@@ -136,7 +136,9 @@
     <ClCompile Include="1011.CapacityToShipPackagesWithinDDays.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1019.NextGreaterNodeInLinkedList.cpp" />
+    <ClCompile Include="1019.NextGreaterNodeInLinkedList.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1023.CamelcaseMatching.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -497,6 +499,7 @@
     <ClCompile Include="3208.AlternatingGroupsII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3223.MinimumLengthofStringAfterOperations.cpp" />
     <ClCompile Include="3249.CounttheNumberofGodNodes.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

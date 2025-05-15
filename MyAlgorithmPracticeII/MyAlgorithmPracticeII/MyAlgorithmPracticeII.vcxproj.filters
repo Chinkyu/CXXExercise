@@ -567,5 +567,8 @@
     <ClCompile Include="1019.NextGreaterNodeInLinkedList.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3223.MinimumLengthofStringAfterOperations.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
