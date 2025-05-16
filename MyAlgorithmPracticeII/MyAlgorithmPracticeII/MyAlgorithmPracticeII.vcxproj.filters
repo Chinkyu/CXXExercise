@@ -570,5 +570,8 @@
     <ClCompile Include="3223.MinimumLengthofStringAfterOperations.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1219.PathwithMaximumGold.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
