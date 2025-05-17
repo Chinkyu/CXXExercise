@@ -576,5 +576,8 @@
     <ClCompile Include="2166.DesignBitset.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3428.MaximumandMinimumSumsofatMostSizeKSubsequences.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
