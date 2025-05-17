@@ -573,5 +573,8 @@
     <ClCompile Include="1219.PathwithMaximumGold.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2166.DesignBitset.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

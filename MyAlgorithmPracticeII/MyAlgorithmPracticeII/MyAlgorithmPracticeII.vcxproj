@@ -172,7 +172,9 @@
     <ClCompile Include="1208.GetEqualSubstringsWithinBudget.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1219.PathwithMaximumGold.cpp" />
+    <ClCompile Include="1219.PathwithMaximumGold.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1233.RemoveSubFoldersfromtheFilesystem.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -317,6 +319,7 @@
     <ClCompile Include="2150.FindAllLonelyNumbersInTheArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2166.DesignBitset.cpp" />
     <ClCompile Include="2171.RemovingMinimumNumberofMagicBeans.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
