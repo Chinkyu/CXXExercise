@@ -265,6 +265,7 @@
     <ClCompile Include="1653.MinimumDeletionstoMakeStringBalanced.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1657.DetermineIfTwoStringsAreClose.cpp" />
     <ClCompile Include="1663.SmallestStringWithAGivenNumbericValue.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -385,7 +386,9 @@
     <ClCompile Include="2442.CountNumberofDistanctIntegersAfter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2476.ClosestNodesQueriesinaBinarySearchTree.cpp" />
+    <ClCompile Include="2476.ClosestNodesQueriesinaBinarySearchTree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2483.MinimumPenaltyforaShop.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
