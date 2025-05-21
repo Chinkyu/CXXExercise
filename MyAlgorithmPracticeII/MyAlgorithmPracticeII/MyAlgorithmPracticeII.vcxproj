@@ -265,7 +265,9 @@
     <ClCompile Include="1653.MinimumDeletionstoMakeStringBalanced.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1657.DetermineIfTwoStringsAreClose.cpp" />
+    <ClCompile Include="1657.DetermineIfTwoStringsAreClose.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1663.SmallestStringWithAGivenNumbericValue.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -515,6 +517,7 @@
     <ClCompile Include="3249.CounttheNumberofGodNodes.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3254.FindthePowerofKSizeSubarraysI.cpp" />
     <ClCompile Include="3305.CountofSubstringsContainingEveryVowelandKConsonatsI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -585,5 +585,8 @@
     <ClCompile Include="1657.DetermineIfTwoStringsAreClose.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3254.FindthePowerofKSizeSubarraysI.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
