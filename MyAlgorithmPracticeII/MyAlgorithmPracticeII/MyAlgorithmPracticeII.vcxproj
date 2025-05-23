@@ -517,7 +517,9 @@
     <ClCompile Include="3249.CounttheNumberofGodNodes.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3254.FindthePowerofKSizeSubarraysI.cpp" />
+    <ClCompile Include="3254.FindthePowerofKSizeSubarraysI.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3305.CountofSubstringsContainingEveryVowelandKConsonatsI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -602,6 +604,7 @@
     <ClCompile Include="752.OpentheLock.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="754.ReachaNumber.cpp" />
     <ClCompile Include="767.ReorganizeString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

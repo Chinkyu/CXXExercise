@@ -588,5 +588,8 @@
     <ClCompile Include="3254.FindthePowerofKSizeSubarraysI.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="754.ReachaNumber.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
