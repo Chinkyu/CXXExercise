@@ -591,5 +591,8 @@
     <ClCompile Include="754.ReachaNumber.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2021.SumofBeautyintheArray.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
