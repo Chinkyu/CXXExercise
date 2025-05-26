@@ -310,7 +310,9 @@
     <ClCompile Include="2017.GridGame.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2021.SumofBeautyintheArray.cpp" />
+    <ClCompile Include="2021.SumofBeautyintheArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2095.DeletetheMiddleNodeofaLinkedList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -626,6 +628,7 @@
     <ClCompile Include="795.NumberofSubarrayWithBoundedMaximum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="80.RemoveDuplicatefromsortedArrayII.cpp" />
     <ClCompile Include="820.SortEncodingofWords.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
