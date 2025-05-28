@@ -597,5 +597,8 @@
     <ClCompile Include="80.RemoveDuplicatefromsortedArrayII.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2178.MaximumSplitofPositiveEvenIntegers.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
