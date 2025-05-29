@@ -601,4 +601,9 @@
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="1734.DecodeXORedPermutation.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </None>
+  </ItemGroup>
 </Project>
