@@ -562,6 +562,7 @@
     <ClCompile Include="454.4SumII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="457.CircularArrayLoop.cpp" />
     <ClCompile Include="528.RandomPickwihWeight.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -708,7 +709,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="1734.DecodeXORedPermutation.cpp" />
+    <None Include="1734.DecodeXORedPermutation.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </None>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

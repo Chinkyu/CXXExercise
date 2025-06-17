@@ -600,6 +600,9 @@
     <ClCompile Include="2178.MaximumSplitofPositiveEvenIntegers.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="457.CircularArrayLoop.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
