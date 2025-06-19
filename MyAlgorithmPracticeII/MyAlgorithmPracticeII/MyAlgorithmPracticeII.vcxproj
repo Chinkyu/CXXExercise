@@ -166,7 +166,9 @@
     <ClCompile Include="1146.SnapshotArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="117.PopulatingNextRightPointersinEachNodeII.cpp" />
+    <ClCompile Include="117.PopulatingNextRightPointersinEachNodeII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1170.CompareStringsbyFrequencyofTheSmallestCharacter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -554,6 +556,7 @@
     <ClCompile Include="388.LongestAbsoluteFilePath.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="400.NthDigit.cpp" />
     <ClCompile Include="416.PartitionEqualSubsetSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
