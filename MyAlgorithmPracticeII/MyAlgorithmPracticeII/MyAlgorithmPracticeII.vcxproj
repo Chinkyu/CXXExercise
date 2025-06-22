@@ -496,6 +496,7 @@
     <ClCompile Include="2967.MinumumCosttoMakeArrayEqualindromic.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="300.LongestIncreasingSubsequence.cpp" />
     <ClCompile Include="3039.ApplyOperationstoMakeStringEmpty.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -574,7 +575,9 @@
     <ClCompile Include="457.CircularArrayLoop.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="457.UniqueSubstringsInWraparoundString.cpp" />
+    <ClCompile Include="457.UniqueSubstringsInWraparoundString.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="528.RandomPickwihWeight.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
