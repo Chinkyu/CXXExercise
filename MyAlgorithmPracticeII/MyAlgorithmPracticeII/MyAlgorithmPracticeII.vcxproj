@@ -496,7 +496,9 @@
     <ClCompile Include="2967.MinumumCosttoMakeArrayEqualindromic.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="300.LongestIncreasingSubsequence.cpp" />
+    <ClCompile Include="300.LongestIncreasingSubsequence.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3039.ApplyOperationstoMakeStringEmpty.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -545,6 +547,7 @@
     <ClCompile Include="3397.MaximumNumberofDistinctElementsAfterOperations.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="341.FlattenNestedListIterator.cpp" />
     <ClCompile Include="3428.MaximumandMinimumSumsofatMostSizeKSubsequences.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

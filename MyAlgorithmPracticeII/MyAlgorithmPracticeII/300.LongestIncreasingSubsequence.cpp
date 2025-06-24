@@ -19,6 +19,31 @@
 
 using namespace std;
 
+// dynamic probramming - 신기하네..... 
+// 1 부터 시작해서 등수를 매겨가는건데.. 이전것을 다 뒤져서.. 내 등수를 매긴다. 
+class Solution {
+public:
+    int lengthOfLIS(std::vector<int>& nums) {
+        if (nums.empty()) {
+            return 0;
+        }
+
+        int n = nums.size();
+        std::vector<int> dp(n, 1);
+
+        for (int i = 1; i < n; ++i) {
+            for (int j = 0; j < i; ++j) {
+                if (nums[i] > nums[j]) {
+                    dp[i] = std::max(dp[i], dp[j] + 1);
+                }
+            }
+        }
+
+        return *std::max_element(dp.begin(), dp.end());
+    }
+};
+
+// using tail ???
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
