@@ -645,6 +645,9 @@
     <ClCompile Include="1721.SwappingNodesinaLinkedList.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1292.MaximumSideLengthofaSquarewithSumLessThanorEqualtoThreshold.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">

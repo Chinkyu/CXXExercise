@@ -190,6 +190,7 @@
     <ClCompile Include="1239.MaximumLengthofaConcatenatedStringwithUniqueCharacters.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1292.MaximumSideLengthofaSquarewithSumLessThanorEqualtoThreshold.cpp" />
     <ClCompile Include="1300.SumofMutatedArrayclosesttoTarget.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -283,7 +284,9 @@
     <ClCompile Include="1685.SumofAbsoluteDifferencesinaSortedArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1721.SwappingNodesinaLinkedList.cpp" />
+    <ClCompile Include="1721.SwappingNodesinaLinkedList.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1738.FindKthLargestXORCoordinateValue.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
