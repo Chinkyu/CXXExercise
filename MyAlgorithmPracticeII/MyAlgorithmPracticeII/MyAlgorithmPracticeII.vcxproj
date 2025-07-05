@@ -190,7 +190,9 @@
     <ClCompile Include="1239.MaximumLengthofaConcatenatedStringwithUniqueCharacters.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1292.MaximumSideLengthofaSquarewithSumLessThanorEqualtoThreshold.cpp" />
+    <ClCompile Include="1292.MaximumSideLengthofaSquarewithSumLessThanorEqualtoThreshold.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1300.SumofMutatedArrayclosesttoTarget.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -413,6 +415,7 @@
     <ClCompile Include="2442.CountNumberofDistanctIntegersAfter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2470.NumberofsubarraysWithLCMEqualtoK.cpp" />
     <ClCompile Include="2476.ClosestNodesQueriesinaBinarySearchTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
