@@ -651,6 +651,12 @@
     <ClCompile Include="2470.NumberofsubarraysWithLCMEqualtoK.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="462.MinimumMovestoEqualArrayElementsII.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
+    <ClCompile Include="939.MinimumAreaRectangle.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
