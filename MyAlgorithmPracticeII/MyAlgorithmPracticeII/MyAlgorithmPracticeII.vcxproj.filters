@@ -660,6 +660,9 @@
     <ClCompile Include="1017.convertToBase2.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="17.LetterCombinationsofaPhoneNumber.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">

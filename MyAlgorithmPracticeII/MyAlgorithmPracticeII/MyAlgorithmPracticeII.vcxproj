@@ -136,7 +136,9 @@
     <ClCompile Include="1011.CapacityToShipPackagesWithinDDays.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1017.convertToBase2.cpp" />
+    <ClCompile Include="1017.convertToBase2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1019.NextGreaterNodeInLinkedList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -287,6 +289,7 @@
     <ClCompile Include="1685.SumofAbsoluteDifferencesinaSortedArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="17.LetterCombinationsofaPhoneNumber.cpp" />
     <ClCompile Include="1721.SwappingNodesinaLinkedList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
