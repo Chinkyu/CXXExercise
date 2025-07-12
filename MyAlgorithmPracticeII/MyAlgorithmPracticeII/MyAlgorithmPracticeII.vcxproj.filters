@@ -663,6 +663,9 @@
     <ClCompile Include="17.LetterCombinationsofaPhoneNumber.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3316.FindMaxRemovalsFromSourceString.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">

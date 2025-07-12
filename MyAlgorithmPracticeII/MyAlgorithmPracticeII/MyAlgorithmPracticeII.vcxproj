@@ -289,7 +289,9 @@
     <ClCompile Include="1685.SumofAbsoluteDifferencesinaSortedArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="17.LetterCombinationsofaPhoneNumber.cpp" />
+    <ClCompile Include="17.LetterCombinationsofaPhoneNumber.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1721.SwappingNodesinaLinkedList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -563,6 +565,7 @@
     <ClCompile Include="3305.CountofSubstringsContainingEveryVowelandKConsonatsI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3316.FindMaxRemovalsFromSourceString.cpp" />
     <ClCompile Include="3377.DigitOperationsToMakeTwoIntegersEqual.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
