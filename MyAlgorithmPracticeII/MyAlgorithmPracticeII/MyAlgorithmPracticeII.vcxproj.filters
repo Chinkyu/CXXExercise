@@ -666,6 +666,12 @@
     <ClCompile Include="3316.FindMaxRemovalsFromSourceString.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2370.LongestIdealSubsequence.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
+    <ClCompile Include="740.DeleteandEarn.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
