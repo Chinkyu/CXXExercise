@@ -226,7 +226,9 @@
     <ClCompile Include="1415.TheKthLexicographicalStringofAllHappyStringsofLengthn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1442.CountTripletsthatCanFormTwoArraysofEqualXOR.cpp" />
+    <ClCompile Include="1442.CountTripletsthatCanFormTwoArraysofEqualXOR.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1471.TheKStrongestValuesInAnArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -761,6 +763,7 @@
     <ClCompile Include="939.MinimumAreaRectangle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="946.ValidateStackSequences.cpp" />
     <ClCompile Include="947.MostStonesRemovedwithSameRaworColumn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
