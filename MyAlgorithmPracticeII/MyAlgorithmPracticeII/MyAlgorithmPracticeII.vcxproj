@@ -454,6 +454,7 @@
     <ClCompile Include="2546.ApplyBitwiseOperationstoMakeStringsEqual.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2555.MaximizeWinFromTwoSegments.cpp" />
     <ClCompile Include="2556.DisconnectPathInaBinaryMatrixByatMostOneFlip.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -526,7 +527,9 @@
     <ClCompile Include="2943.MaximizeAreaofSquairHoleInGrid.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2944.MinimumNumberofCoinsforFruits.cpp" />
+    <ClCompile Include="2944.MinimumNumberofCoinsforFruits.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2966.DivideArrayIntoArraysWithMaxDifference.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
