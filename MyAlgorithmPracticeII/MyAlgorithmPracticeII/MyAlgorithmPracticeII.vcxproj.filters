@@ -711,6 +711,9 @@
     <ClCompile Include="2359.FindClosestNodetoGivenTwoNodes.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="712.MinimumASCIIDeleteSumforTwoStrings.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">

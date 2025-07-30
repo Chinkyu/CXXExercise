@@ -409,7 +409,9 @@
     <ClCompile Include="235.LowestCommonAncestorofaBinarySearchTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2359.FindClosestNodetoGivenTwoNodes.cpp" />
+    <ClCompile Include="2359.FindClosestNodetoGivenTwoNodes.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2365.TaskSchedulerII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -698,6 +700,7 @@
     <ClCompile Include="690.EmployeeImportance.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="712.MinimumASCIIDeleteSumforTwoStrings.cpp" />
     <ClCompile Include="720.LongestWordInDictionary.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
