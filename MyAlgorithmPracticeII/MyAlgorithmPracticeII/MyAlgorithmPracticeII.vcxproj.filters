@@ -714,6 +714,9 @@
     <ClCompile Include="712.MinimumASCIIDeleteSumforTwoStrings.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3371.IdentifytheLargestOutlierinanArray.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">

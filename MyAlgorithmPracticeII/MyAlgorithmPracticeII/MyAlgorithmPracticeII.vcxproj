@@ -595,6 +595,7 @@
     <ClCompile Include="3316.FindMaxRemovalsFromSourceString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3371.IdentifytheLargestOutlierinanArray.cpp" />
     <ClCompile Include="3377.DigitOperationsToMakeTwoIntegersEqual.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -700,7 +701,9 @@
     <ClCompile Include="690.EmployeeImportance.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="712.MinimumASCIIDeleteSumforTwoStrings.cpp" />
+    <ClCompile Include="712.MinimumASCIIDeleteSumforTwoStrings.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="720.LongestWordInDictionary.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
