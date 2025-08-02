@@ -625,7 +625,9 @@
     <ClCompile Include="3584.MaximumProductofFirstandLastElementsofaSubsequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3688.FindMaximumAreaofaTrianble.cpp" />
+    <ClCompile Include="3688.FindMaximumAreaofaTrianble.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="376.WiggleSubsequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -647,6 +649,7 @@
     <ClCompile Include="432.ReconstructOriginalDigitsFromEnglish.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="453.MinimumMovestoEqualArrayElements.cpp" />
     <ClCompile Include="454.4SumII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
