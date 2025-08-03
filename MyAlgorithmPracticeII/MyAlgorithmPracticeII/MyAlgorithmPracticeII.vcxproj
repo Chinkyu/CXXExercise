@@ -349,6 +349,7 @@
     <ClCompile Include="2021.SumofBeautyintheArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2024.MaximizetheConfusionofanExam.cpp" />
     <ClCompile Include="2091.RemovingMinimumandMaximumFromArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -649,7 +650,9 @@
     <ClCompile Include="432.ReconstructOriginalDigitsFromEnglish.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="453.MinimumMovestoEqualArrayElements.cpp" />
+    <ClCompile Include="453.MinimumMovestoEqualArrayElements.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="454.4SumII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
