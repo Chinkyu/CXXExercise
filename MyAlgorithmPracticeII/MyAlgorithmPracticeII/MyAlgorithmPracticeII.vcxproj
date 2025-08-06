@@ -460,6 +460,7 @@
     <ClCompile Include="2527.FindXorBeautyofArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2537.CounttheNumberofGoodSubarrays.cpp" />
     <ClCompile Include="2546.ApplyBitwiseOperationstoMakeStringsEqual.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -628,7 +629,9 @@
     <ClCompile Include="3584.MaximumProductofFirstandLastElementsofaSubsequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3597.PartitionString.cpp" />
+    <ClCompile Include="3597.PartitionString.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3688.FindMaximumAreaofaTrianble.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
