@@ -262,6 +262,7 @@
     <ClCompile Include="1529.MinimumSuffixFlips.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="153.FindMaximuminRotatedSortedArray.cpp" />
     <ClCompile Include="1545.FindKthBitinNthBinaryString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -538,7 +539,9 @@
     <ClCompile Include="2849.DetermineifaCellIsReachableataGivenTime.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2865.BeautifulTowersI.cpp" />
+    <ClCompile Include="2865.BeautifulTowersI.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2875.CountPairsofPointsWithDistanceK.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
