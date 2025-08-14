@@ -277,6 +277,7 @@
     <ClCompile Include="1590.MakeSumdivisibleByP.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1621.NumberofSetsofKNonOverlappingLineSegments.cpp" />
     <ClCompile Include="1626.BestTeamWithNoConflicts.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -577,7 +578,9 @@
     <ClCompile Include="3115.MaximumPrimeDifference.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3137.MinimumNumberofOperationstoMakeWordKPeriodic.cpp" />
+    <ClCompile Include="3137.MinimumNumberofOperationstoMakeWordKPeriodic.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3144.MinimumSubstringPartitionofEqualCharacterFrequency.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
