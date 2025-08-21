@@ -229,7 +229,9 @@
     <ClCompile Include="1415.TheKthLexicographicalStringofAllHappyStringsofLengthn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1418.DisplayTableofFoodOrdersinaRestaurant.cpp" />
+    <ClCompile Include="1418.DisplayTableofFoodOrdersinaRestaurant.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1442.CountTripletsthatCanFormTwoArraysofEqualXOR.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -473,6 +475,7 @@
     <ClCompile Include="2491.DividePlayersInfoTeamsofEqualSkill.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2507.SmallestValueAfterReplacingWithSumofPrimeFactors.cpp" />
     <ClCompile Include="2527.FindXorBeautyofArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
