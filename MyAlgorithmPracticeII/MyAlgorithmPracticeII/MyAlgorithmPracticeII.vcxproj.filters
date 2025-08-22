@@ -765,6 +765,9 @@
     <ClCompile Include="2507.SmallestValueAfterReplacingWithSumofPrimeFactors.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="82.RemoveDuplicatedfromSortedListII.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
