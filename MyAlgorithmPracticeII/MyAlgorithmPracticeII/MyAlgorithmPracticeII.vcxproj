@@ -172,6 +172,7 @@
     <ClCompile Include="1146.SnapshotArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="116.PopulatingNextRightPointersinEachNode.cpp" />
     <ClCompile Include="117.PopulatingNextRightPointersinEachNodeII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -793,7 +794,9 @@
     <ClCompile Include="80.RemoveDuplicatefromsortedArrayII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="82.RemoveDuplicatedfromSortedListII.cpp" />
+    <ClCompile Include="82.RemoveDuplicatedfromSortedListII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="820.SortEncodingofWords.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
