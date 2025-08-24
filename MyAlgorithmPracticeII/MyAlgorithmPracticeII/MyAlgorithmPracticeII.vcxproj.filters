@@ -771,6 +771,9 @@
     <ClCompile Include="116.PopulatingNextRightPointersinEachNode.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2381.ShiftingLettersII.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
