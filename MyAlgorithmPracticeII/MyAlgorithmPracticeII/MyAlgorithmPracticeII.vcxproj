@@ -319,7 +319,9 @@
     <ClCompile Include="1721.SwappingNodesinaLinkedList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1726.TuplewithSameProduct.cpp" />
+    <ClCompile Include="1726.TuplewithSameProduct.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1738.FindKthLargestXORCoordinateValue.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -614,6 +616,7 @@
     <ClCompile Include="3191.MinimumOperationstoMakeBinaryArrayElementsEqualtoOneI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3192.MinimumOperationstoMakeBinaryArrayElementsEqualtoOneII.cpp" />
     <ClCompile Include="3208.AlternatingGroupsII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
