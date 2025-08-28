@@ -616,7 +616,9 @@
     <ClCompile Include="3191.MinimumOperationstoMakeBinaryArrayElementsEqualtoOneI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3192.MinimumOperationstoMakeBinaryArrayElementsEqualtoOneII.cpp" />
+    <ClCompile Include="3192.MinimumOperationstoMakeBinaryArrayElementsEqualtoOneII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3208.AlternatingGroupsII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -719,6 +721,7 @@
     <ClCompile Include="523.ContinuousSubarraySum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="524.LongestWordinDictionarythroughDeleting.cpp" />
     <ClCompile Include="528.RandomPickwihWeight.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

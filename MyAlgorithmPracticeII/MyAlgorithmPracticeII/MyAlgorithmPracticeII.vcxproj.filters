@@ -780,6 +780,9 @@
     <ClCompile Include="3192.MinimumOperationstoMakeBinaryArrayElementsEqualtoOneII.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="524.LongestWordinDictionarythroughDeleting.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
