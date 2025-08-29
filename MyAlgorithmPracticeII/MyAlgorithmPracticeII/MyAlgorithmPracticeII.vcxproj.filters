@@ -783,6 +783,9 @@
     <ClCompile Include="524.LongestWordinDictionarythroughDeleting.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3228.MaximumNumberofOperationstoMoveOnestotheEnd.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
