@@ -235,7 +235,9 @@
     <ClCompile Include="1418.DisplayTableofFoodOrdersinaRestaurant.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="142.LinkedListCycleII.cpp" />
+    <ClCompile Include="142.LinkedListCycleII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1442.CountTripletsthatCanFormTwoArraysofEqualXOR.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -638,6 +640,7 @@
     <ClCompile Include="3271.HashDividedString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3297.CountSubstringsThanCanBeRearrangedtoContainaStringI.cpp" />
     <ClCompile Include="3301.MaximizetheTotalHeightofUniqueTowers.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
