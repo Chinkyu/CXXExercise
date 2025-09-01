@@ -145,6 +145,7 @@
     <ClCompile Include="1023.CamelcaseMatching.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1035.UncrossedLines.cpp" />
     <ClCompile Include="1039.MinimumScoreTriangulationofPolygon.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -640,7 +641,9 @@
     <ClCompile Include="3271.HashDividedString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3297.CountSubstringsThanCanBeRearrangedtoContainaStringI.cpp" />
+    <ClCompile Include="3297.CountSubstringsThanCanBeRearrangedtoContainaStringI.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3301.MaximizetheTotalHeightofUniqueTowers.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
