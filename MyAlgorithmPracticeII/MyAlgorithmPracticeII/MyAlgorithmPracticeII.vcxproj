@@ -145,7 +145,9 @@
     <ClCompile Include="1023.CamelcaseMatching.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1035.UncrossedLines.cpp" />
+    <ClCompile Include="1035.UncrossedLines.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1039.MinimumScoreTriangulationofPolygon.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -479,6 +481,7 @@
     <ClCompile Include="2476.ClosestNodesQueriesinaBinarySearchTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2477.MinimumFuelCosttoReporttotheCapital.cpp" />
     <ClCompile Include="2483.MinimumPenaltyforaShop.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
