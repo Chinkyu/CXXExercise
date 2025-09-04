@@ -798,6 +798,9 @@
     <ClCompile Include="2477.MinimumFuelCosttoReporttotheCapital.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2541.MinimumOperationstoMakeArrayEqualII.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
