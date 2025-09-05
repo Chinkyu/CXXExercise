@@ -801,6 +801,9 @@
     <ClCompile Include="2541.MinimumOperationstoMakeArrayEqualII.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1604.AlertUsingSame Key-Card Three or More Times in a One Hour Period.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
