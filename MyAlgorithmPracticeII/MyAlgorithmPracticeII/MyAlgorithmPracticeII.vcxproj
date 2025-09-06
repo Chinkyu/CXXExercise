@@ -289,7 +289,9 @@
     <ClCompile Include="1590.MakeSumdivisibleByP.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1604.AlertUsingSame Key-Card Three or More Times in a One Hour Period.cpp" />
+    <ClCompile Include="1604.AlertUsingSame Key-Card Three or More Times in a One Hour Period.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1621.NumberofSetsofKNonOverlappingLineSegments.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -608,6 +610,7 @@
     <ClCompile Include="3076.SortestUncommonSubstringInanArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3101.CountAlternatingSubarrays.cpp" />
     <ClCompile Include="3115.MaximumPrimeDifference.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
