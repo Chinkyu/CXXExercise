@@ -804,7 +804,7 @@
     <ClCompile Include="1604.AlertUsingSame Key-Card Three or More Times in a One Hour Period.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
-    <ClCompile Include="3101.CountAlternatingSubarrays.cpp">
+    <ClCompile Include="2439.MinimuzeMaximumofArray.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
   </ItemGroup>
