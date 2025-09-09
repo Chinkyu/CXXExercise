@@ -703,7 +703,9 @@
     <ClCompile Include="3597.PartitionString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3635.EarliestFinishTimeforLandand WaterRidesII.cpp" />
+    <ClCompile Include="3635.EarliestFinishTimeforLandand WaterRidesII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3688.FindMaximumAreaofaTrianble.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -755,6 +757,7 @@
     <ClCompile Include="565.ArrayNesting.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="583.DeleteOperationforTwoStrings.cpp" />
     <ClCompile Include="59.SpiralMatrixII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

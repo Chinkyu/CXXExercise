@@ -810,6 +810,9 @@
     <ClCompile Include="3635.EarliestFinishTimeforLandand WaterRidesII.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="583.DeleteOperationforTwoStrings.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
