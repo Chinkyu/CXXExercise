@@ -816,6 +816,9 @@
     <ClCompile Include="865.SmallestSubtreewithalltheDeepestNodes.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3667.FindMaximumNumberofNonIntersectingSubstrings.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
