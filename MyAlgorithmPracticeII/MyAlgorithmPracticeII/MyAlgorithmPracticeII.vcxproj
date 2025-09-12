@@ -553,6 +553,7 @@
     <ClCompile Include="275.H-IndexII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2750.WaystoSplitArrayIntoGoodSubarrays.cpp" />
     <ClCompile Include="2766.RelocateMarbles.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -706,7 +707,9 @@
     <ClCompile Include="3635.EarliestFinishTimeforLandand WaterRidesII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3667.FindMaximumNumberofNonIntersectingSubstrings.cpp" />
+    <ClCompile Include="3667.FindMaximumNumberofNonIntersectingSubstrings.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3688.FindMaximumAreaofaTrianble.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
