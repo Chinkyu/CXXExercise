@@ -1,4 +1,4 @@
-// see answer
+// Not go further : debugging matter   and may need binary search 
 #include <vector>
 #include <unordered_map>
 #include <map>
@@ -19,31 +19,42 @@
 
 using namespace std;
 
-public class Solution {
-    public int[] ConstructArray(int n, int k) //* 667 Beautiful Arrangement II
-    {
-        int min = 1, max = n, index = 0;
-        int[] arr = new int[n];
 
-        while (index < k - 1)
-            if (index % 2 == 0)
-                arr[index++] = min++;
+class Solution {
+public:
+    bool isExist(vector <vector<long long>>& ac, int m, int n, int size, int threshold) {
 
-            else
-                arr[index++] = max--;
+        for (int i = 0; i <= m - size; ++i) {
+            for (int j = 0; j <= n - size; ++j) {
+                long long sum = ac[i + size][j + size] - ac[i][j];
+                if (sum <= threshold) return true;
+            }
+        }
 
-
-        if (k % 2 == 1)
-            while (index < n)
-                arr[index++] = min++;
-
-        else
-            while (index < n)
-                arr[index++] = max--;
-
-        return arr;
+        return false;
     }
-}
+
+    int maxSideLength(vector<vector<int>>& mat, int threshold) {
+        int m = mat.size();
+        int n = mat[0].size();
+
+        vector<vector<long long>> ac(m + 1, vector<long long>(n + 1, 0));
+
+        // accumulat array
+        for (int i = 1; i <= m; ++i) {
+            for (int j = 1; j <= n; ++j) {
+                ac[i][j] = ac[i - 1][j] + ac[i][j - 1] - ac[i - 1][j - 1] + mat[i - 1][j - 1];
+            }
+        }
+
+        int max_size = min(m, n);
+        for (int i = 10; i <= max_size; ++i) {
+            if (false == isExist(ac, m, n, i, threshold)) return i - 1;
+        }
+
+        return max_size;
+    }
+};
 
 int main() {
     char c;
@@ -56,6 +67,6 @@ int main() {
 
 
     cout << sol.maxSideLength(mat, 4749);
-   
+
     cin >> c;
 }

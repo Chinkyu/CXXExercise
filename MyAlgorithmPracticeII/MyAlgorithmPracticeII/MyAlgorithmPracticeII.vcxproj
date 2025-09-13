@@ -199,7 +199,9 @@
     <ClCompile Include="1239.MaximumLengthofaConcatenatedStringwithUniqueCharacters.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1277.CountSquareSubmatriceswithAllOnes.cpp" />
+    <ClCompile Include="1277.CountSquareSubmatriceswithAllOnes.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1292.MaximumSideLengthofaSquarewithSumLessThanorEqualtoThreshold.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -794,6 +796,7 @@
     <ClCompile Include="655.PrintBinaryTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="667.BeautifulArrangementII.cpp" />
     <ClCompile Include="677.MapSumPairs.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
