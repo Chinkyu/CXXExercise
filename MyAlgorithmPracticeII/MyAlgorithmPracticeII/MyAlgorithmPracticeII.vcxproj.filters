@@ -837,6 +837,9 @@
     <ClCompile Include="1003.CheckIfWorldIsValidAfterSubstitutions.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2745.ConstructTheLongestNewString.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
