@@ -541,6 +541,7 @@
     <ClCompile Include="2579.CountTotalNumberofColoredCells.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2585.CountTheNumberofCompleteComponents.cpp" />
     <ClCompile Include="2673.MakeCostsofPathsEqualinaBinaryTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -550,7 +551,9 @@
     <ClCompile Include="2684.MaximumNumberofMovesinaGrid.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2745.ConstructTheLongestNewString.cpp" />
+    <ClCompile Include="2745.ConstructTheLongestNewString.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2746.DecrementalStringConcatenation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
