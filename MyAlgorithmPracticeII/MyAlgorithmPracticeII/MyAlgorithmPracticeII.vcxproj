@@ -541,7 +541,9 @@
     <ClCompile Include="2579.CountTotalNumberofColoredCells.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2585.CountTheNumberofCompleteComponents.cpp" />
+    <ClCompile Include="2585.CountTheNumberofCompleteComponents.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2673.MakeCostsofPathsEqualinaBinaryTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -716,6 +718,7 @@
     <ClCompile Include="3597.PartitionString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3607.PowerGridMaintenance.cpp" />
     <ClCompile Include="3635.EarliestFinishTimeforLandand WaterRidesII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

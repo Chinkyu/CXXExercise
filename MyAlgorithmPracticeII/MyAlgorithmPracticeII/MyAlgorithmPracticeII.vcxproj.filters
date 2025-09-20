@@ -843,6 +843,9 @@
     <ClCompile Include="2585.CountTheNumberofCompleteComponents.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3607.PowerGridMaintenance.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
