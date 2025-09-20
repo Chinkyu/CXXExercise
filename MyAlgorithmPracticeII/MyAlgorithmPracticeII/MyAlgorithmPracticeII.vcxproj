@@ -595,6 +595,7 @@
     <ClCompile Include="2829.DistributeCandiesAmongChildrenII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2834.FindtheMinimumPossibleSumofaBeautifulArray.cpp" />
     <ClCompile Include="2849.DetermineifaCellIsReachableataGivenTime.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -718,7 +719,9 @@
     <ClCompile Include="3597.PartitionString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3607.PowerGridMaintenance.cpp" />
+    <ClCompile Include="3607.PowerGridMaintenance.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3635.EarliestFinishTimeforLandand WaterRidesII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
