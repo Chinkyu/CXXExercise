@@ -595,7 +595,9 @@
     <ClCompile Include="2829.DistributeCandiesAmongChildrenII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2834.FindtheMinimumPossibleSumofaBeautifulArray.cpp" />
+    <ClCompile Include="2834.FindtheMinimumPossibleSumofaBeautifulArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2849.DetermineifaCellIsReachableataGivenTime.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -770,6 +772,7 @@
     <ClCompile Include="462.MinimumMovestoEqualArrayElementsII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="481.MegicalString.cpp" />
     <ClCompile Include="523.ContinuousSubarraySum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
