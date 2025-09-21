@@ -1,4 +1,4 @@
-// see answer : solve wit math  n(n+1)/2
+// see answer and make from rule : 
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -23,6 +23,28 @@ using namespace std;
 class Solution {
 public:
     int magicalString(int n) {
+
+        vector<int> ms = { 1, 2, 2 };
+    
+        int iterator = 1;
+        int cnt = 1;
+        for (int i = 2; ms.size() < n; ++i) {
+            for (int j = 0; j < ms[i]; j++) {
+                ms.push_back(iterator);
+                if (ms.size() <= n && iterator == 1) cnt++;
+            }
+            iterator = (iterator == 1) ? 2 : 1;
+        }
+        return cnt;
+
+    }
+};
+
+
+
+class _Solution {
+public:
+    int magicalString(int n) {
         if (n < 4) return 1;
         vector<int> arr(n + 2, 0);
         arr[2] = 2;
@@ -41,7 +63,7 @@ int main() {
     char c;
     Solution sol;
 
-    cout << sol.minimumPossibleSum(39636, 49035);
+    cout << sol.magicalString(7);
 
 
     cin >> c;
