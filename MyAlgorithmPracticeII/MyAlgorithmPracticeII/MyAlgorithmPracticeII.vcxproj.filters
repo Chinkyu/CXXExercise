@@ -852,6 +852,9 @@
     <ClCompile Include="481.MegicalString.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2934.MinimumOperationstoMaximizeLastElementsinArrays.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">

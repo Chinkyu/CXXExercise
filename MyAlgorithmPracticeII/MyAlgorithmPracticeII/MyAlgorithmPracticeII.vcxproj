@@ -610,6 +610,7 @@
     <ClCompile Include="2933.HighAccessEmployees.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2934.MinimumOperationstoMaximizeLastElementsinArrays.cpp" />
     <ClCompile Include="2943.MaximizeAreaofSquairHoleInGrid.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -772,7 +773,9 @@
     <ClCompile Include="462.MinimumMovestoEqualArrayElementsII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="481.MegicalString.cpp" />
+    <ClCompile Include="481.MegicalString.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="523.ContinuousSubarraySum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
