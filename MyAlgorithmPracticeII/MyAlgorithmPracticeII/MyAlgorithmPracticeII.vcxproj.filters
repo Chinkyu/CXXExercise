@@ -861,6 +861,9 @@
     <ClCompile Include="402.RemoveKDigits.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1443.MinimumTimetoCollectAllApplesInaTree.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
