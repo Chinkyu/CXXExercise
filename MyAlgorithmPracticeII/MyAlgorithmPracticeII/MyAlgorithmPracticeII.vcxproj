@@ -250,7 +250,9 @@
     <ClCompile Include="1442.CountTripletsthatCanFormTwoArraysofEqualXOR.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1443.MinimumTimetoCollectAllApplesInaTree.cpp" />
+    <ClCompile Include="1443.MinimumTimetoCollectAllApplesInaTree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1471.TheKStrongestValuesInAnArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -791,6 +793,7 @@
     <ClCompile Include="528.RandomPickwihWeight.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="55.JumpGame.cpp" />
     <ClCompile Include="565.ArrayNesting.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
