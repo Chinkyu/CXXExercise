@@ -670,6 +670,7 @@
     <ClCompile Include="3228.MaximumNumberofOperationstoMoveOnestotheEnd.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3239.MinimumNumberofFlipstoMakeBinaryGridPalindromicI.cpp" />
     <ClCompile Include="3249.CounttheNumberofGodNodes.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -793,7 +794,9 @@
     <ClCompile Include="528.RandomPickwihWeight.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="55.JumpGame.cpp" />
+    <ClCompile Include="55.JumpGame.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="565.ArrayNesting.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
