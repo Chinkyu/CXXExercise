@@ -733,6 +733,7 @@
     <ClCompile Include="3607.PowerGridMaintenance.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3612.ProcessStringwithSpecialOperationsI.cpp" />
     <ClCompile Include="3635.EarliestFinishTimeforLandand WaterRidesII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -847,7 +848,9 @@
     <ClCompile Include="678.ValidParenthesisString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="686.RepeatedStringMatch.cpp" />
+    <ClCompile Include="686.RepeatedStringMatch.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="690.EmployeeImportance.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
