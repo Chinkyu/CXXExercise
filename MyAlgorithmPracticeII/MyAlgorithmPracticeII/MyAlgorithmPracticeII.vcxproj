@@ -268,7 +268,9 @@
     <ClCompile Include="15.3Sum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1508.RangeSumofSortedSubarraySums.cpp" />
+    <ClCompile Include="1508.RangeSumofSortedSubarraySums.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1509.MinimumDifferenceBetweenLargestandSmallestValueinThreeMoves.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -707,6 +709,7 @@
     <ClCompile Include="3397.MaximumNumberofDistinctElementsAfterOperations.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3404.CountSpecialSubsequences.cpp" />
     <ClCompile Include="341.FlattenNestedListIterator.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

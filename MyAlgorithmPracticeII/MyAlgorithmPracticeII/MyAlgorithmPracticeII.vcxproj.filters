@@ -882,6 +882,9 @@
     <ClCompile Include="1508.RangeSumofSortedSubarraySums.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3404.CountSpecialSubsequences.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
