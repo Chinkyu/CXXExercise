@@ -232,7 +232,9 @@
     <ClCompile Include="1366.RankTeamsbyVotes.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1386.CinemaSeatAllocation.cpp" />
+    <ClCompile Include="1386.CinemaSeatAllocation.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="139.WordBreak.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -749,6 +751,7 @@
     <ClCompile Include="3667.FindMaximumNumberofNonIntersectingSubstrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3676.CountBowlSubarrays.cpp" />
     <ClCompile Include="3688.FindMaximumAreaofaTrianble.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
