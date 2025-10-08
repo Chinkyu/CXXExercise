@@ -355,6 +355,7 @@
     <ClCompile Include="1786.NumberofRestrictedPathsFromFirsttoLastNode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="179.LargestNumber.cpp" />
     <ClCompile Include="1797.DesignAuthenticationManager.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -751,7 +752,9 @@
     <ClCompile Include="3667.FindMaximumNumberofNonIntersectingSubstrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3676.CountBowlSubarrays.cpp" />
+    <ClCompile Include="3676.CountBowlSubarrays.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3688.FindMaximumAreaofaTrianble.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
