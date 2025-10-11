@@ -439,6 +439,7 @@
     <ClCompile Include="2222.NumberofWaystoSelectBuildings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2244.MinimumRoundstoCompleteAllTasks.cpp" />
     <ClCompile Include="2256.MinimumAverageDifference.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -706,7 +707,9 @@
     <ClCompile Include="3316.FindMaxRemovalsFromSourceString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3366.MinimumArraySum.cpp" />
+    <ClCompile Include="3366.MinimumArraySum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3371.IdentifytheLargestOutlierinanArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

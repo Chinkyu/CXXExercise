@@ -900,6 +900,9 @@
     <ClCompile Include="3366.MinimumArraySum.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2244.MinimumRoundstoCompleteAllTasks.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
