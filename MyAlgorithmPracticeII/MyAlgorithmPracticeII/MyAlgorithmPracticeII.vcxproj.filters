@@ -909,6 +909,12 @@
     <ClCompile Include="3489.ZeroArrayTransformationIV.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2654.MinimumNumberofOperationstoMakeAllArrayElementsEqualto1.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
+    <ClCompile Include="3503.LongestPalindromeAfterSubstringConcatenationI.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
