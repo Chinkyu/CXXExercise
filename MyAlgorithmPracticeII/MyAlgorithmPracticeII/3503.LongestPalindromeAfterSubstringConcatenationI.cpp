@@ -20,6 +20,9 @@
 
 using namespace std;
 
+/*
+Reverse t and check for the longest common substring between s and t.
+*/
 class Solution {
 public:
     bool checkPal(string& s, int l, int r) {
