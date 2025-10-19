@@ -343,6 +343,7 @@
     <ClCompile Include="17.LetterCombinationsofaPhoneNumber.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1701.AverageWaitingTime.cpp" />
     <ClCompile Include="1721.SwappingNodesinaLinkedList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -748,7 +749,9 @@
     <ClCompile Include="3503.LongestPalindromeAfterSubstringConcatenationI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3537.FillASpecialGrid.cpp" />
+    <ClCompile Include="3537.FillASpecialGrid.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="357.CountNumberswithUniqueDigits.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
