@@ -253,7 +253,9 @@
     <ClCompile Include="142.LinkedListCycleII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1433.CheckIfaStringCanBreakAnotherString.cpp" />
+    <ClCompile Include="1433.CheckIfaStringCanBreakAnotherString.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1442.CountTripletsthatCanFormTwoArraysofEqualXOR.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -965,6 +967,7 @@
     <ClCompile Include="841.KeysandRooms.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="851.LoadandRich.cpp" />
     <ClCompile Include="853.CarFleet.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
