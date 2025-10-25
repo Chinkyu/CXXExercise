@@ -936,6 +936,9 @@
     <ClCompile Include="981.TimeBasedKey-ValueStore.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="77.Combinations.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
