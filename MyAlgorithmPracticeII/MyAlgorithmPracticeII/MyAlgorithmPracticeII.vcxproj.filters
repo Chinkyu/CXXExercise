@@ -942,6 +942,9 @@
     <ClCompile Include="3551.MinimumSwapstoSortbydigitSum.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3259.MaximumEnergyBoostFromTwoDrinks.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
