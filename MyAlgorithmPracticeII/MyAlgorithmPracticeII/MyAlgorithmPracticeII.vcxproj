@@ -190,6 +190,7 @@
     <ClCompile Include="1170.CompareStringsbyFrequencyofTheSmallestCharacter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1202.SmallestStringWithSwaps.cpp" />
     <ClCompile Include="1208.GetEqualSubstringsWithinBudget.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -703,7 +704,9 @@
     <ClCompile Include="3254.FindthePowerofKSizeSubarraysI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3259.MaximumEnergyBoostFromTwoDrinks.cpp" />
+    <ClCompile Include="3259.MaximumEnergyBoostFromTwoDrinks.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3271.HashDividedString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
