@@ -517,7 +517,9 @@
     <ClCompile Include="2442.CountNumberofDistanctIntegersAfter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2456.MostPopularVideoCreator.cpp" />
+    <ClCompile Include="2456.MostPopularVideoCreator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2470.NumberofsubarraysWithLCMEqualtoK.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -605,6 +607,7 @@
     <ClCompile Include="2766.RelocateMarbles.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2767.PartitionStringIntoMinimumBeautifulSubstrings.cpp" />
     <ClCompile Include="2780.MinimumIndexofaValidSplit.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
