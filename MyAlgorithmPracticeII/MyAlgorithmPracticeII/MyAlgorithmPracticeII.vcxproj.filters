@@ -963,6 +963,9 @@
     <ClCompile Include="2767.PartitionStringIntoMinimumBeautifulSubstrings.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2517.MaximumTastinessofCandyBasket.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
