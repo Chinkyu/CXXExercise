@@ -541,7 +541,9 @@
     <ClCompile Include="2507.SmallestValueAfterReplacingWithSumofPrimeFactors.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2517.MaximumTastinessofCandyBasket.cpp" />
+    <ClCompile Include="2517.MaximumTastinessofCandyBasket.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2527.FindXorBeautyofArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -668,6 +670,7 @@
     <ClCompile Include="300.LongestIncreasingSubsequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3025.FindtheNumberofWaystoPlacePeopleI.cpp" />
     <ClCompile Include="3039.ApplyOperationstoMakeStringEmpty.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
