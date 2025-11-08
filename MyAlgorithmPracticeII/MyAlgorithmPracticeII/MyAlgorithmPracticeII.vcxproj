@@ -643,6 +643,7 @@
     <ClCompile Include="2849.DetermineifaCellIsReachableataGivenTime.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2850.MinimumMovestoSpreadStonesOverGrid.cpp" />
     <ClCompile Include="2865.BeautifulTowersI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -670,7 +671,9 @@
     <ClCompile Include="300.LongestIncreasingSubsequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3025.FindtheNumberofWaystoPlacePeopleI.cpp" />
+    <ClCompile Include="3025.FindtheNumberofWaystoPlacePeopleI.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3039.ApplyOperationstoMakeStringEmpty.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -969,6 +969,9 @@
     <ClCompile Include="3025.FindtheNumberofWaystoPlacePeopleI.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2850.MinimumMovestoSpreadStonesOverGrid.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="1734.DecodeXORedPermutation.cpp">
