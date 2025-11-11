@@ -27,5 +27,8 @@
     <ClCompile Include="2583.KthLargestSuminaBinaryTree.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2087.MinimumCostHomecomingofaRobotinaGrid.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
