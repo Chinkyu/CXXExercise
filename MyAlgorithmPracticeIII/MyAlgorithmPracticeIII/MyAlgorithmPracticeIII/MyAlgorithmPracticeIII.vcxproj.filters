@@ -24,5 +24,8 @@
     <ClCompile Include="735.AsteroidCollision.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2583.KthLargestSuminaBinaryTree.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
