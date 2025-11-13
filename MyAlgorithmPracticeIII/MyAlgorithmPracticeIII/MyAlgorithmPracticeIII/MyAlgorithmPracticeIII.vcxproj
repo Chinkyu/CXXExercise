@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="2087.MinimumCostHomecomingofaRobotinaGrid.cpp" />
+    <ClCompile Include="1877.MinimizeMaximumPairSuminArray.cpp" />
+    <ClCompile Include="2087.MinimumCostHomecomingofaRobotinaGrid.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2583.KthLargestSuminaBinaryTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
