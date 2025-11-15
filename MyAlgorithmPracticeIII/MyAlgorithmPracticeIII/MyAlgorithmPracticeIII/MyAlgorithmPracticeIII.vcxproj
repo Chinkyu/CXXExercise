@@ -133,10 +133,13 @@
     <ClCompile Include="2087.MinimumCostHomecomingofaRobotinaGrid.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2336.SamllestNumberinInfiniteSet.cpp" />
+    <ClCompile Include="2336.SamllestNumberinInfiniteSet.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2583.KthLargestSuminaBinaryTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2747.CountZeroRequestServers.cpp" />
     <ClCompile Include="735.AsteroidCollision.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

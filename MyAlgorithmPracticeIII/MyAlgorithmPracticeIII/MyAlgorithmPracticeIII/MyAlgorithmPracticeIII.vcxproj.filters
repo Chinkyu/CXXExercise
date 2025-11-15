@@ -36,5 +36,8 @@
     <ClCompile Include="2336.SamllestNumberinInfiniteSet.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2747.CountZeroRequestServers.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
