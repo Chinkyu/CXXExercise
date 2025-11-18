@@ -42,5 +42,8 @@
     <ClCompile Include="2033.MinimumOperationstoMakeaUniValueGrid.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="394.DecodeString.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
