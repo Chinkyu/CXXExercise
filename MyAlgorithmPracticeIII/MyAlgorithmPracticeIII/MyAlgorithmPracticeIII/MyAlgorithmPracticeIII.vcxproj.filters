@@ -45,5 +45,8 @@
     <ClCompile Include="394.DecodeString.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2192.AllAncestersofaNodeinaDirectedAcyclicGraph.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
