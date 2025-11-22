@@ -51,5 +51,8 @@
     <ClCompile Include="3091.ApplyOperationstoMakeSumofArrayGreaterThanorEqualtoK.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="930.BinarySubarraysWithSum.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
