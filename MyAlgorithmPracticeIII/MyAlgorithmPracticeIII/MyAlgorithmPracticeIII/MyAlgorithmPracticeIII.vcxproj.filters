@@ -54,5 +54,8 @@
     <ClCompile Include="930.BinarySubarraysWithSum.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3531.CountCoveredBuildings.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
