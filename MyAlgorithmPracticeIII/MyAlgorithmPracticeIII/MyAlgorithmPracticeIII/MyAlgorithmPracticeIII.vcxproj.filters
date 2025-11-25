@@ -60,5 +60,8 @@
     <ClCompile Include="1557.MinimumNumberofVerticestoReachAllNodes.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3665.TwistedMirrorPathCount.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
