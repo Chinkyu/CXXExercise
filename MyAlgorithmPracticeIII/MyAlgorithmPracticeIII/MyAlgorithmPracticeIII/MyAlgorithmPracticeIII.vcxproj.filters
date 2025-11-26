@@ -63,5 +63,8 @@
     <ClCompile Include="3665.TwistedMirrorPathCount.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2353.DesignaFoodRatingSystem.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
