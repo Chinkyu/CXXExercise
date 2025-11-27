@@ -66,5 +66,8 @@
     <ClCompile Include="2353.DesignaFoodRatingSystem.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3012.MinimizeLengthofArrayUsingOperations.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
