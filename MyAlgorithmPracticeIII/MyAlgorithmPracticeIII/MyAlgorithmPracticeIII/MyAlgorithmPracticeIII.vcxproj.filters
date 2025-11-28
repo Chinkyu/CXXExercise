@@ -69,5 +69,8 @@
     <ClCompile Include="3012.MinimizeLengthofArrayUsingOperations.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2708.MaximumStrengthofaGroup.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

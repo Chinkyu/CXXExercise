@@ -151,10 +151,13 @@
     <ClCompile Include="2583.KthLargestSuminaBinaryTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2708.MaximumStrengthofaGroup.cpp" />
     <ClCompile Include="2747.CountZeroRequestServers.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3012.MinimizeLengthofArrayUsingOperations.cpp" />
+    <ClCompile Include="3012.MinimizeLengthofArrayUsingOperations.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3091.ApplyOperationstoMakeSumofArrayGreaterThanorEqualtoK.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
