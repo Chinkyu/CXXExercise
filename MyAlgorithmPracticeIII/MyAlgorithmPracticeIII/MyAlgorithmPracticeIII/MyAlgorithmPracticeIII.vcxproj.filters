@@ -72,5 +72,8 @@
     <ClCompile Include="2708.MaximumStrengthofaGroup.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2148.CountNumberofNiceSubarrays.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
