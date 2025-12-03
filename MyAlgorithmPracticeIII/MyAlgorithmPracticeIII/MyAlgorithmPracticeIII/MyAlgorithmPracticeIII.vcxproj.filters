@@ -75,5 +75,8 @@
     <ClCompile Include="2148.CountNumberofNiceSubarrays.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1447.SimplifiedFractions.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
