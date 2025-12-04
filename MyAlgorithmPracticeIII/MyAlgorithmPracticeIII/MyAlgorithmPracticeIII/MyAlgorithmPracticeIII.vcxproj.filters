@@ -78,5 +78,8 @@
     <ClCompile Include="1447.SimplifiedFractions.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="802.FindEventualSafeStates.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
