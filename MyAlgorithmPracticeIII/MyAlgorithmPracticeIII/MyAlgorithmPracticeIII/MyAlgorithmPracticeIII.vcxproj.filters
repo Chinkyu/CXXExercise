@@ -81,5 +81,8 @@
     <ClCompile Include="802.FindEventualSafeStates.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="477.TotalHammingDistance.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
