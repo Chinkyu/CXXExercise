@@ -87,5 +87,8 @@
     <ClCompile Include="2280.MinimumLinestoRepresentaLineChart.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1642.FurthestBuildingYouCanReach.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
