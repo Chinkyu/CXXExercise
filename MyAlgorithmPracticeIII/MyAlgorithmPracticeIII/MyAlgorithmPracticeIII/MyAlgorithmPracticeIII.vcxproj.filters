@@ -90,5 +90,8 @@
     <ClCompile Include="1642.FurthestBuildingYouCanReach.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3644.MaximumKtoSortaPermutation.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
