@@ -93,5 +93,11 @@
     <ClCompile Include="3644.MaximumKtoSortaPermutation.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="380.InsertDeleteGetRandom01.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="380.InsertDeleteGetRandom)1" />
   </ItemGroup>
 </Project>
