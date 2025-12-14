@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="3478.ChooseKElementsWithMaximumSum.cpp" />
+    <ClCompile Include="2225.FindPlayersWithZeroofOneLosses.cpp" />
+    <ClCompile Include="3478.ChooseKElementsWithMaximumSum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="380.InsertDeleteGetRandom01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
