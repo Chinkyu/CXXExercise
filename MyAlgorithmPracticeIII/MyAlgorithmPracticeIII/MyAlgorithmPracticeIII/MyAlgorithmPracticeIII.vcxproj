@@ -130,7 +130,9 @@
     <ClCompile Include="2225.FindPlayersWithZeroofOneLosses.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3282.ReachEndofArrayWithMaxScore.cpp" />
+    <ClCompile Include="3282.ReachEndofArrayWithMaxScore.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3478.ChooseKElementsWithMaximumSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -206,6 +208,7 @@
     <ClCompile Include="802.FindEventualSafeStates.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="900.RLEIterator.cpp" />
     <ClCompile Include="930.BinarySubarraysWithSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
