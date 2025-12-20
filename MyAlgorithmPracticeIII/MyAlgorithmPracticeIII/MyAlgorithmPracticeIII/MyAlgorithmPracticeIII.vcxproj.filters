@@ -120,6 +120,9 @@
     <ClCompile Include="3469.FindMinimumCosttoRemoveArrayElements.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="11.ContainerWithMostWater.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />

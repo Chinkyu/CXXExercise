@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="11.ContainerWithMostWater.cpp" />
     <ClCompile Include="1605.FindFalidMatrixGivenRawandColumnSums.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -139,7 +140,9 @@
     <ClCompile Include="3282.ReachEndofArrayWithMaxScore.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3469.FindMinimumCosttoRemoveArrayElements.cpp" />
+    <ClCompile Include="3469.FindMinimumCosttoRemoveArrayElements.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3478.ChooseKElementsWithMaximumSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
