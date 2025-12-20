@@ -133,10 +133,13 @@
     <ClCompile Include="2225.FindPlayersWithZeroofOneLosses.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2226.MaximumCandiesAllocatedtoKChildren.cpp" />
+    <ClCompile Include="2226.MaximumCandiesAllocatedtoKChildren.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3282.ReachEndofArrayWithMaxScore.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3469.FindMinimumCosttoRemoveArrayElements.cpp" />
     <ClCompile Include="3478.ChooseKElementsWithMaximumSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

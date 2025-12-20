@@ -117,6 +117,9 @@
     <ClCompile Include="2226.MaximumCandiesAllocatedtoKChildren.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3469.FindMinimumCosttoRemoveArrayElements.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
