@@ -150,6 +150,9 @@
     <ClCompile Include="3138.MinimumLengthofAnagramConcatenation.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1943.DescribethePainting.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
