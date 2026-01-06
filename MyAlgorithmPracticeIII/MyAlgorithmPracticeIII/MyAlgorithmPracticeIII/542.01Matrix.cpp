@@ -27,10 +27,12 @@ public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
         int m = mat.size(), n = mat[0].size();
         queue<pair<int, int>> q;
-        for (int r = 0; r < m; ++r)
-            for (int c = 0; c < n; ++c)
+        for (int r = 0; r < m; ++r) {
+            for (int c = 0; c < n; ++c) {
                 if (mat[r][c] == 0) q.emplace(r, c);
                 else mat[r][c] = -1; // Marked as not processed yet!
+            }
+        }
 
         while (!q.empty()) {
             int r = q.front().first;
