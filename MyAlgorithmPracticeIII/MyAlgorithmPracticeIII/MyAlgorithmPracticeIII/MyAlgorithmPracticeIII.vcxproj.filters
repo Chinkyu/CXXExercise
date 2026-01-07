@@ -159,6 +159,9 @@
     <ClCompile Include="3546.EqualSumGridPartitionI.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2567.MinimumScorebyChargingTwoElements.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
