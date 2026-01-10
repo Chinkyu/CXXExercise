@@ -145,6 +145,7 @@
     <ClCompile Include="1943.DescribethePainting.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2131.LongestPalindromebyConcatenatingTwoLetterWords.cpp" />
     <ClCompile Include="2207.MaximizeNumberofSubsequencesinaString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -154,7 +155,9 @@
     <ClCompile Include="2226.MaximumCandiesAllocatedtoKChildren.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2265.CountNodesEqualtoAverageofSubtree.cpp" />
+    <ClCompile Include="2265.CountNodesEqualtoAverageofSubtree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2294.PartitionArraySouthThatMaximumDifferenceIsK.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
