@@ -177,6 +177,9 @@
     <ClCompile Include="743.NetworkDelayTime.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1906.MinimumAbsoluteDifferenceQueries.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
