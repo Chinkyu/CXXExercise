@@ -180,6 +180,9 @@
     <ClCompile Include="1906.MinimumAbsoluteDifferenceQueries.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3356.ZeroArrayTransformationII.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
