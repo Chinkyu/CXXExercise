@@ -186,6 +186,9 @@
     <ClCompile Include="3302.FindtheLexicographicallySmallestValidSequence.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="167.TwoSumII-InputArrayIsSorted.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />

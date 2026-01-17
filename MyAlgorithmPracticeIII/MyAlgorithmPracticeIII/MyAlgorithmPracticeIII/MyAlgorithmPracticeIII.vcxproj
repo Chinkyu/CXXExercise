@@ -139,6 +139,7 @@
     <ClCompile Include="1605.FindFalidMatrixGivenRawandColumnSums.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="167.TwoSumII-InputArrayIsSorted.cpp" />
     <ClCompile Include="1754.LargestMergeOfTwoStrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -184,7 +185,9 @@
     <ClCompile Include="3282.ReachEndofArrayWithMaxScore.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3302.FindtheLexicographicallySmallestValidSequence.cpp" />
+    <ClCompile Include="3302.FindtheLexicographicallySmallestValidSequence.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3356.ZeroArrayTransformationII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
