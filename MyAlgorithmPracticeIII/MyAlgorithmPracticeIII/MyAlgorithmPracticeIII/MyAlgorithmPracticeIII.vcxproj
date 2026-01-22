@@ -145,6 +145,7 @@
     <ClCompile Include="1754.LargestMergeOfTwoStrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1882.ProcessTasksUsingServers.cpp" />
     <ClCompile Include="1906.MinimumAbsoluteDifferenceQueries.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -175,7 +176,9 @@
     <ClCompile Include="2567.MinimumScorebyChargingTwoElements.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2616.MinizetheMaximumDifferenceofPairs.cpp" />
+    <ClCompile Include="2616.MinizetheMaximumDifferenceofPairs.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2870.MinimumNumbverOfOperationstoMakeArrayEmpty.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
