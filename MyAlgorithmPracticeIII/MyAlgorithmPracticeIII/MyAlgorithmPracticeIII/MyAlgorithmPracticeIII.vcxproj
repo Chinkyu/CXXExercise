@@ -190,13 +190,16 @@
     <ClCompile Include="2998.MinimumNumberofOperationstoMakeXandYEqual.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3026.MaximumgoodSubarraySum.cpp" />
+    <ClCompile Include="3026.MaximumgoodSubarraySum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3138.MinimumLengthofAnagramConcatenation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="3152.SpecialArrayII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3185.CountPairsThatFormaCompleteDayII.cpp" />
     <ClCompile Include="3282.ReachEndofArrayWithMaxScore.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
