@@ -184,7 +184,9 @@
     <ClCompile Include="2616.MinizetheMaximumDifferenceofPairs.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2860.HappyStudents.cpp" />
+    <ClCompile Include="2860.HappyStudents.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2870.MinimumNumbverOfOperationstoMakeArrayEmpty.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -317,6 +319,7 @@
     <ClCompile Include="802.FindEventualSafeStates.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="833.FindAndReplaceInString.cpp" />
     <ClCompile Include="851.LoudandRich.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
