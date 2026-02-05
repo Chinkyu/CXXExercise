@@ -175,6 +175,7 @@
     <ClCompile Include="2294.PartitionArraySouthThatMaximumDifferenceIsK.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2391.MinimumAmountofTimetoCollectGarbage.cpp" />
     <ClCompile Include="2425.BitwiseXORofAllPairings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -196,7 +197,9 @@
     <ClCompile Include="3026.MaximumgoodSubarraySum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3034.NumberofSubarraysThatMatchaPatternI.cpp" />
+    <ClCompile Include="3034.NumberofSubarraysThatMatchaPatternI.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3048.EarliestSecondtoMarkIndicesI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
