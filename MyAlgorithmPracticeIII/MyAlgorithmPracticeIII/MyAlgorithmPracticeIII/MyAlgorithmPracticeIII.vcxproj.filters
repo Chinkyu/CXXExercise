@@ -252,6 +252,9 @@
     <ClCompile Include="1492.TheKthFactorofn.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2771.LongestNondecreasingSubarrayFromTwoArrays.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
