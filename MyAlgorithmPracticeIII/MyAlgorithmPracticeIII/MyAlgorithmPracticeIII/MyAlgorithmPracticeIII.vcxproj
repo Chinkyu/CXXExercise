@@ -151,6 +151,7 @@
     <ClCompile Include="1616.SplitTwoStringstoMakePalindrome.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1654.MinimumJumpstoReachHome.cpp" />
     <ClCompile Include="167.TwoSumII-InputArrayIsSorted.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -223,7 +224,9 @@
     <ClCompile Include="3048.EarliestSecondtoMarkIndicesI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="310.MinimumHeightTrees.cpp" />
+    <ClCompile Include="310.MinimumHeightTrees.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3138.MinimumLengthofAnagramConcatenation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
