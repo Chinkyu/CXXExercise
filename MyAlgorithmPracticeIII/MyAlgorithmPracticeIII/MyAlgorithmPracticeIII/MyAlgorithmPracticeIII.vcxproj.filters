@@ -282,6 +282,9 @@
     <ClCompile Include="1482.MinimumNumberofDaystoMakemBouquets.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3528.UnitConversionI.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
