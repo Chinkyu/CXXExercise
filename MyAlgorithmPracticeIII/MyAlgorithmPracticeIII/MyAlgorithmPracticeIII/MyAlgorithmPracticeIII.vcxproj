@@ -172,7 +172,9 @@
     <ClCompile Include="1849.splittingaStringIntoDescendingConsecutiveValues.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="187.RepeatedDNASequences.cpp" />
+    <ClCompile Include="187.RepeatedDNASequences.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1882.ProcessTasksUsingServers.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -284,6 +286,7 @@
     <ClCompile Include="3627.MaximumMedianSumofSubseqnencesofSize3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3759.CountElementsWithaLeastKGreaterValues.cpp" />
     <ClCompile Include="380.InsertDeleteGetRandom01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
