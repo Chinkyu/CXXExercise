@@ -306,6 +306,9 @@
     <ClCompile Include="3759.CountElementsWithaLeastKGreaterValues.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="777.SwapAdjacentinLRString.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
