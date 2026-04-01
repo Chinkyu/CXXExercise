@@ -339,6 +339,12 @@
     <ClCompile Include="1865.FindingPairsWithaCertainSum.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2550.CountCollisionsofMonkeysonaPolygon.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
+    <ClCompile Include="3.LongestSubstringWithoutRepeatingCharacters.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />

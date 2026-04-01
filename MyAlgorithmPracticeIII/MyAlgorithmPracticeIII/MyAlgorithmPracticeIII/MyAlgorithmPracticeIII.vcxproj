@@ -175,7 +175,9 @@
     <ClCompile Include="1849.splittingaStringIntoDescendingConsecutiveValues.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1865.FindingPairsWithaCertainSum.cpp" />
+    <ClCompile Include="1865.FindingPairsWithaCertainSum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="187.RepeatedDNASequences.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -221,6 +223,9 @@
     <ClCompile Include="2425.BitwiseXORofAllPairings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2550.CountCollisionsofMonkeysonaPolygon.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2567.MinimumScorebyChargingTwoElements.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -242,6 +247,7 @@
     <ClCompile Include="2998.MinimumNumberofOperationstoMakeXandYEqual.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3.LongestSubstringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="3026.MaximumgoodSubarraySum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
