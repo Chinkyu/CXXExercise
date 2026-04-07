@@ -360,6 +360,9 @@
     <ClCompile Include="1276.NumberofBurgerswithWasteofIngredients.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="738.MonotoneIncreasingDigits.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
