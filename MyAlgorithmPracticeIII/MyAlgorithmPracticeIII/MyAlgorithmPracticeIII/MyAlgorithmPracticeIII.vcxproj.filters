@@ -363,6 +363,9 @@
     <ClCompile Include="738.MonotoneIncreasingDigits.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="433.MinumumGeneticMutation.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
