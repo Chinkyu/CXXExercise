@@ -378,6 +378,9 @@
     <ClCompile Include="1743.RestoretheArrayFromAdjacentPairs.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3694.DistinctPointsReachableAfterSubstringRemoval.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />

@@ -175,7 +175,9 @@
     <ClCompile Include="167.TwoSumII-InputArrayIsSorted.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1743.RestoretheArrayFromAdjacentPairs.cpp" />
+    <ClCompile Include="1743.RestoretheArrayFromAdjacentPairs.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1754.LargestMergeOfTwoStrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -328,6 +330,9 @@
     </ClCompile>
     <ClCompile Include="3670.MaximumProductofTwoIntegersWithNoCommonBits.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="3694.DistinctPointsReachableAfterSubstringRemoval.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="3759.CountElementsWithaLeastKGreaterValues.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
