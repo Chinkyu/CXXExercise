@@ -241,7 +241,9 @@
     <ClCompile Include="2466.CountWaysToBuildGoodStrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2526.FindConsequtiveIntegersfromaDatastream.cpp" />
+    <ClCompile Include="2526.FindConsequtiveIntegersfromaDatastream.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2550.CountCollisionsofMonkeysonaPolygon.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -269,6 +271,7 @@
     <ClCompile Include="2947.CountBeautifulSubstringI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="299.Bullsandows.cpp" />
     <ClCompile Include="2998.MinimumNumberofOperationstoMakeXandYEqual.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
