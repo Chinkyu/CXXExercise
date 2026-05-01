@@ -142,10 +142,13 @@
     <ClCompile Include="1276.NumberofBurgerswithWasteofIngredients.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="128.LongestConsecutiveSequence.cpp" />
     <ClCompile Include="1283.FindtheSmallestDivisorGivenaThreshold.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1310.XORQueriesofaSubarray.cpp" />
+    <ClCompile Include="1310.XORQueriesofaSubarray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1441.BuildanArrayWithStackOperations.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
