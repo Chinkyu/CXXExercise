@@ -184,7 +184,9 @@
     <ClCompile Include="167.TwoSumII-InputArrayIsSorted.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="172.FactorialTrailingZeroes.cpp" />
+    <ClCompile Include="172.FactorialTrailingZeroes.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1743.RestoretheArrayFromAdjacentPairs.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -194,6 +196,7 @@
     <ClCompile Include="18.4Sum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1846.MaximumelementAfterDecreasingandRearranging.cpp" />
     <ClCompile Include="1849.splittingaStringIntoDescendingConsecutiveValues.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
