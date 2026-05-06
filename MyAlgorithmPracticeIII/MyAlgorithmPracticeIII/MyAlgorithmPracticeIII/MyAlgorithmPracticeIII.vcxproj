@@ -184,6 +184,7 @@
     <ClCompile Include="167.TwoSumII-InputArrayIsSorted.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1702.MaximumBinaryStringAfterChange.cpp" />
     <ClCompile Include="172.FactorialTrailingZeroes.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -259,7 +260,9 @@
     <ClCompile Include="2550.CountCollisionsofMonkeysonaPolygon.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2559.CountVowelStringsInRanges.cpp" />
+    <ClCompile Include="2559.CountVowelStringsInRanges.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2567.MinimumScorebyChargingTwoElements.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
