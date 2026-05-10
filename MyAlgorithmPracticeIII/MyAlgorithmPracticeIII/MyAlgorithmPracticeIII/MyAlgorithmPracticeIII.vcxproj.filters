@@ -435,6 +435,9 @@
     <ClCompile Include="3217.DeleteNodesFromLinkedListPresentinArray.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1015.SmallestIntegerDivisiblebyK.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />

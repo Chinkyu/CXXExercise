@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1015.SmallestIntegerDivisiblebyK.cpp" />
     <ClCompile Include="1029.TwoCityScheduling.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -322,7 +323,9 @@
     <ClCompile Include="3185.CountPairsThatFormaCompleteDayII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3217.DeleteNodesFromLinkedListPresentinArray.cpp" />
+    <ClCompile Include="3217.DeleteNodesFromLinkedListPresentinArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3254.FindthePowerofKSizeSubarrays.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
