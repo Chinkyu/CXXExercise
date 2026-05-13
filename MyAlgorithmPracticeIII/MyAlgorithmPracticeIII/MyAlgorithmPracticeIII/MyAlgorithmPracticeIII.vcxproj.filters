@@ -441,6 +441,9 @@
     <ClCompile Include="3211.GenerateBinaryStringsWithoutAdjacentZeros.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3011.FindifArraycanBeSorted.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />

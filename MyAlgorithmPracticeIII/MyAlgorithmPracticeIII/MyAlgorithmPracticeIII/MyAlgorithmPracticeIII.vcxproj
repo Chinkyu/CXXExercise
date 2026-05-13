@@ -304,6 +304,7 @@
     <ClCompile Include="3.LongestSubstringWithoutRepeatingCharacters.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3011.FindifArraycanBeSorted.cpp" />
     <ClCompile Include="3026.MaximumgoodSubarraySum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -325,7 +326,9 @@
     <ClCompile Include="3185.CountPairsThatFormaCompleteDayII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3211.GenerateBinaryStringsWithoutAdjacentZeros.cpp" />
+    <ClCompile Include="3211.GenerateBinaryStringsWithoutAdjacentZeros.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3217.DeleteNodesFromLinkedListPresentinArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
