@@ -450,6 +450,9 @@
     <ClCompile Include="907.SumofSubarrayMinimums.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3335.TotalCharactersinStringAfterTransformationsI.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
