@@ -319,6 +319,7 @@
     <ClCompile Include="3048.EarliestSecondtoMarkIndicesI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="307.RangeSumQuery-Mutable.cpp" />
     <ClCompile Include="310.MinimumHeightTrees.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -346,7 +347,9 @@
     <ClCompile Include="3302.FindtheLexicographicallySmallestValidSequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3335.TotalCharactersinStringAfterTransformationsI.cpp" />
+    <ClCompile Include="3335.TotalCharactersinStringAfterTransformationsI.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3356.ZeroArrayTransformationII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
