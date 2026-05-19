@@ -172,6 +172,7 @@
     <ClCompile Include="1546.MaximumNumberofNonOverlappingSubarraysWithSumEqualsTarget.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1552.MagneticForceBetweenTwoBalls.cpp" />
     <ClCompile Include="16.3SumClosest.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -319,7 +320,9 @@
     <ClCompile Include="3048.EarliestSecondtoMarkIndicesI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="307.RangeSumQuery-Mutable.cpp" />
+    <ClCompile Include="307.RangeSumQuery-Mutable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="310.MinimumHeightTrees.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
