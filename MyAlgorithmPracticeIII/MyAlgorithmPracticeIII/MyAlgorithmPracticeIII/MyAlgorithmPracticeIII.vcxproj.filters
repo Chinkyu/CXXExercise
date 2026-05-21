@@ -462,6 +462,9 @@
     <ClCompile Include="1438.LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="991.BrokenCalculator.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />

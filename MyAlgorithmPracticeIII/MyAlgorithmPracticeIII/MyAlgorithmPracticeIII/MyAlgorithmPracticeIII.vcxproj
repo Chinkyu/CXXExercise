@@ -154,7 +154,9 @@
     <ClCompile Include="1310.XORQueriesofaSubarray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1438.LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.cpp" />
+    <ClCompile Include="1438.LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1441.BuildanArrayWithStackOperations.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -566,6 +568,7 @@
     <ClCompile Include="990.SatisfiabilityofEqualityEquations.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="991.BrokenCalculator.cpp" />
     <ClCompile Include="test.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
