@@ -187,6 +187,7 @@
     <ClCompile Include="1616.SplitTwoStringstoMakePalindrome.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="162.FindPeakElement.cpp" />
     <ClCompile Include="1654.MinimumJumpstoReachHome.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -208,7 +209,9 @@
     <ClCompile Include="18.4Sum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1802.MaximumValueataGivenIndexinaBoundedArray.cpp" />
+    <ClCompile Include="1802.MaximumValueataGivenIndexinaBoundedArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1846.MaximumelementAfterDecreasingandRearranging.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
