@@ -298,7 +298,9 @@
     <ClCompile Include="279.PerfectSquares.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2799.CountCompleteSubarraysinanArray.cpp" />
+    <ClCompile Include="2799.CountCompleteSubarraysinanArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2860.HappyStudents.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -386,6 +388,7 @@
     <ClCompile Include="3528.UnitConversionI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3542.MinimumOperationstoConvertAllElementstoZero.cpp" />
     <ClCompile Include="3546.EqualSumGridPartitionI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
