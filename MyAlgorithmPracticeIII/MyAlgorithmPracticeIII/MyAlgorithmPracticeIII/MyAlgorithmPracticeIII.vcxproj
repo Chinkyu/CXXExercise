@@ -412,6 +412,7 @@
     <ClCompile Include="3759.CountElementsWithaLeastKGreaterValues.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3789.MinimumCosttoAcquireRequiredItems.cpp" />
     <ClCompile Include="380.InsertDeleteGetRandom01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -556,7 +557,9 @@
     <ClCompile Include="846.HandofStraights.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="849.MaximizeDistancetoClosestPerson.cpp" />
+    <ClCompile Include="849.MaximizeDistancetoClosestPerson.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="851.LoudandRich.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

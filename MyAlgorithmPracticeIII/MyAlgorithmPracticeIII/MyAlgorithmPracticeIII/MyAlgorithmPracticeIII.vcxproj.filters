@@ -480,6 +480,9 @@
     <ClCompile Include="849.MaximizeDistancetoClosestPerson.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3789.MinimumCosttoAcquireRequiredItems.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
