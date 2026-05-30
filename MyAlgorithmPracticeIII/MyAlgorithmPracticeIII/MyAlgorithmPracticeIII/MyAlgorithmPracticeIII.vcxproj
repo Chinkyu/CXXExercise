@@ -265,6 +265,7 @@
     <ClCompile Include="2294.PartitionArraySouthThatMaximumDifferenceIsK.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2327.NumberofPeopleAwareofaSecret.cpp" />
     <ClCompile Include="2391.MinimumAmountofTimetoCollectGarbage.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -409,7 +410,9 @@
     <ClCompile Include="3724.MinimumOperationstoTransformArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3747.CountdistinctIntegersAfterRemovingZeros.cpp" />
+    <ClCompile Include="3747.CountdistinctIntegersAfterRemovingZeros.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3759.CountElementsWithaLeastKGreaterValues.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
