@@ -575,6 +575,7 @@
     <ClCompile Include="907.SumofSubarrayMinimums.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="916.WordSubsets.cpp" />
     <ClCompile Include="926.FlipStringtoMonotoneIncreasing.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
