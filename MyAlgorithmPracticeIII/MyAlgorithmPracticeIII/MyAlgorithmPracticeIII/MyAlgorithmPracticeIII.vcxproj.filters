@@ -498,6 +498,9 @@
     <ClCompile Include="1093.StatisticsFromALargeSample.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1888.MinimumNumberofFlipstoMaketheBinaryStringAlternating.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
