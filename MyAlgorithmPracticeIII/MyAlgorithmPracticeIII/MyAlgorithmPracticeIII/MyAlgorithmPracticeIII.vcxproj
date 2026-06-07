@@ -232,7 +232,9 @@
     <ClCompile Include="1882.ProcessTasksUsingServers.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1888.MinimumNumberofFlipstoMaketheBinaryStringAlternating.cpp" />
+    <ClCompile Include="1888.MinimumNumberofFlipstoMaketheBinaryStringAlternating.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1906.MinimumAbsoluteDifferenceQueries.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -371,6 +373,7 @@
     <ClCompile Include="3302.FindtheLexicographicallySmallestValidSequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3324.FindtheSequenceofStringsAppearedontheScreen.cpp" />
     <ClCompile Include="3335.TotalCharactersinStringAfterTransformationsI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

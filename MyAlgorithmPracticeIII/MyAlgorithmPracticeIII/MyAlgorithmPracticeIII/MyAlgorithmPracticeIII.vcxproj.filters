@@ -501,6 +501,9 @@
     <ClCompile Include="1888.MinimumNumberofFlipstoMaketheBinaryStringAlternating.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3324.FindtheSequenceofStringsAppearedontheScreen.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
