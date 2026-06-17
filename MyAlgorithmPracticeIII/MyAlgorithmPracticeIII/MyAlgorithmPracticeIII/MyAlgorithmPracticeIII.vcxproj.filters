@@ -504,6 +504,9 @@
     <ClCompile Include="3324.FindtheSequenceofStringsAppearedontheScreen.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="665.NonDecreasingArray.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
