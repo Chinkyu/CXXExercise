@@ -507,6 +507,9 @@
     <ClCompile Include="665.NonDecreasingArray.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="449.SerializeandDeserializeBST.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
