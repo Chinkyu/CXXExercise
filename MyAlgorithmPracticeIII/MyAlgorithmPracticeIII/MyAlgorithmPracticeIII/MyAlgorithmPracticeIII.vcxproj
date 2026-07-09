@@ -301,7 +301,9 @@
     <ClCompile Include="2567.MinimumScorebyChargingTwoElements.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2592.MaximizeGreatnessofanArray.cpp" />
+    <ClCompile Include="2592.MaximizeGreatnessofanArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2616.MinizetheMaximumDifferenceofPairs.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -614,6 +616,7 @@
     <ClCompile Include="852.PeakIndexinaMountainArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="855.ExamRoom.cpp" />
     <ClCompile Include="900.RLEIterator.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
