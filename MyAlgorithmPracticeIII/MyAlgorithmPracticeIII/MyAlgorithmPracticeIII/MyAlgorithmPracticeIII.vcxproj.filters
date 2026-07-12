@@ -546,6 +546,9 @@
     <ClCompile Include="670.MaximumSwap.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2177.FindThreeConsequitiveIntegersThatSumto.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
