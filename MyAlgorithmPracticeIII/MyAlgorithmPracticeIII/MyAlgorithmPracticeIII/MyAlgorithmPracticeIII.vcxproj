@@ -262,7 +262,9 @@
     <ClCompile Include="2131.LongestPalindromebyConcatenatingTwoLetterWords.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2177.FindThreeConsequitiveIntegersThatSumto.cpp" />
+    <ClCompile Include="2177.FindThreeConsequitiveIntegersThatSumto.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2207.MaximizeNumberofSubsequencesinaString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -641,6 +643,7 @@
     <ClCompile Include="954.ArrayofDoubledPairs.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="958.CheckCompletenessofaBinaryTree.cpp" />
     <ClCompile Include="98.ValidateBinarySearchTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
