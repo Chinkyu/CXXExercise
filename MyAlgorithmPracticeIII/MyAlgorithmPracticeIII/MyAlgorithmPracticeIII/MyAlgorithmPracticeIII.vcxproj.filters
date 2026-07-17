@@ -558,6 +558,9 @@
     <ClCompile Include="1781.SumofBeautyofAllSubstrings.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="519.RandomFlipMatrix.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
