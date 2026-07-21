@@ -567,6 +567,9 @@
     <ClCompile Include="3121.CounttheNumberofSpecialCharactersII.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3776.MinimumMovetoBalanceCircularArray.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />

@@ -373,7 +373,9 @@
     <ClCompile Include="310.MinimumHeightTrees.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3121.CounttheNumberofSpecialCharactersII.cpp" />
+    <ClCompile Include="3121.CounttheNumberofSpecialCharactersII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3138.MinimumLengthofAnagramConcatenation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -464,6 +466,7 @@
     <ClCompile Include="3759.CountElementsWithaLeastKGreaterValues.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3776.MinimumMovetoBalanceCircularArray.cpp" />
     <ClCompile Include="3789.MinimumCosttoAcquireRequiredItems.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
