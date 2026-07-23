@@ -160,6 +160,7 @@
     <ClCompile Include="1310.XORQueriesofaSubarray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1344.AngleBetweenHandlsofaClock.cpp" />
     <ClCompile Include="1438.LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -466,7 +467,9 @@
     <ClCompile Include="3759.CountElementsWithaLeastKGreaterValues.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3776.MinimumMovetoBalanceCircularArray.cpp" />
+    <ClCompile Include="3776.MinimumMovetoBalanceCircularArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3789.MinimumCosttoAcquireRequiredItems.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
