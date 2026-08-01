@@ -591,6 +591,9 @@
     <ClCompile Include="775.GlobalandLocalInversions.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="114.FlatternBinaryTreetoLinkedList.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
