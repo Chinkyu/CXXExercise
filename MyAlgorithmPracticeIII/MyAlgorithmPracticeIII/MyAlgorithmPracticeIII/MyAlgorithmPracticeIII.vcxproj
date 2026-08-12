@@ -226,7 +226,9 @@
     <ClCompile Include="1754.LargestMergeOfTwoStrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1764.FormArraybyConcatenatingSubarraysofAnotherArray.cpp" />
+    <ClCompile Include="1764.FormArraybyConcatenatingSubarraysofAnotherArray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1781.SumofBeautyofAllSubstrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -599,6 +601,7 @@
     <ClCompile Include="48.RotateImage.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="497.RandomPointinNonOverlappingRectangles.cpp" />
     <ClCompile Include="518.CoinChangeII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -635,7 +638,9 @@
     <ClCompile Include="743.NetworkDelayTime.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="775.GlobalandLocalInversions.cpp" />
+    <ClCompile Include="775.GlobalandLocalInversions.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="777.SwapAdjacentinLRString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
