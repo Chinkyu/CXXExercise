@@ -30,11 +30,11 @@ public:
     Solution(vector<vector<int>>& rects) {
         int l = rects.size();
 
-        int pre = 0;
+        long long pre = 0;
         rec = rects;
 
         for (int i = 0; i < l; ++i) {
-            int dim = abs(rects[i][2] - rects[i][0]) * abs(rects[i][3] - rects[i][1]);
+            long long dim = abs(rects[i][2] - rects[i][0]) * abs(rects[i][3] - rects[i][1]);
 
             nums.push_back(dim + pre);
             pre = dim + pre;

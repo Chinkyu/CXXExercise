@@ -304,6 +304,7 @@
     <ClCompile Include="2327.NumberofPeopleAwareofaSecret.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="238.ProductofArrayExceptSelf.cpp" />
     <ClCompile Include="2391.MinimumAmountofTimetoCollectGarbage.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -601,7 +602,9 @@
     <ClCompile Include="48.RotateImage.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="497.RandomPointinNonOverlappingRectangles.cpp" />
+    <ClCompile Include="497.RandomPointinNonOverlappingRectangles.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="518.CoinChangeII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
