@@ -304,7 +304,9 @@
     <ClCompile Include="2327.NumberofPeopleAwareofaSecret.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="238.ProductofArrayExceptSelf.cpp" />
+    <ClCompile Include="238.ProductofArrayExceptSelf.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2391.MinimumAmountofTimetoCollectGarbage.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -620,6 +622,7 @@
     <ClCompile Include="556.NextGraterElementIII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="576.OutofBoundaryPaths.cpp" />
     <ClCompile Include="633.SumofSquareNumbers.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
