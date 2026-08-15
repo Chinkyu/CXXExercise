@@ -355,6 +355,7 @@
     <ClCompile Include="2799.CountCompleteSubarraysinanArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2840.CheckIfStringsCanbeMadeEqualWithOperationsII.cpp" />
     <ClCompile Include="2860.HappyStudents.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
