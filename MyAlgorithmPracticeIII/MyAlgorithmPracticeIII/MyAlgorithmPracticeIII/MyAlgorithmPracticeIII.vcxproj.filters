@@ -621,6 +621,9 @@
     <ClCompile Include="2429.MinizeXOR.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3561.ResultingStringAfterAdjacentRemovals.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />

@@ -316,7 +316,9 @@
     <ClCompile Include="2425.BitwiseXORofAllPairings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2429.MinizeXOR.cpp" />
+    <ClCompile Include="2429.MinizeXOR.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2466.CountWaysToBuildGoodStrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -467,6 +469,7 @@
     <ClCompile Include="3546.EqualSumGridPartitionI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3561.ResultingStringAfterAdjacentRemovals.cpp" />
     <ClCompile Include="3608.MinimumTimeforKConnectedComponents.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
