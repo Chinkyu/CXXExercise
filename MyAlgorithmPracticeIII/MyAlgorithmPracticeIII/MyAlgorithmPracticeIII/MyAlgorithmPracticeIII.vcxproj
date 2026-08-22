@@ -268,6 +268,7 @@
     <ClCompile Include="1943.DescribethePainting.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1947.MaximumCompatibilityScoreSum.cpp" />
     <ClCompile Include="200.NumberofIslands.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -469,7 +470,9 @@
     <ClCompile Include="3546.EqualSumGridPartitionI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3561.ResultingStringAfterAdjacentRemovals.cpp" />
+    <ClCompile Include="3561.ResultingStringAfterAdjacentRemovals.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3608.MinimumTimeforKConnectedComponents.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
