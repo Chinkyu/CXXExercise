@@ -592,7 +592,9 @@
     <ClCompile Include="384.ShuffleanArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3853.MergeCloseCharacters.cpp" />
+    <ClCompile Include="3853.MergeCloseCharacters.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3863.MinimumOperationstoSortaString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -734,6 +736,7 @@
     <ClCompile Include="985.SunofEvenNumbersAfterQueries.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="986.IntervalListIntersections.cpp" />
     <ClCompile Include="990.SatisfiabilityofEqualityEquations.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
