@@ -382,7 +382,9 @@
     <ClCompile Include="2870.MinimumNumbverOfOperationstoMakeArrayEmpty.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="29.DivideTwoIntegers.cpp" />
+    <ClCompile Include="29.DivideTwoIntegers.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2944.MinimumNumberofCoinsforFruits.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -635,6 +637,7 @@
     <ClCompile Include="477.TotalHammingDistance.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="478.GenerateRandomPointiaCircle.cpp" />
     <ClCompile Include="48.RotateImage.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

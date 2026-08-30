@@ -643,7 +643,10 @@
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
     <ClCompile Include="29.DivideTwoIntegers.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
+    <ClCompile Include="478.GenerateRandomPointiaCircle.cpp">
+      <Filter>Source Files\Medium</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
