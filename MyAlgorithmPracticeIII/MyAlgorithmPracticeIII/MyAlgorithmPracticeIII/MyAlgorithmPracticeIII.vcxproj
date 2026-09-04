@@ -142,6 +142,9 @@
     <ClCompile Include="1080.InsufficientNodesInRoottoLeafPaths.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1081.SmallestSubsequenceofDistinctCharacters.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1093.StatisticsFromALargeSample.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -175,6 +178,7 @@
     <ClCompile Include="1382.BalanceaBinarySerachTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1424.DiagonalTraverseII.cpp" />
     <ClCompile Include="1438.LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -613,7 +617,9 @@
     <ClCompile Include="394.DecodeString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3955.ValidBinaryStringsWithCostLimit.cpp" />
+    <ClCompile Include="3955.ValidBinaryStringsWithCostLimit.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="4011.CountSubarraysWithEvenOddRatioI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
