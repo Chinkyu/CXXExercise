@@ -178,7 +178,9 @@
     <ClCompile Include="1382.BalanceaBinarySerachTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1424.DiagonalTraverseII.cpp" />
+    <ClCompile Include="1424.DiagonalTraverseII.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1438.LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -449,6 +451,7 @@
     <ClCompile Include="3302.FindtheLexicographicallySmallestValidSequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="331.VerifyPreorderSerializationofaBinaryTree.cpp" />
     <ClCompile Include="3324.FindtheSequenceofStringsAppearedontheScreen.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -657,6 +657,9 @@
     <ClCompile Include="1424.DiagonalTraverseII.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="331.VerifyPreorderSerializationofaBinaryTree.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
