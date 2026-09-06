@@ -451,7 +451,9 @@
     <ClCompile Include="3302.FindtheLexicographicallySmallestValidSequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="331.VerifyPreorderSerializationofaBinaryTree.cpp" />
+    <ClCompile Include="331.VerifyPreorderSerializationofaBinaryTree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3324.FindtheSequenceofStringsAppearedontheScreen.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -734,6 +736,7 @@
     <ClCompile Include="907.SumofSubarrayMinimums.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="912.SortanArray.cpp" />
     <ClCompile Include="916.WordSubsets.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
