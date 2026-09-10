@@ -361,6 +361,7 @@
     <ClCompile Include="2616.MinizetheMaximumDifferenceofPairs.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="264.UglyNumberII.cpp" />
     <ClCompile Include="2707.ExtraCharactersInaString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -664,7 +665,9 @@
     <ClCompile Include="519.RandomFlipMatrix.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="535.EncodeandDecodeTinyURL.cpp" />
+    <ClCompile Include="535.EncodeandDecodeTinyURL.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="542.01Matrix.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
