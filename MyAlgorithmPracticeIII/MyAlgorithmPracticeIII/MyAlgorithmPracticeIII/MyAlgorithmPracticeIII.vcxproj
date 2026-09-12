@@ -178,7 +178,9 @@
     <ClCompile Include="1382.BalanceaBinarySerachTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1404.NumberofSteptoReduceaNumberinBinaryRepresentationtoOne.cpp" />
+    <ClCompile Include="1404.NumberofSteptoReduceaNumberinBinaryRepresentationtoOne.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1424.DiagonalTraverseII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -662,6 +664,7 @@
     <ClCompile Include="497.RandomPointinNonOverlappingRectangles.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="515.FindLargestValueinEachTreeRow.cpp" />
     <ClCompile Include="518.CoinChangeII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
