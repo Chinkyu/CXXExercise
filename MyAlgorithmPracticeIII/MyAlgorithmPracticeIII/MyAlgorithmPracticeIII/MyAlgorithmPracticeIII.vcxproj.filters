@@ -678,6 +678,9 @@
     <ClCompile Include="334.IncreasingTripletSubsequence.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="3818.MinimumPrefixRemovaltoMakeArrayStrictlyIncreasing.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />

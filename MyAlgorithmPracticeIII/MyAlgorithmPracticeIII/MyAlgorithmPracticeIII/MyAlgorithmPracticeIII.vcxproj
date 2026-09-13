@@ -466,7 +466,9 @@
     <ClCompile Include="3335.TotalCharactersinStringAfterTransformationsI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="334.IncreasingTripletSubsequence.cpp" />
+    <ClCompile Include="334.IncreasingTripletSubsequence.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3356.ZeroArrayTransformationII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -602,6 +604,7 @@
     <ClCompile Include="3804.NumberofCerteredSubarrays.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3818.MinimumPrefixRemovaltoMakeArrayStrictlyIncreasing.cpp" />
     <ClCompile Include="3819.RotateNonNegativeElements.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
