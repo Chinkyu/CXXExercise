@@ -214,6 +214,7 @@
     <ClCompile Include="1605.FindFalidMatrixGivenRawandColumnSums.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1609.EvenOddTree.cpp" />
     <ClCompile Include="1616.SplitTwoStringstoMakePalindrome.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -604,7 +605,9 @@
     <ClCompile Include="3804.NumberofCerteredSubarrays.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3818.MinimumPrefixRemovaltoMakeArrayStrictlyIncreasing.cpp" />
+    <ClCompile Include="3818.MinimumPrefixRemovaltoMakeArrayStrictlyIncreasing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3819.RotateNonNegativeElements.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
