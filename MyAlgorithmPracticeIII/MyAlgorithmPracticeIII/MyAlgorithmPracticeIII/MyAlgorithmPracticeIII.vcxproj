@@ -130,7 +130,9 @@
     <ClCompile Include="1015.SmallestIntegerDivisiblebyK.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1024.VideoStitching.cpp" />
+    <ClCompile Include="1024.VideoStitching.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1026.MaximumDifferenceBetweenNodeandAncestor.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -362,6 +364,7 @@
     <ClCompile Include="2592.MaximizeGreatnessofanArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2598.SmallestMissingNonNegativeIntegerAfterOperstions.cpp" />
     <ClCompile Include="2615.Sumofdistances.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
