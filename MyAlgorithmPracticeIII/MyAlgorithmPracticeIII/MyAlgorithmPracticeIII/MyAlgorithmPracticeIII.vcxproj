@@ -301,6 +301,7 @@
     <ClCompile Include="207.CourseSchedule.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2104.SumofSubarrayRanges.cpp" />
     <ClCompile Include="2105.WateringPlantsII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -364,7 +365,9 @@
     <ClCompile Include="2592.MaximizeGreatnessofanArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2598.SmallestMissingNonNegativeIntegerAfterOperstions.cpp" />
+    <ClCompile Include="2598.SmallestMissingNonNegativeIntegerAfterOperstions.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2615.Sumofdistances.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
