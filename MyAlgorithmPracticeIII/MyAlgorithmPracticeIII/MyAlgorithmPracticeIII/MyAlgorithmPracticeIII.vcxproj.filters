@@ -693,6 +693,9 @@
     <ClCompile Include="2104.SumofSubarrayRanges.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1946.LargestNumberAfterMutatingSubstring.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
