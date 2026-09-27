@@ -289,7 +289,9 @@
     <ClCompile Include="1943.DescribethePainting.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1946.LargestNumberAfterMutatingSubstring.cpp" />
+    <ClCompile Include="1946.LargestNumberAfterMutatingSubstring.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1947.MaximumCompatibilityScoreSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -425,6 +427,7 @@
     <ClCompile Include="3.LongestSubstringWithoutRepeatingCharacters.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3007.MaximumNumthatSumofthePricesIsLessThanorEqualtoK.cpp" />
     <ClCompile Include="3011.FindifArraycanBeSorted.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
