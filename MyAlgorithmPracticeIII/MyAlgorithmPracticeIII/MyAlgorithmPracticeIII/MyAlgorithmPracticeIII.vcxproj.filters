@@ -711,6 +711,9 @@
     <ClCompile Include="823.BinaryTreesWithFactors.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="1297.MaximumNumberofAccurrencesofaSubstring.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />

@@ -172,6 +172,7 @@
     <ClCompile Include="1283.FindtheSmallestDivisorGivenaThreshold.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1297.MaximumNumberofAccurrencesofaSubstring.cpp" />
     <ClCompile Include="1310.XORQueriesofaSubarray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -757,7 +758,9 @@
     <ClCompile Include="813.LargestSumofAverages.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="823.BinaryTreesWithFactors.cpp" />
+    <ClCompile Include="823.BinaryTreesWithFactors.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="833.FindAndReplaceInString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
