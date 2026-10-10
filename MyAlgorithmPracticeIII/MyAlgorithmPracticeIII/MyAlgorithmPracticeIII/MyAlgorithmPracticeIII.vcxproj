@@ -172,7 +172,9 @@
     <ClCompile Include="1283.FindtheSmallestDivisorGivenaThreshold.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1297.MaximumNumberofAccurrencesofaSubstring.cpp" />
+    <ClCompile Include="1297.MaximumNumberofAccurrencesofaSubstring.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1310.XORQueriesofaSubarray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -362,6 +364,8 @@
     <ClCompile Include="2429.MinizeXOR.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2452.WordsWithinTwoEditsofDictionary.cpp" />
+    <ClCompile Include="2453.WordsWithinTwoEditsofDictionary.cpp" />
     <ClCompile Include="2466.CountWaysToBuildGoodStrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
