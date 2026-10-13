@@ -199,6 +199,7 @@
     <ClCompile Include="1448.CountGoodNodesinBinaryTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1456.MaximumNumberofVowelsinaSubstringofGivenLength.cpp" />
     <ClCompile Include="148.SortList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -364,8 +365,12 @@
     <ClCompile Include="2429.MinizeXOR.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2452.WordsWithinTwoEditsofDictionary.cpp" />
-    <ClCompile Include="2453.WordsWithinTwoEditsofDictionary.cpp" />
+    <ClCompile Include="2452.WordsWithinTwoEditsofDictionary.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="2453.WordsWithinTwoEditsofDictionary.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2466.CountWaysToBuildGoodStrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
