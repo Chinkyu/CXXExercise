@@ -723,6 +723,9 @@
     <ClCompile Include="2452.WordsWithinTwoEditsofDictionary.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="2419.LongestSubarrayWithMaximumBitwiseAND.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
