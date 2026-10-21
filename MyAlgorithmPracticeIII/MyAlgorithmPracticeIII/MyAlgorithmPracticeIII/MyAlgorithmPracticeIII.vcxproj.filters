@@ -732,6 +732,9 @@
     <ClCompile Include="2962.CountSubarraysWhereMaxElementAppearsatLeastKTimes.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="701.InsertintoaBinarySearchTree.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
