@@ -187,6 +187,7 @@
     <ClCompile Include="1404.NumberofSteptoReduceaNumberinBinaryRepresentationtoOne.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1419.MinimumNumberofFlogsCroaking.cpp" />
     <ClCompile Include="1424.DiagonalTraverseII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -748,7 +749,9 @@
     <ClCompile Include="670.MaximumSwap.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="701.InsertintoaBinarySearchTree.cpp" />
+    <ClCompile Include="701.InsertintoaBinarySearchTree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="720.LongesWordInDictionary.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
