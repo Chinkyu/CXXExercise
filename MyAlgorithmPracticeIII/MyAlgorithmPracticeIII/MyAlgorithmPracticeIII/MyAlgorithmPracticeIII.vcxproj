@@ -187,7 +187,9 @@
     <ClCompile Include="1404.NumberofSteptoReduceaNumberinBinaryRepresentationtoOne.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1419.MinimumNumberofFlogsCroaking.cpp" />
+    <ClCompile Include="1419.MinimumNumberofFlogsCroaking.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1424.DiagonalTraverseII.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -551,6 +553,7 @@
     <ClCompile Include="3561.ResultingStringAfterAdjacentRemovals.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3587.MinimumAdjacentSwapstoAlternateParty.cpp" />
     <ClCompile Include="3608.MinimumTimeforKConnectedComponents.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
