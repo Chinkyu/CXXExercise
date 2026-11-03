@@ -226,6 +226,7 @@
     <ClCompile Include="1552.MagneticForceBetweenTwoBalls.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1573.NumberofWaystoSplitaString.cpp" />
     <ClCompile Include="16.3SumClosest.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -553,7 +554,9 @@
     <ClCompile Include="3561.ResultingStringAfterAdjacentRemovals.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3587.MinimumAdjacentSwapstoAlternateParty.cpp" />
+    <ClCompile Include="3587.MinimumAdjacentSwapstoAlternateParty.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3608.MinimumTimeforKConnectedComponents.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
