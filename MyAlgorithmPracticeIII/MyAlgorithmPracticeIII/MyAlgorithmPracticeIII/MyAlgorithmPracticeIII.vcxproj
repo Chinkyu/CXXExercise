@@ -694,7 +694,9 @@
     <ClCompile Include="4011.CountSubarraysWithEvenOddRatioI.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="4022.KthDigitinInfiniteString.cpp" />
+    <ClCompile Include="4022.KthDigitinInfiniteString.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="433.MinumumGeneticMutation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -809,6 +811,7 @@
     <ClCompile Include="855.ExamRoom.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="893.GroupofSpecialEquivalentStrings.cpp" />
     <ClCompile Include="900.RLEIterator.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

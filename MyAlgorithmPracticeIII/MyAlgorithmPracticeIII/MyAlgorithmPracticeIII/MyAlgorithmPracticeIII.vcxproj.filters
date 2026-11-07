@@ -747,6 +747,9 @@
     <ClCompile Include="4022.KthDigitinInfiniteString.cpp">
       <Filter>Source Files\Medium</Filter>
     </ClCompile>
+    <ClCompile Include="893.GroupofSpecialEquivalentStrings.cpp">
+      <Filter>Source Files\Medium</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="380.InsertDeleteGetRandom)1" />
