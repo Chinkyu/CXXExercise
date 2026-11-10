@@ -580,6 +580,7 @@
     <ClCompile Include="3732.MaximumProductofThreeElementsAfterOneRaplacement.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3738.LongestNonDecreasingSubarrayAfterReplacingatMostOneElement.cpp" />
     <ClCompile Include="3747.CountdistinctIntegersAfterRemovingZeros.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -811,7 +812,9 @@
     <ClCompile Include="855.ExamRoom.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="893.GroupofSpecialEquivalentStrings.cpp" />
+    <ClCompile Include="893.GroupofSpecialEquivalentStrings.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="900.RLEIterator.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
