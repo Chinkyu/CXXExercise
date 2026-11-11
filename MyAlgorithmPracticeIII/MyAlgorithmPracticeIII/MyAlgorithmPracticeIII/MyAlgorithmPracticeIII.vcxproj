@@ -385,6 +385,7 @@
     <ClCompile Include="2466.CountWaysToBuildGoodStrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2486.AppendCharacterstoStringtoMakeSubsequence.cpp" />
     <ClCompile Include="2526.FindConsequtiveIntegersfromaDatastream.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -580,7 +581,9 @@
     <ClCompile Include="3732.MaximumProductofThreeElementsAfterOneRaplacement.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3738.LongestNonDecreasingSubarrayAfterReplacingatMostOneElement.cpp" />
+    <ClCompile Include="3738.LongestNonDecreasingSubarrayAfterReplacingatMostOneElement.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3747.CountdistinctIntegersAfterRemovingZeros.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
