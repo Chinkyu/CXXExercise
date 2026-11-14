@@ -220,6 +220,7 @@
     <ClCompile Include="1524.NumberofSubArraysWithOddSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1535.FindtheWinnerofanArrayGame.cpp" />
     <ClCompile Include="1546.MaximumNumberofNonOverlappingSubarraysWithSumEqualsTarget.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -385,7 +386,9 @@
     <ClCompile Include="2466.CountWaysToBuildGoodStrings.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2486.AppendCharacterstoStringtoMakeSubsequence.cpp" />
+    <ClCompile Include="2486.AppendCharacterstoStringtoMakeSubsequence.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2526.FindConsequtiveIntegersfromaDatastream.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
