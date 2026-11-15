@@ -181,6 +181,7 @@
     <ClCompile Include="1344.AngleBetweenHandlsofaClock.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="138.CopyListwithRandomPointer.cpp" />
     <ClCompile Include="1382.BalanceaBinarySerachTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -220,7 +221,9 @@
     <ClCompile Include="1524.NumberofSubArraysWithOddSum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1535.FindtheWinnerofanArrayGame.cpp" />
+    <ClCompile Include="1535.FindtheWinnerofanArrayGame.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1546.MaximumNumberofNonOverlappingSubarraysWithSumEqualsTarget.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
